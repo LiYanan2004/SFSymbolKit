@@ -8,7 +8,12 @@
 import Foundation
 
 internal enum SFSymbols_Private {
-    static let allSymbols: [String] = {
+    internal struct SFSymbolDescriptor: Hashable {
+        var identifier: String
+        var availabilities: [String]
+    }
+    
+    static internal let allSymbols: [SFSymbolDescriptor] = {
         // find CoreGlyphs.bundle
         let coreGlyphsBundlePath = Bundle(url: sfSymbolsFrameworkURL)?
             .path(forResource: "CoreGlyphs", ofType: "bundle")
@@ -16,15 +21,26 @@ internal enum SFSymbols_Private {
               let coreGlyphsBundle = Bundle(path: coreGlyphsBundlePath)
         else { return [] }
         
-        // fetch all symbol names
+        // fetch all symbol descriptors
         let resourcePath = coreGlyphsBundle.path(forResource: "name_availability", ofType: "plist")
         guard let resourcePath,
               let plist = NSDictionary(contentsOfFile: resourcePath),
-              let symbols = plist["symbols"] as? [String : String] else {
+              let symbols = plist["symbols"] as? [String : String],
+              let availabilities = plist["year_to_release"] as? [String : [String : String]] else {
             return []
         }
         
-        return Array(symbols.keys)
+        return symbols.compactMap { name, availability in
+            guard let availabilities = availabilities[availability] else {
+                return nil
+            }
+            return SFSymbolDescriptor(
+                identifier: name,
+                availabilities: availabilities.map({
+                    "\($0.key) \($0.value)" // e.g. iOS 26.0
+                })
+            )
+        }
     }()
     
     static let sfSymbolsFrameworkURL = URL(

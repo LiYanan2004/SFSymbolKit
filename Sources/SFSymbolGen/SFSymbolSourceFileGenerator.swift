@@ -34,41 +34,44 @@ package struct SFSymbolSourceFileGenerator {
             """
             
             return try SourceFileSyntax {
-                try StructDeclSyntax("public struct SFSymbol: RawRepresentable, Hashable, Equatable, Sendable") {
+                try StructDeclSyntax(
+                    "public struct SFSymbol: RawRepresentable, Hashable, Equatable, Sendable"
+                ) {
                     try VariableDeclSyntax("public var rawValue: String")
+                        .with(\.leadingTrivia, .newline)
+                    
                     try InitializerDeclSyntax("""
                     public init(rawValue: String) {
                         self.rawValue = rawValue
                     }
                     """)
+                    .with(\.leadingTrivia, .newline)
+                    
                     try sfSymbolMembers
                 }
             }
-            .with(\.leadingTrivia, Trivia(stringLiteral: header) + Trivia(pieces: [.newlines(1)]))
-            .formatted()
+            .with(\.leadingTrivia, Trivia(stringLiteral: header) + .newline)
         }
     }
     
     private var sfSymbolMembers: [DeclSyntax] {
         get throws {
-            SFSymbols_Private.allSymbols.map { symbolName in
-                let identifier = symbolName.replacingOccurrences(of: ".", with: "_")
-                let validIdentifier = identifier.isValidSwiftIdentifier(for: .variableName)
-                let identifierToken = TokenSyntax.identifier(
-                    validIdentifier ? identifier : "`\(identifier)`"
-                )
-                let variable = VariableDeclSyntax(
-                    Keyword.let,
-                    name: PatternSyntax(
-                        IdentifierPatternSyntax(
-                            identifier: identifierToken
-                        )
-                    ),
-                    initializer: InitializerClauseSyntax(
-                        value: ExprSyntax("SFSymbol(rawValue: \"\(raw: symbolName)\")")
+            try SFSymbols_Private.allSymbols.map { symbol in
+                let availabilities = symbol.availabilities
+                let availabilityAttribute = AttributeSyntax(
+                    stringLiteral: "@available(\(availabilities.joined(separator: ", ")), *)"
+                ).with(\.trailingTrivia, .newline)
+                
+                let identifier = symbol.identifier.replacingOccurrences(of: ".", with: "_")
+                let validIdentifier = identifier.isValidSwiftIdentifier(for: .variableName) ? identifier : "`\(identifier)`"
+                
+                return try DeclSyntax(
+                    VariableDeclSyntax(
+                        "static public let \(raw: validIdentifier) = SFSymbol(rawValue: \"\(raw: symbol.identifier)\")"
                     )
-                ).with(\.modifiers, [.init(name: .keyword(.static))])
-                return DeclSyntax(variable)
+                    .with(\.attributes, [.attribute(availabilityAttribute)])
+                    .with(\.leadingTrivia, .newlines(2))
+                )
             }
         }
     }
