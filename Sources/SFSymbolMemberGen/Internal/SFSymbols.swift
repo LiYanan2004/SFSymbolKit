@@ -7,12 +7,7 @@
 
 import Foundation
 
-internal enum SFSymbols_Private {
-    internal struct SFSymbolDescriptor: Hashable {
-        var identifier: String
-        var availabilities: [String]
-    }
-    
+internal enum SFSymbols_Private {    
     static internal let allSymbols: [SFSymbolDescriptor] = {
         // find CoreGlyphs.bundle
         let coreGlyphsBundlePath = Bundle(url: sfSymbolsFrameworkURL)?
@@ -21,22 +16,33 @@ internal enum SFSymbols_Private {
               let coreGlyphsBundle = Bundle(path: coreGlyphsBundlePath)
         else { return [] }
         
-        // fetch all symbol descriptors
-        let resourcePath = coreGlyphsBundle.path(forResource: "name_availability", ofType: "plist")
-        guard let resourcePath,
-              let plist = NSDictionary(contentsOfFile: resourcePath),
-              let symbols = plist["symbols"] as? [String : String],
+        // fetch ordered symbols
+        let symbolList = coreGlyphsBundle.path(forResource: "symbol_order", ofType: "plist")
+        guard let symbolList,
+              let symbols = NSArray(contentsOfFile: symbolList) as? [String] else {
+            return []
+        }
+        
+        // fetch symbol availabilities
+        let availabilityList = coreGlyphsBundle.path(forResource: "name_availability", ofType: "plist")
+        guard let availabilityList,
+              let plist = NSDictionary(contentsOfFile: availabilityList),
+              let symbolAvailabilityDict = plist["symbols"] as? [String : String],
               let availabilities = plist["year_to_release"] as? [String : [String : String]] else {
             return []
         }
         
-        return symbols.compactMap { name, availability in
+        return symbols.compactMap { symbolName -> SFSymbolDescriptor? in
+            guard let availability = symbolAvailabilityDict[symbolName] else {
+                return nil
+            }
             guard let availabilities = availabilities[availability] else {
                 return nil
             }
             return SFSymbolDescriptor(
-                identifier: name,
-                availabilities: availabilities.map({
+                identifier: symbolName,
+                availability: availability,
+                availablePlatforms: availabilities.map({
                     "\($0.key) \($0.value)" // e.g. iOS 26.0
                 })
             )

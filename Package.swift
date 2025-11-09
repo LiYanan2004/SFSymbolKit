@@ -12,17 +12,13 @@ let package = Package(
         .macCatalyst(.v13)
     ],
     products: [
-        .plugin(
-            name: "SFSymbolGenPlugin",
-            targets: ["SFSymbolGenPlugin"]
-        ),
         .library(
             name: "SFSymbolKit",
             targets: ["SFSymbolKit"]
         ),
         .executable(
-            name: "SFSymbolGenClient",
-            targets: ["SFSymbolGenClient"]
+            name: "SFSymbolKitClient",
+            targets: ["SFSymbolKitClient"]
         ),
     ],
     dependencies: [
@@ -31,32 +27,24 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "SFSymbolGen",
+            name: "SFSymbolMemberGen",
             dependencies: [
                 .product(name: "SwiftSyntax", package: "swift-syntax"),
                 .product(name: "SwiftSyntaxBuilder", package: "swift-syntax"),
             ]
         ),
         .executableTarget(
-            name: "SFSymbolGenTool",
+            name: "SFSymbolMemberGenTool",
             dependencies: [
-                "SFSymbolGen",
+                "SFSymbolMemberGen",
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
             ]
         ),
-        .plugin(
-            name: "SFSymbolGenPlugin",
-            capability: .buildTool,
-            dependencies: ["SFSymbolGenTool"]
-        ),
         .target(
-            name: "SFSymbolKit",
-            plugins: [
-                .plugin(name: "SFSymbolGenPlugin")
-            ]
+            name: "SFSymbolKit"
         ),
         .executableTarget(
-            name: "SFSymbolGenClient",
+            name: "SFSymbolKitClient",
             dependencies: ["SFSymbolKit"]
         ),
     ]
