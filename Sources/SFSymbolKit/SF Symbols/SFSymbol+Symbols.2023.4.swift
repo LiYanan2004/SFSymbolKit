@@ -6,31 +6,31 @@
 //  swift-format-ignore-file
 
 extension SFSymbol {
-	@available(visionOS 1.3, macOS 14.6, watchOS 10.6, iOS 17.6, tvOS 17.6, *)
+	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	@_documentation(visibility: internal)
 	static public let beats_solobuds = SFSymbol(rawValue: "beats.solobuds")
 
-	@available(visionOS 1.3, macOS 14.6, watchOS 10.6, iOS 17.6, tvOS 17.6, *)
+	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	@_documentation(visibility: internal)
 	static public let beats_solobuds_right = SFSymbol(rawValue: "beats.solobuds.right")
 
-	@available(visionOS 1.3, macOS 14.6, watchOS 10.6, iOS 17.6, tvOS 17.6, *)
+	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	@_documentation(visibility: internal)
 	static public let beats_solobuds_left = SFSymbol(rawValue: "beats.solobuds.left")
 
-	@available(visionOS 1.3, macOS 14.6, watchOS 10.6, iOS 17.6, tvOS 17.6, *)
+	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	@_documentation(visibility: internal)
 	static public let beats_solobuds_chargingcase = SFSymbol(rawValue: "beats.solobuds.chargingcase")
 
-	@available(visionOS 1.3, macOS 14.6, watchOS 10.6, iOS 17.6, tvOS 17.6, *)
+	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	@_documentation(visibility: internal)
 	static public let beats_solobuds_chargingcase_fill = SFSymbol(rawValue: "beats.solobuds.chargingcase.fill")
 
-	@available(visionOS 1.3, macOS 14.6, watchOS 10.6, iOS 17.6, tvOS 17.6, *)
+	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	@_documentation(visibility: internal)
 	static public let beats_pill = SFSymbol(rawValue: "beats.pill")
 
-	@available(visionOS 1.3, macOS 14.6, watchOS 10.6, iOS 17.6, tvOS 17.6, *)
+	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	@_documentation(visibility: internal)
 	static public let beats_pill_fill = SFSymbol(rawValue: "beats.pill.fill")
 }

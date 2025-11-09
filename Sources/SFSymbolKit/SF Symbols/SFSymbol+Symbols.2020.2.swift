@@ -6,95 +6,95 @@
 //  swift-format-ignore-file
 
 extension SFSymbol {
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_bubble = SFSymbol(rawValue: "character.bubble")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_bubble_fill = SFSymbol(rawValue: "character.bubble.fill")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_bubble_ar = SFSymbol(rawValue: "character.bubble.ar")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_bubble_fill_ar = SFSymbol(rawValue: "character.bubble.fill.ar")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_bubble_he = SFSymbol(rawValue: "character.bubble.he")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_bubble_fill_he = SFSymbol(rawValue: "character.bubble.fill.he")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let applewatch_side_right = SFSymbol(rawValue: "applewatch.side.right")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_cursor_ibeam = SFSymbol(rawValue: "character.cursor.ibeam")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_cursor_ibeam_ar = SFSymbol(rawValue: "character.cursor.ibeam.ar")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_cursor_ibeam_he = SFSymbol(rawValue: "character.cursor.ibeam.he")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_cursor_ibeam_th = SFSymbol(rawValue: "character.cursor.ibeam.th")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_cursor_ibeam_zh = SFSymbol(rawValue: "character.cursor.ibeam.zh")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_cursor_ibeam_ja = SFSymbol(rawValue: "character.cursor.ibeam.ja")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_cursor_ibeam_ko = SFSymbol(rawValue: "character.cursor.ibeam.ko")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_cursor_ibeam_hi = SFSymbol(rawValue: "character.cursor.ibeam.hi")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_textbox = SFSymbol(rawValue: "character.textbox")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_textbox_ar = SFSymbol(rawValue: "character.textbox.ar")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_textbox_he = SFSymbol(rawValue: "character.textbox.he")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_textbox_th = SFSymbol(rawValue: "character.textbox.th")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_textbox_zh = SFSymbol(rawValue: "character.textbox.zh")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_textbox_ja = SFSymbol(rawValue: "character.textbox.ja")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_textbox_ko = SFSymbol(rawValue: "character.textbox.ko")
 
-	@available(visionOS 1.0, iOS 14.5, watchOS 7.4, tvOS 14.5, macOS 11.3, *)
+	@available(iOS 14.5, macOS 11.3, tvOS 14.5, visionOS 1.0, watchOS 7.4, *)
 	@_documentation(visibility: internal)
 	static public let character_textbox_hi = SFSymbol(rawValue: "character.textbox.hi")
 }

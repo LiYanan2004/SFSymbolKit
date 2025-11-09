@@ -6,27 +6,27 @@
 //  swift-format-ignore-file
 
 extension SFSymbol {
-	@available(visionOS 1.0, iOS 17.1, watchOS 10.1, tvOS 17.1, macOS 14.1, *)
+	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
 	@_documentation(visibility: internal)
 	static public let person_crop_square_badge_camera = SFSymbol(rawValue: "person.crop.square.badge.camera")
 
-	@available(visionOS 1.0, iOS 17.1, watchOS 10.1, tvOS 17.1, macOS 14.1, *)
+	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
 	@_documentation(visibility: internal)
 	static public let person_crop_square_badge_camera_fill = SFSymbol(rawValue: "person.crop.square.badge.camera.fill")
 
-	@available(visionOS 1.0, iOS 17.1, watchOS 10.1, tvOS 17.1, macOS 14.1, *)
+	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
 	@_documentation(visibility: internal)
 	static public let person_crop_square_badge_video = SFSymbol(rawValue: "person.crop.square.badge.video")
 
-	@available(visionOS 1.0, iOS 17.1, watchOS 10.1, tvOS 17.1, macOS 14.1, *)
+	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
 	@_documentation(visibility: internal)
 	static public let person_crop_square_badge_video_fill = SFSymbol(rawValue: "person.crop.square.badge.video.fill")
 
-	@available(visionOS 1.0, iOS 17.1, watchOS 10.1, tvOS 17.1, macOS 14.1, *)
+	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
 	@_documentation(visibility: internal)
 	static public let chevron_compact_backward = SFSymbol(rawValue: "chevron.compact.backward")
 
-	@available(visionOS 1.0, iOS 17.1, watchOS 10.1, tvOS 17.1, macOS 14.1, *)
+	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
 	@_documentation(visibility: internal)
 	static public let chevron_compact_forward = SFSymbol(rawValue: "chevron.compact.forward")
 }

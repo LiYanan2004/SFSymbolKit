@@ -28,9 +28,15 @@ internal enum SFSymbols_Private {
         guard let availabilityList,
               let plist = NSDictionary(contentsOfFile: availabilityList),
               let symbolAvailabilityDict = plist["symbols"] as? [String : String],
-              let availabilities = plist["year_to_release"] as? [String : [String : String]] else {
+              let availabilityMap = plist["year_to_release"] as? [String : [String : String]] else {
             return []
         }
+        
+        let availabilities = availabilityMap.mapValues({ availabilities in
+            availabilities.map({
+                "\($0.key) \($0.value)" // e.g. iOS 26.0
+            }).sorted(by: <)
+        })
         
         return symbols.compactMap { symbolName -> SFSymbolDescriptor? in
             guard let availability = symbolAvailabilityDict[symbolName] else {
@@ -42,9 +48,7 @@ internal enum SFSymbols_Private {
             return SFSymbolDescriptor(
                 identifier: symbolName,
                 availability: availability,
-                availablePlatforms: availabilities.map({
-                    "\($0.key) \($0.value)" // e.g. iOS 26.0
-                })
+                availablePlatforms: availabilities
             )
         }
     }()

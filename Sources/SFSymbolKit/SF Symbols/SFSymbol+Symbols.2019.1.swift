@@ -6,67 +6,67 @@
 //  swift-format-ignore-file
 
 extension SFSymbol {
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let studentdesk = SFSymbol(rawValue: "studentdesk")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let paperclip_circle = SFSymbol(rawValue: "paperclip.circle")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let paperclip_circle_fill = SFSymbol(rawValue: "paperclip.circle.fill")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let circle_grid_2x2 = SFSymbol(rawValue: "circle.grid.2x2")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let circle_grid_2x2_fill = SFSymbol(rawValue: "circle.grid.2x2.fill")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let flashlight_off_fill = SFSymbol(rawValue: "flashlight.off.fill")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let flashlight_on_fill = SFSymbol(rawValue: "flashlight.on.fill")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let scissors_badge_ellipsis = SFSymbol(rawValue: "scissors.badge.ellipsis")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let pin_circle = SFSymbol(rawValue: "pin.circle")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let pin_circle_fill = SFSymbol(rawValue: "pin.circle.fill")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let mappin_circle = SFSymbol(rawValue: "mappin.circle")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let mappin_circle_fill = SFSymbol(rawValue: "mappin.circle.fill")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let car = SFSymbol(rawValue: "car")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let aspectratio = SFSymbol(rawValue: "aspectratio")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let aspectratio_fill = SFSymbol(rawValue: "aspectratio.fill")
 
-	@available(visionOS 1.0, iOS 13.1, watchOS 6.1, tvOS 13.0, macOS 10.15, *)
+	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	@_documentation(visibility: internal)
 	static public let arrow_uturn_left_circle_badge_ellipsis = SFSymbol(rawValue: "arrow.uturn.left.circle.badge.ellipsis")
 }

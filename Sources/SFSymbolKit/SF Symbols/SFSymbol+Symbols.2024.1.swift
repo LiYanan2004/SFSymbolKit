@@ -6,367 +6,367 @@
 //  swift-format-ignore-file
 
 extension SFSymbol {
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let square_and_arrow_down_badge_checkmark = SFSymbol(rawValue: "square.and.arrow.down.badge.checkmark")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let square_and_arrow_down_badge_checkmark_fill = SFSymbol(rawValue: "square.and.arrow.down.badge.checkmark.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let square_and_arrow_down_badge_xmark = SFSymbol(rawValue: "square.and.arrow.down.badge.xmark")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let square_and_arrow_down_badge_xmark_fill = SFSymbol(rawValue: "square.and.arrow.down.badge.xmark.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text_clipboard = SFSymbol(rawValue: "waveform.path.ecg.text.clipboard")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text_clipboard_fill = SFSymbol(rawValue: "waveform.path.ecg.text.clipboard.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text_clipboard_rtl = SFSymbol(rawValue: "waveform.path.ecg.text.clipboard.rtl")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text_clipboard_fill_rtl = SFSymbol(rawValue: "waveform.path.ecg.text.clipboard.fill.rtl")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text = SFSymbol(rawValue: "waveform.path.ecg.text")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text_page = SFSymbol(rawValue: "waveform.path.ecg.text.page")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text_page_fill = SFSymbol(rawValue: "waveform.path.ecg.text.page.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text_rtl = SFSymbol(rawValue: "waveform.path.ecg.text.rtl")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text_page_rtl = SFSymbol(rawValue: "waveform.path.ecg.text.page.rtl")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_text_page_fill_rtl = SFSymbol(rawValue: "waveform.path.ecg.text.page.fill.rtl")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let memories_badge_checkmark = SFSymbol(rawValue: "memories.badge.checkmark")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let memories_badge_xmark = SFSymbol(rawValue: "memories.badge.xmark")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_path_ecg_magnifyingglass = SFSymbol(rawValue: "waveform.path.ecg.magnifyingglass")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let rectangle_grid_3x1 = SFSymbol(rawValue: "rectangle.grid.3x1")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let rectangle_grid_3x1_fill = SFSymbol(rawValue: "rectangle.grid.3x1.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let questionmark_message = SFSymbol(rawValue: "questionmark.message")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let questionmark_message_fill = SFSymbol(rawValue: "questionmark.message.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let exclamationmark_message = SFSymbol(rawValue: "exclamationmark.message")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let exclamationmark_message_fill = SFSymbol(rawValue: "exclamationmark.message.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let envelope_stack = SFSymbol(rawValue: "envelope.stack")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let envelope_stack_fill = SFSymbol(rawValue: "envelope.stack.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let bolt_house = SFSymbol(rawValue: "bolt.house")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let bolt_house_fill = SFSymbol(rawValue: "bolt.house.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let cable_connector_video = SFSymbol(rawValue: "cable.connector.video")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let car_top_radiowaves_2_front_left_front_front_right = SFSymbol(rawValue: "car.top.radiowaves.2.front.left.front.front.right")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let car_top_radiowaves_2_front_left_front_front_right_fill = SFSymbol(rawValue: "car.top.radiowaves.2.front.left.front.front.right.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let car_top_radiowaves_2_rear_left_rear_rear_right = SFSymbol(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let car_top_radiowaves_2_rear_left_rear_rear_right_fill = SFSymbol(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let dot_car_top_radiowaves_2_rear_left_rear_rear_right = SFSymbol(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let dot_car_top_radiowaves_2_rear_left_rear_rear_right_fill = SFSymbol(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let laurel_leading_laurel_trailing = SFSymbol(rawValue: "laurel.leading.laurel.trailing")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let hand_thumbsup_slash = SFSymbol(rawValue: "hand.thumbsup.slash")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let hand_thumbsup_slash_fill = SFSymbol(rawValue: "hand.thumbsup.slash.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let hand_thumbsdown_slash = SFSymbol(rawValue: "hand.thumbsdown.slash")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let hand_thumbsdown_slash_fill = SFSymbol(rawValue: "hand.thumbsdown.slash.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let photo_badge_magnifyingglass = SFSymbol(rawValue: "photo.badge.magnifyingglass")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let photo_badge_magnifyingglass_fill = SFSymbol(rawValue: "photo.badge.magnifyingglass.fill")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_badge_checkmark = SFSymbol(rawValue: "waveform.badge.checkmark")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let waveform_badge_xmark = SFSymbol(rawValue: "waveform.badge.xmark")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_bn = SFSymbol(rawValue: "character.circle.bn")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_bn = SFSymbol(rawValue: "character.circle.fill.bn")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_bn = SFSymbol(rawValue: "character.square.bn")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_bn = SFSymbol(rawValue: "character.square.fill.bn")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_mr = SFSymbol(rawValue: "character.circle.mr")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_mr = SFSymbol(rawValue: "character.circle.fill.mr")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_mr = SFSymbol(rawValue: "character.square.mr")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_mr = SFSymbol(rawValue: "character.square.fill.mr")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_gu = SFSymbol(rawValue: "character.circle.gu")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_gu = SFSymbol(rawValue: "character.circle.fill.gu")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_gu = SFSymbol(rawValue: "character.square.gu")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_gu = SFSymbol(rawValue: "character.square.fill.gu")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_pa = SFSymbol(rawValue: "character.circle.pa")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_pa = SFSymbol(rawValue: "character.circle.fill.pa")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_pa = SFSymbol(rawValue: "character.square.pa")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_pa = SFSymbol(rawValue: "character.square.fill.pa")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_kn = SFSymbol(rawValue: "character.circle.kn")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_kn = SFSymbol(rawValue: "character.circle.fill.kn")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_kn = SFSymbol(rawValue: "character.square.kn")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_kn = SFSymbol(rawValue: "character.square.fill.kn")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_ml = SFSymbol(rawValue: "character.circle.ml")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_ml = SFSymbol(rawValue: "character.circle.fill.ml")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_ml = SFSymbol(rawValue: "character.square.ml")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_ml = SFSymbol(rawValue: "character.square.fill.ml")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_mni = SFSymbol(rawValue: "character.circle.mni")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_mni = SFSymbol(rawValue: "character.circle.fill.mni")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_mni = SFSymbol(rawValue: "character.square.mni")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_mni = SFSymbol(rawValue: "character.square.fill.mni")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_or = SFSymbol(rawValue: "character.circle.or")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_or = SFSymbol(rawValue: "character.circle.fill.or")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_or = SFSymbol(rawValue: "character.square.or")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_or = SFSymbol(rawValue: "character.square.fill.or")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_sat = SFSymbol(rawValue: "character.circle.sat")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_sat = SFSymbol(rawValue: "character.circle.fill.sat")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_sat = SFSymbol(rawValue: "character.square.sat")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_sat = SFSymbol(rawValue: "character.square.fill.sat")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_si = SFSymbol(rawValue: "character.circle.si")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_si = SFSymbol(rawValue: "character.circle.fill.si")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_si = SFSymbol(rawValue: "character.square.si")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_si = SFSymbol(rawValue: "character.square.fill.si")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_ta = SFSymbol(rawValue: "character.circle.ta")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_ta = SFSymbol(rawValue: "character.circle.fill.ta")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_ta = SFSymbol(rawValue: "character.square.ta")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_ta = SFSymbol(rawValue: "character.square.fill.ta")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_te = SFSymbol(rawValue: "character.circle.te")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_circle_fill_te = SFSymbol(rawValue: "character.circle.fill.te")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_te = SFSymbol(rawValue: "character.square.te")
 
-	@available(visionOS 2.1, macOS 15.1, watchOS 11.1, iOS 18.1, tvOS 18.1, *)
+	@available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 	@_documentation(visibility: internal)
 	static public let character_square_fill_te = SFSymbol(rawValue: "character.square.fill.te")
 }
