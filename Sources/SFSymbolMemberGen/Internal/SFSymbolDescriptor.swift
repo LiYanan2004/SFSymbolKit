@@ -19,18 +19,22 @@ internal struct SFSymbolDescriptor: Hashable, Sendable {
 extension SFSymbolDescriptor {
     var declarationSyntax: some DeclSyntaxProtocol {
         get throws {
-            let availabilities = availablePlatforms
-            let availabilityAttribute = AttributeSyntax(
-                stringLiteral: "@available(\(availabilities.joined(separator: ", ")), *)"
-            ).with(\.trailingTrivia, .newline + .tab)
-            
             let propertyIdentifier = identifier.replacingOccurrences(of: ".", with: "_")
             let validIdentifier = propertyIdentifier.isValidSwiftIdentifier(for: .variableName) ? propertyIdentifier : "`\(propertyIdentifier)`"
             
-            return try VariableDeclSyntax(
-                "static public let \(raw: validIdentifier) = SFSymbol(rawValue: \"\(raw: self.identifier)\")"
-            )
-            .with(\.attributes, [.attribute(availabilityAttribute)])
+            let attributeList = AttributeListSyntax {
+                AttributeSyntax(
+                    "@available(\(raw: availablePlatforms.joined(separator: ", ")), *)"
+                ).with(\.trailingTrivia, .newline + .tab)
+                
+                AttributeSyntax("@_documentation(visibility: internal)")
+                    .with(\.trailingTrivia, .newline + .tab)
+            }
+            
+            return try VariableDeclSyntax("""
+            static public let \(raw: validIdentifier) = SFSymbol(rawValue: \"\(raw: self.identifier)\")
+            """)
+            .with(\.attributes, attributeList)
             .with(\.leadingTrivia, .newline + .tab)
             .with(\.trailingTrivia, .newline)
         }

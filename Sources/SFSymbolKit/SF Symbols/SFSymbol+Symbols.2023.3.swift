@@ -6,72 +6,95 @@
 //  swift-format-ignore-file
 
 extension SFSymbol {
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let apple_terminal_circle = SFSymbol(rawValue: "apple.terminal.circle")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let apple_terminal_circle_fill = SFSymbol(rawValue: "apple.terminal.circle.fill")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let plus_circle_dashed = SFSymbol(rawValue: "plus.circle.dashed")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let arrow_down_app_dashed = SFSymbol(rawValue: "arrow.down.app.dashed")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let arrow_down_app_dashed_trianglebadge_exclamationmark = SFSymbol(rawValue: "arrow.down.app.dashed.trianglebadge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let medal_star = SFSymbol(rawValue: "medal.star")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let medal_star_fill = SFSymbol(rawValue: "medal.star.fill")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let translate = SFSymbol(rawValue: "translate")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let iphone_gen1_badge_exclamationmark = SFSymbol(rawValue: "iphone.gen1.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let iphone_gen2_badge_exclamationmark = SFSymbol(rawValue: "iphone.gen2.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let iphone_gen3_badge_exclamationmark = SFSymbol(rawValue: "iphone.gen3.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let iphone_badge_exclamationmark = SFSymbol(rawValue: "iphone.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let ipad_gen1_badge_exclamationmark = SFSymbol(rawValue: "ipad.gen1.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let ipad_gen1_landscape_badge_exclamationmark = SFSymbol(rawValue: "ipad.gen1.landscape.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let ipad_gen2_badge_exclamationmark = SFSymbol(rawValue: "ipad.gen2.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let ipad_gen2_landscape_badge_exclamationmark = SFSymbol(rawValue: "ipad.gen2.landscape.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let ipad_badge_exclamationmark = SFSymbol(rawValue: "ipad.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let ipad_landscape_badge_exclamationmark = SFSymbol(rawValue: "ipad.landscape.badge.exclamationmark")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let audio_jack_stereo = SFSymbol(rawValue: "audio.jack.stereo")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let audio_jack_mono = SFSymbol(rawValue: "audio.jack.mono")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let apple_meditate = SFSymbol(rawValue: "apple.meditate")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let apple_meditate_square_stack = SFSymbol(rawValue: "apple.meditate.square.stack")
 
-	@available(tvOS 17.4, visionOS 1.1, watchOS 10.4, iOS 17.4, macOS 14.4, *)
+	@available(visionOS 1.1, iOS 17.4, macOS 14.4, watchOS 10.4, tvOS 17.4, *)
+	@_documentation(visibility: internal)
 	static public let apple_meditate_square_stack_fill = SFSymbol(rawValue: "apple.meditate.square.stack.fill")
 }

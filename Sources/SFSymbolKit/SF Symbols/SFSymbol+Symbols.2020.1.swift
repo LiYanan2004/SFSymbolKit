@@ -6,285 +6,379 @@
 //  swift-format-ignore-file
 
 extension SFSymbol {
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed = SFSymbol(rawValue: "character.book.closed")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_fill = SFSymbol(rawValue: "character.book.closed.fill")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_ar = SFSymbol(rawValue: "character.book.closed.ar")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_fill_ar = SFSymbol(rawValue: "character.book.closed.fill.ar")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_he = SFSymbol(rawValue: "character.book.closed.he")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_fill_he = SFSymbol(rawValue: "character.book.closed.fill.he")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_th = SFSymbol(rawValue: "character.book.closed.th")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_fill_th = SFSymbol(rawValue: "character.book.closed.fill.th")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_zh = SFSymbol(rawValue: "character.book.closed.zh")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_fill_zh = SFSymbol(rawValue: "character.book.closed.fill.zh")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_ja = SFSymbol(rawValue: "character.book.closed.ja")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_fill_ja = SFSymbol(rawValue: "character.book.closed.fill.ja")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_ko = SFSymbol(rawValue: "character.book.closed.ko")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_fill_ko = SFSymbol(rawValue: "character.book.closed.fill.ko")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_hi = SFSymbol(rawValue: "character.book.closed.hi")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_book_closed_fill_hi = SFSymbol(rawValue: "character.book.closed.fill.hi")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let directcurrent = SFSymbol(rawValue: "directcurrent")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let aqi_low = SFSymbol(rawValue: "aqi.low")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let aqi_medium = SFSymbol(rawValue: "aqi.medium")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let aqi_high = SFSymbol(rawValue: "aqi.high")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let shuffle_circle = SFSymbol(rawValue: "shuffle.circle")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let shuffle_circle_fill = SFSymbol(rawValue: "shuffle.circle.fill")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let repeat_circle = SFSymbol(rawValue: "repeat.circle")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let repeat_circle_fill = SFSymbol(rawValue: "repeat.circle.fill")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let repeat_1_circle = SFSymbol(rawValue: "repeat.1.circle")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let repeat_1_circle_fill = SFSymbol(rawValue: "repeat.1.circle.fill")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let infinity_circle = SFSymbol(rawValue: "infinity.circle")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let infinity_circle_fill = SFSymbol(rawValue: "infinity.circle.fill")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let cart_circle = SFSymbol(rawValue: "cart.circle")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let cart_circle_fill = SFSymbol(rawValue: "cart.circle.fill")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let torus = SFSymbol(rawValue: "torus")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let iphone_landscape = SFSymbol(rawValue: "iphone.landscape")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let iphone_badge_play = SFSymbol(rawValue: "iphone.badge.play")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let ipad_badge_play = SFSymbol(rawValue: "ipad.badge.play")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let ipad_landscape_badge_play = SFSymbol(rawValue: "ipad.landscape.badge.play")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let exclamationmark_applewatch = SFSymbol(rawValue: "exclamationmark.applewatch")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let lock_applewatch = SFSymbol(rawValue: "lock.applewatch")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let play_tv = SFSymbol(rawValue: "play.tv")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let play_tv_fill = SFSymbol(rawValue: "play.tv.fill")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let photo_tv = SFSymbol(rawValue: "photo.tv")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let tv_and_mediabox = SFSymbol(rawValue: "tv.and.mediabox")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let text_below_photo_rtl = SFSymbol(rawValue: "text.below.photo.rtl")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let text_below_photo_fill_rtl = SFSymbol(rawValue: "text.below.photo.fill.rtl")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let rectangle_badge_person_crop = SFSymbol(rawValue: "rectangle.badge.person.crop")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let rectangle_fill_badge_person_crop = SFSymbol(rawValue: "rectangle.fill.badge.person.crop")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character = SFSymbol(rawValue: "character")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_ar = SFSymbol(rawValue: "character.ar")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_he = SFSymbol(rawValue: "character.he")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_th = SFSymbol(rawValue: "character.th")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_zh = SFSymbol(rawValue: "character.zh")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_ja = SFSymbol(rawValue: "character.ja")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_ko = SFSymbol(rawValue: "character.ko")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let character_hi = SFSymbol(rawValue: "character.hi")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_smaller = SFSymbol(rawValue: "textformat.size.smaller")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_smaller_ar = SFSymbol(rawValue: "textformat.size.smaller.ar")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_smaller_he = SFSymbol(rawValue: "textformat.size.smaller.he")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_smaller_th = SFSymbol(rawValue: "textformat.size.smaller.th")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_smaller_zh = SFSymbol(rawValue: "textformat.size.smaller.zh")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_smaller_ja = SFSymbol(rawValue: "textformat.size.smaller.ja")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_smaller_ko = SFSymbol(rawValue: "textformat.size.smaller.ko")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_smaller_hi = SFSymbol(rawValue: "textformat.size.smaller.hi")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_larger = SFSymbol(rawValue: "textformat.size.larger")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_larger_ar = SFSymbol(rawValue: "textformat.size.larger.ar")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_larger_he = SFSymbol(rawValue: "textformat.size.larger.he")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_larger_th = SFSymbol(rawValue: "textformat.size.larger.th")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_larger_zh = SFSymbol(rawValue: "textformat.size.larger.zh")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_larger_ja = SFSymbol(rawValue: "textformat.size.larger.ja")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_larger_ko = SFSymbol(rawValue: "textformat.size.larger.ko")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_larger_hi = SFSymbol(rawValue: "textformat.size.larger.hi")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_ar = SFSymbol(rawValue: "textformat.size.ar")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_he = SFSymbol(rawValue: "textformat.size.he")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_th = SFSymbol(rawValue: "textformat.size.th")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_zh = SFSymbol(rawValue: "textformat.size.zh")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_ja = SFSymbol(rawValue: "textformat.size.ja")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_ko = SFSymbol(rawValue: "textformat.size.ko")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_size_hi = SFSymbol(rawValue: "textformat.size.hi")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_superscript_ar = SFSymbol(rawValue: "textformat.superscript.ar")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_superscript_he = SFSymbol(rawValue: "textformat.superscript.he")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_superscript_th = SFSymbol(rawValue: "textformat.superscript.th")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_superscript_zh = SFSymbol(rawValue: "textformat.superscript.zh")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_superscript_ja = SFSymbol(rawValue: "textformat.superscript.ja")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_superscript_ko = SFSymbol(rawValue: "textformat.superscript.ko")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_superscript_hi = SFSymbol(rawValue: "textformat.superscript.hi")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_subscript_ar = SFSymbol(rawValue: "textformat.subscript.ar")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_subscript_he = SFSymbol(rawValue: "textformat.subscript.he")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_subscript_th = SFSymbol(rawValue: "textformat.subscript.th")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_subscript_zh = SFSymbol(rawValue: "textformat.subscript.zh")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_subscript_ja = SFSymbol(rawValue: "textformat.subscript.ja")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_subscript_ko = SFSymbol(rawValue: "textformat.subscript.ko")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let textformat_subscript_hi = SFSymbol(rawValue: "textformat.subscript.hi")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let brazilianrealsign_circle = SFSymbol(rawValue: "brazilianrealsign.circle")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let brazilianrealsign_circle_fill = SFSymbol(rawValue: "brazilianrealsign.circle.fill")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let brazilianrealsign_square = SFSymbol(rawValue: "brazilianrealsign.square")
 
-	@available(watchOS 7.1, macOS 11.0, tvOS 14.2, visionOS 1.0, iOS 14.2, *)
+	@available(iOS 14.2, macOS 11.0, tvOS 14.2, watchOS 7.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let brazilianrealsign_square_fill = SFSymbol(rawValue: "brazilianrealsign.square.fill")
 }

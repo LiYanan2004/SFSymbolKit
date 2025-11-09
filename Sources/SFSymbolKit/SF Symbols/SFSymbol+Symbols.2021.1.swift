@@ -6,42 +6,55 @@
 //  swift-format-ignore-file
 
 extension SFSymbol {
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let bolt_ring_closed = SFSymbol(rawValue: "bolt.ring.closed")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let platter_filled_top_iphone = SFSymbol(rawValue: "platter.filled.top.iphone")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let platter_filled_bottom_iphone = SFSymbol(rawValue: "platter.filled.bottom.iphone")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let platter_filled_top_and_arrow_up_iphone = SFSymbol(rawValue: "platter.filled.top.and.arrow.up.iphone")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let platter_filled_bottom_and_arrow_down_iphone = SFSymbol(rawValue: "platter.filled.bottom.and.arrow.down.iphone")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let square_3_layers_3d_down_right = SFSymbol(rawValue: "square.3.layers.3d.down.right")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let square_3_layers_3d_down_left = SFSymbol(rawValue: "square.3.layers.3d.down.left")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let square_3_layers_3d_down_forward = SFSymbol(rawValue: "square.3.layers.3d.down.forward")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let square_3_layers_3d_down_backward = SFSymbol(rawValue: "square.3.layers.3d.down.backward")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let text_justify_left = SFSymbol(rawValue: "text.justify.left")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let text_justify_right = SFSymbol(rawValue: "text.justify.right")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let text_justify_leading = SFSymbol(rawValue: "text.justify.leading")
 
-	@available(watchOS 8.1, macOS 12.0, visionOS 1.0, iOS 15.1, tvOS 15.1, *)
+	@available(macOS 12.0, iOS 15.1, tvOS 15.1, watchOS 8.1, visionOS 1.0, *)
+	@_documentation(visibility: internal)
 	static public let text_justify_trailing = SFSymbol(rawValue: "text.justify.trailing")
 }
