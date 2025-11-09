@@ -16,6 +16,10 @@ let package = Package(
             name: "SFSymbolGenPlugin",
             targets: ["SFSymbolGenPlugin"]
         ),
+        .library(
+            name: "SFSymbolKit",
+            targets: ["SFSymbolKit"]
+        ),
         .executable(
             name: "SFSymbolGenClient",
             targets: ["SFSymbolGenClient"]
@@ -45,11 +49,15 @@ let package = Package(
             capability: .buildTool,
             dependencies: ["SFSymbolGenTool"]
         ),
-        .executableTarget(
-            name: "SFSymbolGenClient",
+        .target(
+            name: "SFSymbolKit",
             plugins: [
                 .plugin(name: "SFSymbolGenPlugin")
             ]
+        ),
+        .executableTarget(
+            name: "SFSymbolGenClient",
+            dependencies: ["SFSymbolKit"]
         ),
     ]
 )

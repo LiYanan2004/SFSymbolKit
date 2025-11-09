@@ -34,19 +34,7 @@ package struct SFSymbolSourceFileGenerator {
             """
             
             return try SourceFileSyntax {
-                try StructDeclSyntax(
-                    "public struct SFSymbol: RawRepresentable, Hashable, Equatable, Sendable"
-                ) {
-                    try VariableDeclSyntax("public var rawValue: String")
-                        .with(\.leadingTrivia, .newline)
-                    
-                    try InitializerDeclSyntax("""
-                    public init(rawValue: String) {
-                        self.rawValue = rawValue
-                    }
-                    """)
-                    .with(\.leadingTrivia, .newline)
-                    
+                try ExtensionDeclSyntax("extension SFSymbol") {
                     try sfSymbolMembers
                 }
             }
