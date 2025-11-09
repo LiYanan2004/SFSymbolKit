@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: SFSymbol.globe.rawValue)
+            Image(systemName: SFSymbol.book.rawValue)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")

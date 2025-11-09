@@ -21,9 +21,17 @@ struct SFSymbolGenTool: ParsableCommand {
         transform: { URL(fileURLWithPath: ($0 as NSString).expandingTildeInPath) }
     )
     var output: URL
+    
+    @Flag(name: .short)
+    var force: Bool = false
 
     func run() throws {
+        guard needsGenerate else { return }
         try SFSymbolSourceFileGenerator(outputURL: output)
             .generate()
+    }
+    
+    private var needsGenerate: Bool {
+        !FileManager.default.fileExists(atPath: output.path) || force
     }
 }
