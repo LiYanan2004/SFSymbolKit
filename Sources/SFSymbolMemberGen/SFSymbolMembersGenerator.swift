@@ -59,18 +59,3 @@ package struct SFSymbolMembersGenerator {
         .with(\.leadingTrivia, Trivia(stringLiteral: header) + .newlines(2))
     }
 }
-
-private extension Array {
-    func chunked(into size: Int) -> [[Element]] {
-        guard size > 0 else { return [self] }
-        var result: [[Element]] = []
-        result.reserveCapacity((count + size - 1) / size)
-        var startIndex = 0
-        while startIndex < count {
-            let endIndex = Swift.min(startIndex + size, count)
-            result.append(Array(self[startIndex..<endIndex]))
-            startIndex = endIndex
-        }
-        return result
-    }
-}
