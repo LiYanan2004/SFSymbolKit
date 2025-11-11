@@ -5,96 +5,74 @@
 //  Do not edit directly!
 //  swift-format-ignore-file
 
+@_documentation(visibility: internal)
 extension SFSymbol {
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let receipt = SFSymbol(rawValue: "receipt")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let receipt_fill = SFSymbol(rawValue: "receipt.fill")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let exclamationmark_triangle_text_page = SFSymbol(rawValue: "exclamationmark.triangle.text.page")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let exclamationmark_triangle_text_page_fill = SFSymbol(rawValue: "exclamationmark.triangle.text.page.fill")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let exclamationmark_triangle_text_page_rtl = SFSymbol(rawValue: "exclamationmark.triangle.text.page.rtl")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let exclamationmark_triangle_text_page_fill_rtl = SFSymbol(rawValue: "exclamationmark.triangle.text.page.fill.rtl")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let inset_filled_rectangle_and_person_filled_circle = SFSymbol(rawValue: "inset.filled.rectangle.and.person.filled.circle")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let inset_filled_rectangle_and_person_filled_circle_fill = SFSymbol(rawValue: "inset.filled.rectangle.and.person.filled.circle.fill")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let info_triangle = SFSymbol(rawValue: "info.triangle")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let info_triangle_fill = SFSymbol(rawValue: "info.triangle.fill")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let questionmark_message_ar = SFSymbol(rawValue: "questionmark.message.ar")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let questionmark_message_fill_ar = SFSymbol(rawValue: "questionmark.message.fill.ar")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let apple_writing_tools = SFSymbol(rawValue: "apple.writing.tools")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let wand_and_outline = SFSymbol(rawValue: "wand.and.outline")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let wand_and_outline_inverse = SFSymbol(rawValue: "wand.and.outline.inverse")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let headphones_dots = SFSymbol(rawValue: "headphones.dots")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let airpods_gen4 = SFSymbol(rawValue: "airpods.gen4")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let airpods_gen4_right = SFSymbol(rawValue: "airpods.gen4.right")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let airpods_gen4_left = SFSymbol(rawValue: "airpods.gen4.left")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let airpods_gen4_chargingcase_wireless = SFSymbol(rawValue: "airpods.gen4.chargingcase.wireless")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let airpods_gen4_chargingcase_wireless_fill = SFSymbol(rawValue: "airpods.gen4.chargingcase.wireless.fill")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let figure_seated_side_left_air_distribution_upper_and_middle_and_lower = SFSymbol(rawValue: "figure.seated.side.left.air.distribution.upper.and.middle.and.lower")
 
 	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
-	@_documentation(visibility: internal)
 	static public let figure_seated_side_right_air_distribution_upper_and_middle_and_lower = SFSymbol(rawValue: "figure.seated.side.right.air.distribution.upper.and.middle.and.lower")
 }

@@ -5,28 +5,23 @@
 //  Do not edit directly!
 //  swift-format-ignore-file
 
+@_documentation(visibility: internal)
 extension SFSymbol {
 	@available(iOS 18.5, macOS 15.5, tvOS 18.5, visionOS 2.5, watchOS 11.5, *)
-	@_documentation(visibility: internal)
 	static public let apple_intelligence_badge_xmark = SFSymbol(rawValue: "apple.intelligence.badge.xmark")
 
 	@available(iOS 18.5, macOS 15.5, tvOS 18.5, visionOS 2.5, watchOS 11.5, *)
-	@_documentation(visibility: internal)
 	static public let beats_powerbeats_pro_2 = SFSymbol(rawValue: "beats.powerbeats.pro.2")
 
 	@available(iOS 18.5, macOS 15.5, tvOS 18.5, visionOS 2.5, watchOS 11.5, *)
-	@_documentation(visibility: internal)
 	static public let beats_powerbeats_pro_2_right = SFSymbol(rawValue: "beats.powerbeats.pro.2.right")
 
 	@available(iOS 18.5, macOS 15.5, tvOS 18.5, visionOS 2.5, watchOS 11.5, *)
-	@_documentation(visibility: internal)
 	static public let beats_powerbeats_pro_2_left = SFSymbol(rawValue: "beats.powerbeats.pro.2.left")
 
 	@available(iOS 18.5, macOS 15.5, tvOS 18.5, visionOS 2.5, watchOS 11.5, *)
-	@_documentation(visibility: internal)
 	static public let beats_powerbeats_pro_2_chargingcase = SFSymbol(rawValue: "beats.powerbeats.pro.2.chargingcase")
 
 	@available(iOS 18.5, macOS 15.5, tvOS 18.5, visionOS 2.5, watchOS 11.5, *)
-	@_documentation(visibility: internal)
 	static public let beats_powerbeats_pro_2_chargingcase_fill = SFSymbol(rawValue: "beats.powerbeats.pro.2.chargingcase.fill")
 }

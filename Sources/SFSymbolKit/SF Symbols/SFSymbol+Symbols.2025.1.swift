@@ -5,120 +5,92 @@
 //  Do not edit directly!
 //  swift-format-ignore-file
 
+@_documentation(visibility: internal)
 extension SFSymbol {
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let inset_filled_rectangle_and_person_filled_slash = SFSymbol(rawValue: "inset.filled.rectangle.and.person.filled.slash")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let inset_filled_rectangle_and_person_filled_slash_rtl = SFSymbol(rawValue: "inset.filled.rectangle.and.person.filled.slash.rtl")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let rectangle_badge_sparkles = SFSymbol(rawValue: "rectangle.badge.sparkles")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let rectangle_badge_sparkles_fill = SFSymbol(rawValue: "rectangle.badge.sparkles.fill")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let arrowtriangle_backward_inset_filled_trailingthird_rectangle = SFSymbol(rawValue: "arrowtriangle.backward.inset.filled.trailingthird.rectangle")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let arrowtriangle_forward_inset_filled_trailingthird_rectangle = SFSymbol(rawValue: "arrowtriangle.forward.inset.filled.trailingthird.rectangle")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let star_rectangle = SFSymbol(rawValue: "star.rectangle")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let star_rectangle_fill = SFSymbol(rawValue: "star.rectangle.fill")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let radicand_squareroot = SFSymbol(rawValue: "radicand.squareroot")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let radicand_squareroot_ar = SFSymbol(rawValue: "radicand.squareroot.ar")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let head_profile_vision_pro_remove = SFSymbol(rawValue: "head.profile.vision.pro.remove")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let digitalcrown = SFSymbol(rawValue: "digitalcrown")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let digitalcrown_fill = SFSymbol(rawValue: "digitalcrown.fill")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let digitalcrown_horizontal = SFSymbol(rawValue: "digitalcrown.horizontal")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let digitalcrown_horizontal_fill = SFSymbol(rawValue: "digitalcrown.horizontal.fill")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let button_vertical_right = SFSymbol(rawValue: "button.vertical.right")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let button_vertical_right_fill = SFSymbol(rawValue: "button.vertical.right.fill")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let button_vertical_left = SFSymbol(rawValue: "button.vertical.left")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let button_vertical_left_fill = SFSymbol(rawValue: "button.vertical.left.fill")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let button_horizontal_top = SFSymbol(rawValue: "button.horizontal.top")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let button_horizontal_top_fill = SFSymbol(rawValue: "button.horizontal.top.fill")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let air_conditioner = SFSymbol(rawValue: "air.conditioner")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let air_conditioner_slash = SFSymbol(rawValue: "air.conditioner.slash")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let camera_viewfinder_badge_automatic = SFSymbol(rawValue: "camera.viewfinder.badge.automatic")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let slider_horizontal_below_sun_min = SFSymbol(rawValue: "slider.horizontal.below.sun.min")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let arrowtriangle_up_2 = SFSymbol(rawValue: "arrowtriangle.up.2")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let arrowtriangle_up_2_fill = SFSymbol(rawValue: "arrowtriangle.up.2.fill")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let arrowtriangle_down_2 = SFSymbol(rawValue: "arrowtriangle.down.2")
 
 	@available(iOS 26.1, macOS 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1, *)
-	@_documentation(visibility: internal)
 	static public let arrowtriangle_down_2_fill = SFSymbol(rawValue: "arrowtriangle.down.2.fill")
 }

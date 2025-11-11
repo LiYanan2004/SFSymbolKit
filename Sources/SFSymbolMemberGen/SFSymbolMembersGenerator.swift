@@ -50,11 +50,16 @@ package struct SFSymbolMembersGenerator {
         """
         
         return try SourceFileSyntax {
+            let attributeList = AttributeListSyntax {
+                AttributeSyntax("@_documentation(visibility: internal)")
+                    .with(\.trailingTrivia, .newline)
+            }
+            
             try ExtensionDeclSyntax("extension SFSymbol") {
                 try members.map { symbol in
                     try DeclSyntax(symbol.declarationSyntax)
                 }
-            }
+            }.with(\.attributes, attributeList)
         }
         .with(\.leadingTrivia, Trivia(stringLiteral: header) + .newlines(2))
     }

@@ -5,132 +5,101 @@
 //  Do not edit directly!
 //  swift-format-ignore-file
 
+@_documentation(visibility: internal)
 extension SFSymbol {
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `1_lane_ar` = SFSymbol(rawValue: "1.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `2_lane_ar` = SFSymbol(rawValue: "2.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `3_lane_ar` = SFSymbol(rawValue: "3.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `4_lane_ar` = SFSymbol(rawValue: "4.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `5_lane_ar` = SFSymbol(rawValue: "5.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `6_lane_ar` = SFSymbol(rawValue: "6.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `7_lane_ar` = SFSymbol(rawValue: "7.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `8_lane_ar` = SFSymbol(rawValue: "8.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `9_lane_ar` = SFSymbol(rawValue: "9.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `10_lane_ar` = SFSymbol(rawValue: "10.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `11_lane_ar` = SFSymbol(rawValue: "11.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `12_lane_ar` = SFSymbol(rawValue: "12.lane.ar")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `1_lane_hi` = SFSymbol(rawValue: "1.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `2_lane_hi` = SFSymbol(rawValue: "2.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `3_lane_hi` = SFSymbol(rawValue: "3.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `4_lane_hi` = SFSymbol(rawValue: "4.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `5_lane_hi` = SFSymbol(rawValue: "5.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `6_lane_hi` = SFSymbol(rawValue: "6.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `7_lane_hi` = SFSymbol(rawValue: "7.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `8_lane_hi` = SFSymbol(rawValue: "8.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `9_lane_hi` = SFSymbol(rawValue: "9.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `10_lane_hi` = SFSymbol(rawValue: "10.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `11_lane_hi` = SFSymbol(rawValue: "11.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let `12_lane_hi` = SFSymbol(rawValue: "12.lane.hi")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let beats_powerbeats_right = SFSymbol(rawValue: "beats.powerbeats.right")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let beats_powerbeats_left = SFSymbol(rawValue: "beats.powerbeats.left")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let beats_powerbeats3_right = SFSymbol(rawValue: "beats.powerbeats3.right")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let beats_powerbeats3_left = SFSymbol(rawValue: "beats.powerbeats3.left")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let axle_2 = SFSymbol(rawValue: "axle.2")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let axle_2_front_engaged = SFSymbol(rawValue: "axle.2.front.engaged")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let axle_2_rear_engaged = SFSymbol(rawValue: "axle.2.rear.engaged")
 
 	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
-	@_documentation(visibility: internal)
 	static public let axle_2_front_and_rear_engaged = SFSymbol(rawValue: "axle.2.front.and.rear.engaged")
 }

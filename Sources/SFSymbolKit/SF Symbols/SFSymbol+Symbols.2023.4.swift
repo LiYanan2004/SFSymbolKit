@@ -5,32 +5,26 @@
 //  Do not edit directly!
 //  swift-format-ignore-file
 
+@_documentation(visibility: internal)
 extension SFSymbol {
 	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
-	@_documentation(visibility: internal)
 	static public let beats_solobuds = SFSymbol(rawValue: "beats.solobuds")
 
 	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
-	@_documentation(visibility: internal)
 	static public let beats_solobuds_right = SFSymbol(rawValue: "beats.solobuds.right")
 
 	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
-	@_documentation(visibility: internal)
 	static public let beats_solobuds_left = SFSymbol(rawValue: "beats.solobuds.left")
 
 	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
-	@_documentation(visibility: internal)
 	static public let beats_solobuds_chargingcase = SFSymbol(rawValue: "beats.solobuds.chargingcase")
 
 	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
-	@_documentation(visibility: internal)
 	static public let beats_solobuds_chargingcase_fill = SFSymbol(rawValue: "beats.solobuds.chargingcase.fill")
 
 	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
-	@_documentation(visibility: internal)
 	static public let beats_pill = SFSymbol(rawValue: "beats.pill")
 
 	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
-	@_documentation(visibility: internal)
 	static public let beats_pill_fill = SFSymbol(rawValue: "beats.pill.fill")
 }

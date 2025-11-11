@@ -26,9 +26,6 @@ extension SFSymbolDescriptor {
                 AttributeSyntax(
                     "@available(\(raw: availablePlatforms.joined(separator: ", ")), *)"
                 ).with(\.trailingTrivia, .newline + .tab)
-                
-                AttributeSyntax("@_documentation(visibility: internal)")
-                    .with(\.trailingTrivia, .newline + .tab)
             }
             
             return try VariableDeclSyntax("""

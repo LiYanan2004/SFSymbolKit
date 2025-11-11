@@ -5,28 +5,23 @@
 //  Do not edit directly!
 //  swift-format-ignore-file
 
+@_documentation(visibility: internal)
 extension SFSymbol {
 	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
-	@_documentation(visibility: internal)
 	static public let person_crop_square_badge_camera = SFSymbol(rawValue: "person.crop.square.badge.camera")
 
 	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
-	@_documentation(visibility: internal)
 	static public let person_crop_square_badge_camera_fill = SFSymbol(rawValue: "person.crop.square.badge.camera.fill")
 
 	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
-	@_documentation(visibility: internal)
 	static public let person_crop_square_badge_video = SFSymbol(rawValue: "person.crop.square.badge.video")
 
 	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
-	@_documentation(visibility: internal)
 	static public let person_crop_square_badge_video_fill = SFSymbol(rawValue: "person.crop.square.badge.video.fill")
 
 	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
-	@_documentation(visibility: internal)
 	static public let chevron_compact_backward = SFSymbol(rawValue: "chevron.compact.backward")
 
 	@available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
-	@_documentation(visibility: internal)
 	static public let chevron_compact_forward = SFSymbol(rawValue: "chevron.compact.forward")
 }
