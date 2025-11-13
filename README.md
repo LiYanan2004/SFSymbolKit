@@ -35,7 +35,7 @@ Include `SFSymbolKit` in any targets that need it.
 ),
 ```
 
-### Use `SFSymbol`
+### Pick an SF Symbol
 
 You still uses familiar APIs -- for example: `Image(systemName:)` -- but instead of manually typing the symbol name, you can use `.sfSymbol(_:)`.
 
@@ -84,6 +84,8 @@ if #available(iOS 26.0, macOS 26.0, *) {
     Label("Onboarding", systemImage: .sfSymbol(.airplane))
 }
 ```
+
+![](/Resources/availability-check.png)
 
 ## Update `SFSymbolKit`
 
