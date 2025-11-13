@@ -16,10 +16,6 @@ let package = Package(
             name: "SFSymbolKit",
             targets: ["SFSymbolKit"]
         ),
-        .executable(
-            name: "SFSymbolKitClient",
-            targets: ["SFSymbolKitClient"]
-        ),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.6.2"),
@@ -42,10 +38,6 @@ let package = Package(
         ),
         .target(
             name: "SFSymbolKit"
-        ),
-        .executableTarget(
-            name: "SFSymbolKitClient",
-            dependencies: ["SFSymbolKit"]
         ),
     ]
 )
