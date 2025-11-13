@@ -1,0 +1,58 @@
+name: Update Symbols
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-symbols:
+    runs-on: macos-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run symbol update script
+        run: |
+          set -euo pipefail
+          chmod +x ./update_symbols.sh
+          ./update_symbols.sh
+
+      - name: Commit and push changes
+        id: commit
+        run: |
+          set -euo pipefail
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes produced by update_symbols.sh; skipping commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          BRANCH_NAME="update-symbols-$(date +'%Y%m%d%H%M%S')"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH_NAME"
+          git add -A
+          git commit -m "Update symbols"
+          git push --set-upstream origin "$BRANCH_NAME"
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "branch=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Create pull request
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          UPDATE_BRANCH: ${{ steps.commit.outputs.branch }}
+        run: |
+          set -euo pipefail
+          gh pr create \
+            --title "Update symbols" \
+            --body "Automated symbols update via workflow_dispatch." \
+            --base "$DEFAULT_BRANCH" \
+            --head "$UPDATE_BRANCH"
