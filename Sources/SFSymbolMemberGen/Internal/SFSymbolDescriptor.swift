@@ -29,7 +29,7 @@ extension SFSymbolDescriptor {
             }
             
             return try VariableDeclSyntax("""
-            static public let \(raw: validIdentifier) = SFSymbol(rawValue: \"\(raw: self.identifier)\")
+            static public let \(raw: validIdentifier) = SFSymbol(identifier: \"\(raw: self.identifier)\")
             """)
             .with(\.attributes, attributeList)
             .with(\.leadingTrivia, .newline + .tab)
