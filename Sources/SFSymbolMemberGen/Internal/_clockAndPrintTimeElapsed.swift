@@ -17,10 +17,12 @@ package func _clockAndPrintTimeElapsed<T>(
     let result: T = try operation()
     
     let endTime = CFAbsoluteTimeGetCurrent()
-    if #available(macOS 12.0, *) {
+    if #available(macOS 12.0, iOS 15.0, tvOS 15.0, watchOS 8.0, *) {
         let formattedTimeElapsed = (endTime - startTime)
             .formatted(.number.precision(.fractionLength(...10)))
         print("\(label ?? "Total Time Elapsed"):", formattedTimeElapsed, "second(s)")
+    } else {
+        print("\(label ?? "Total Time Elapsed"):", endTime - startTime, "second(s)")
     }
     
     return result
