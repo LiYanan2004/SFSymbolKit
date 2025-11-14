@@ -14,6 +14,20 @@ internal struct SFSymbolDescriptor: Hashable, Sendable {
     var availability: String
     
     var availablePlatforms: [String]
+    var categories: [String]?
+    var searchKeywords: [String]?
+    
+    private var hasMetadata: Bool {
+        if let categories, !categories.isEmpty {
+            return true
+        }
+        
+        if let searchKeywords, !searchKeywords.isEmpty {
+            return true
+        }
+        
+        return false
+    }
 }
 
 extension SFSymbolDescriptor {
@@ -25,8 +39,62 @@ extension SFSymbolDescriptor {
             return try VariableDeclSyntax("""
             static public let \(raw: validIdentifier) = SFSymbol(identifier: \"\(raw: self.identifier)\")
             """)
-            .with(\.leadingTrivia, .newline + .tab)
+            .with(\.leadingTrivia, documentationBlockTrivia)
             .with(\.trailingTrivia, .newline)
         }
+    }
+    
+    private var documentationBlockTrivia: Trivia {
+        var documentationTrivia = Trivia.tab
+        appendDocumentationLine(
+            content: "/// `\(identifier)`",
+            to: &documentationTrivia
+        )
+        if let categories, !categories.isEmpty {
+            appendDocumentationLine(
+                content: "///",
+                to: &documentationTrivia
+            )
+            appendDocumentationLine(
+                content: "/// - categories:",
+                to: &documentationTrivia
+            )
+            for category in categories {
+                appendDocumentationLine(
+                    content: "///   - `\(category)`",
+                    to: &documentationTrivia
+                )
+            }
+        }
+        
+        if let searchKeywords, !searchKeywords.isEmpty {
+            appendDocumentationLine(
+                content: "///",
+                to: &documentationTrivia
+            )
+            appendDocumentationLine(
+                content: "/// - search keywords:",
+                to: &documentationTrivia
+            )
+            for keword in searchKeywords {
+                appendDocumentationLine(
+                    content: "///   - `\(keword)`",
+                    to: &documentationTrivia
+                )
+            }
+        }
+        
+        return .newline + documentationTrivia
+    }
+    
+    private func appendDocumentationLine(
+        content: String,
+        to trivia: inout Trivia
+    ) {
+        trivia = trivia.appending(
+            TriviaPiece.docLineComment(content)
+        )
+        trivia = trivia.appending(.newline)
+        trivia = trivia.appending(.tab)
     }
 }

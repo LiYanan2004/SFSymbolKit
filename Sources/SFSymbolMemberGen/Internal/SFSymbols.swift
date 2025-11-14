@@ -8,7 +8,7 @@
 import Foundation
 
 internal enum SFSymbols_Private {    
-    static internal let allSymbols: [SFSymbolDescriptor] = {
+    static internal let allSymbolDescriptors: [SFSymbolDescriptor] = {
         // find CoreGlyphs.bundle
         let coreGlyphsBundlePath = Bundle(url: sfSymbolsFrameworkURL)?
             .path(forResource: "CoreGlyphs", ofType: "bundle")
@@ -38,6 +38,27 @@ internal enum SFSymbols_Private {
             }).sorted(by: <)
         })
         
+        var symbolCategories: [String : [String]]?
+        let symbolCategoriesPlistPath = coreGlyphsBundle
+            .path(forResource: "symbol_categories", ofType: "plist")
+        if let symbolCategoriesPlistPath {
+            symbolCategories = NSDictionary(
+                contentsOfFile: symbolCategoriesPlistPath
+            ) as? [String : [String]]
+            symbolCategories = symbolCategories?.mapValues { categories in
+                categories.filter({ $0 != "whatsnew" }) // Already organized by year so no need to include this category.
+            }
+        }
+        
+        var symbolSearch: [String : [String]]?
+        let symbolSearchPlistPath = coreGlyphsBundle
+            .path(forResource: "symbol_search", ofType: "plist")
+        if let symbolSearchPlistPath {
+            symbolSearch = NSDictionary(
+                contentsOfFile: symbolSearchPlistPath
+            ) as? [String : [String]]
+        }
+        
         return symbols.compactMap { symbolName -> SFSymbolDescriptor? in
             guard let availability = symbolAvailabilityDict[symbolName] else {
                 return nil
@@ -48,7 +69,9 @@ internal enum SFSymbols_Private {
             return SFSymbolDescriptor(
                 identifier: symbolName,
                 availability: availability,
-                availablePlatforms: availabilities
+                availablePlatforms: availabilities,
+                categories: symbolCategories?[symbolName],
+                searchKeywords: symbolSearch?[symbolName]
             )
         }
     }()
