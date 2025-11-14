@@ -36,7 +36,12 @@ public struct SFSymbol: RawRepresentable, Hashable, Sendable {
     /// The raw identifier of an SF Symbol.
     public var rawValue: String
     
+    @available(*, deprecated, message: "Use predefined SF Symbols instead. For example: `SFSymbol.globe`.")
     public init(rawValue: String) {
-        self.rawValue = rawValue
+        self.init(identifier: rawValue)
+    }
+    
+    internal init(identifier: String) {
+        self.rawValue = identifier
     }
 }

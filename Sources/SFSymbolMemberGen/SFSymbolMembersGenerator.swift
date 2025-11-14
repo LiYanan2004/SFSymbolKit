@@ -17,6 +17,8 @@ package struct SFSymbolMembersGenerator {
     }
     
     package func generate() throws {
+        try FileManager.default.removeItemIfNecessary(at: directoryURL)
+        
         var availabilityCategorizedSymbols = [String : [SFSymbolDescriptor]]()
         SFSymbols_Private.allSymbols.forEach {
             availabilityCategorizedSymbols[$0.availability, default: []].append($0)
@@ -27,7 +29,7 @@ package struct SFSymbolMembersGenerator {
         )
         
         for (availability, symbols) in availabilityCategorizedSymbols {
-            let filename = "SFSymbol+Symbols.\(availability).swift"
+            let filename = "SFSymbols.\(availability).swift"
             let fileURL = directoryURL.appendingPathComponent(filename)
             
             let fileSyntax = try sourceFile(filename: filename, members: symbols)

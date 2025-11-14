@@ -12,4 +12,9 @@ extension FileManager {
         guard !fileExists(atPath: url.path) else { return }
         try createDirectory(at: url, withIntermediateDirectories: true)
     }
+    
+    func removeItemIfNecessary(at url: URL) throws {
+        guard fileExists(atPath: url.path) else { return }
+        try removeItem(at: url)
+    }
 }
