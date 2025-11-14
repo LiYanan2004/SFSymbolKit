@@ -6,25 +6,19 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 extension SFSymbol {
-	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	static public let beats_solobuds = SFSymbol(identifier: "beats.solobuds")
 
-	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	static public let beats_solobuds_right = SFSymbol(identifier: "beats.solobuds.right")
 
-	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	static public let beats_solobuds_left = SFSymbol(identifier: "beats.solobuds.left")
 
-	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	static public let beats_solobuds_chargingcase = SFSymbol(identifier: "beats.solobuds.chargingcase")
 
-	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	static public let beats_solobuds_chargingcase_fill = SFSymbol(identifier: "beats.solobuds.chargingcase.fill")
 
-	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	static public let beats_pill = SFSymbol(identifier: "beats.pill")
 
-	@available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 	static public let beats_pill_fill = SFSymbol(identifier: "beats.pill.fill")
 }

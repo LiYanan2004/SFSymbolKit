@@ -51,10 +51,20 @@ package struct SFSymbolMembersGenerator {
         //  swift-format-ignore-file
         """
         
+        guard let availabilities = members.first?.availablePlatforms else {
+            fatalError("Must have availabilities")
+        }
+        
+        // Must have the same availabilities.
+        precondition(members.allSatisfy({ $0.availablePlatforms == availabilities }))
+        
         return try SourceFileSyntax {
             let attributeList = AttributeListSyntax {
                 AttributeSyntax("@_documentation(visibility: internal)")
                     .with(\.trailingTrivia, .newline)
+                AttributeSyntax(
+                    "@available(\(raw: availabilities.joined(separator: ", ")), *)"
+                ).with(\.trailingTrivia, .newline)
             }
             
             try ExtensionDeclSyntax("extension SFSymbol") {

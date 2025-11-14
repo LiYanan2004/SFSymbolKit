@@ -6,43 +6,31 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 extension SFSymbol {
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let bolt_ring_closed = SFSymbol(identifier: "bolt.ring.closed")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let platter_filled_top_iphone = SFSymbol(identifier: "platter.filled.top.iphone")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let platter_filled_bottom_iphone = SFSymbol(identifier: "platter.filled.bottom.iphone")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let platter_filled_top_and_arrow_up_iphone = SFSymbol(identifier: "platter.filled.top.and.arrow.up.iphone")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let platter_filled_bottom_and_arrow_down_iphone = SFSymbol(identifier: "platter.filled.bottom.and.arrow.down.iphone")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let square_3_layers_3d_down_right = SFSymbol(identifier: "square.3.layers.3d.down.right")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let square_3_layers_3d_down_left = SFSymbol(identifier: "square.3.layers.3d.down.left")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let square_3_layers_3d_down_forward = SFSymbol(identifier: "square.3.layers.3d.down.forward")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let square_3_layers_3d_down_backward = SFSymbol(identifier: "square.3.layers.3d.down.backward")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let text_justify_left = SFSymbol(identifier: "text.justify.left")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let text_justify_right = SFSymbol(identifier: "text.justify.right")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let text_justify_leading = SFSymbol(identifier: "text.justify.leading")
 
-	@available(iOS 15.1, macOS 12.0, tvOS 15.1, visionOS 1.0, watchOS 8.1, *)
 	static public let text_justify_trailing = SFSymbol(identifier: "text.justify.trailing")
 }

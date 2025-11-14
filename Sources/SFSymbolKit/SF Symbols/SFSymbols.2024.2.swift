@@ -6,73 +6,51 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 extension SFSymbol {
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let receipt = SFSymbol(identifier: "receipt")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let receipt_fill = SFSymbol(identifier: "receipt.fill")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let exclamationmark_triangle_text_page = SFSymbol(identifier: "exclamationmark.triangle.text.page")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let exclamationmark_triangle_text_page_fill = SFSymbol(identifier: "exclamationmark.triangle.text.page.fill")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let exclamationmark_triangle_text_page_rtl = SFSymbol(identifier: "exclamationmark.triangle.text.page.rtl")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let exclamationmark_triangle_text_page_fill_rtl = SFSymbol(identifier: "exclamationmark.triangle.text.page.fill.rtl")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let inset_filled_rectangle_and_person_filled_circle = SFSymbol(identifier: "inset.filled.rectangle.and.person.filled.circle")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let inset_filled_rectangle_and_person_filled_circle_fill = SFSymbol(identifier: "inset.filled.rectangle.and.person.filled.circle.fill")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let info_triangle = SFSymbol(identifier: "info.triangle")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let info_triangle_fill = SFSymbol(identifier: "info.triangle.fill")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let questionmark_message_ar = SFSymbol(identifier: "questionmark.message.ar")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let questionmark_message_fill_ar = SFSymbol(identifier: "questionmark.message.fill.ar")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let apple_writing_tools = SFSymbol(identifier: "apple.writing.tools")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let wand_and_outline = SFSymbol(identifier: "wand.and.outline")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let wand_and_outline_inverse = SFSymbol(identifier: "wand.and.outline.inverse")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let headphones_dots = SFSymbol(identifier: "headphones.dots")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let airpods_gen4 = SFSymbol(identifier: "airpods.gen4")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let airpods_gen4_right = SFSymbol(identifier: "airpods.gen4.right")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let airpods_gen4_left = SFSymbol(identifier: "airpods.gen4.left")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let airpods_gen4_chargingcase_wireless = SFSymbol(identifier: "airpods.gen4.chargingcase.wireless")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let airpods_gen4_chargingcase_wireless_fill = SFSymbol(identifier: "airpods.gen4.chargingcase.wireless.fill")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let figure_seated_side_left_air_distribution_upper_and_middle_and_lower = SFSymbol(identifier: "figure.seated.side.left.air.distribution.upper.and.middle.and.lower")
 
-	@available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 	static public let figure_seated_side_right_air_distribution_upper_and_middle_and_lower = SFSymbol(identifier: "figure.seated.side.right.air.distribution.upper.and.middle.and.lower")
 }

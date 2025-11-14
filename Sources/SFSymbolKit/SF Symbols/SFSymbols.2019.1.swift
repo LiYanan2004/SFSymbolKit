@@ -6,52 +6,37 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 extension SFSymbol {
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let studentdesk = SFSymbol(identifier: "studentdesk")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let paperclip_circle = SFSymbol(identifier: "paperclip.circle")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let paperclip_circle_fill = SFSymbol(identifier: "paperclip.circle.fill")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let circle_grid_2x2 = SFSymbol(identifier: "circle.grid.2x2")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let circle_grid_2x2_fill = SFSymbol(identifier: "circle.grid.2x2.fill")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let flashlight_off_fill = SFSymbol(identifier: "flashlight.off.fill")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let flashlight_on_fill = SFSymbol(identifier: "flashlight.on.fill")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let scissors_badge_ellipsis = SFSymbol(identifier: "scissors.badge.ellipsis")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let pin_circle = SFSymbol(identifier: "pin.circle")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let pin_circle_fill = SFSymbol(identifier: "pin.circle.fill")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let mappin_circle = SFSymbol(identifier: "mappin.circle")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let mappin_circle_fill = SFSymbol(identifier: "mappin.circle.fill")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let car = SFSymbol(identifier: "car")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let aspectratio = SFSymbol(identifier: "aspectratio")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let aspectratio_fill = SFSymbol(identifier: "aspectratio.fill")
 
-	@available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 	static public let arrow_uturn_left_circle_badge_ellipsis = SFSymbol(identifier: "arrow.uturn.left.circle.badge.ellipsis")
 }

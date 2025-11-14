@@ -6,31 +6,23 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 extension SFSymbol {
-	@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 	static public let rectangle_leadinghalf_filled = SFSymbol(identifier: "rectangle.leadinghalf.filled")
 
-	@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 	static public let rectangle_trailinghalf_filled = SFSymbol(identifier: "rectangle.trailinghalf.filled")
 
-	@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 	static public let airpods_gen3 = SFSymbol(identifier: "airpods.gen3")
 
-	@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 	static public let airpod_gen3_right = SFSymbol(identifier: "airpod.gen3.right")
 
-	@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 	static public let airpod_gen3_left = SFSymbol(identifier: "airpod.gen3.left")
 
-	@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 	static public let airpods_gen3_chargingcase_wireless = SFSymbol(identifier: "airpods.gen3.chargingcase.wireless")
 
-	@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 	static public let airpods_gen3_chargingcase_wireless_fill = SFSymbol(identifier: "airpods.gen3.chargingcase.wireless.fill")
 
-	@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 	static public let square_3_layers_3d_down_right_slash = SFSymbol(identifier: "square.3.layers.3d.down.right.slash")
 
-	@available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 	static public let square_3_layers_3d_down_left_slash = SFSymbol(identifier: "square.3.layers.3d.down.left.slash")
 }

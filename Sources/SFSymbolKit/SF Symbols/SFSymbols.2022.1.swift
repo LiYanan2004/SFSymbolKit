@@ -6,1057 +6,707 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 extension SFSymbol {
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let backpack_circle = SFSymbol(identifier: "backpack.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let backpack_circle_fill = SFSymbol(identifier: "backpack.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let person_crop_circle_dashed = SFSymbol(identifier: "person.crop.circle.dashed")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let figure_run_square_stack = SFSymbol(identifier: "figure.run.square.stack")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let figure_run_square_stack_fill = SFSymbol(identifier: "figure.run.square.stack.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let lane = SFSymbol(identifier: "lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `1_lane` = SFSymbol(identifier: "1.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `2_lane` = SFSymbol(identifier: "2.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `3_lane` = SFSymbol(identifier: "3.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `4_lane` = SFSymbol(identifier: "4.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `5_lane` = SFSymbol(identifier: "5.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `6_lane` = SFSymbol(identifier: "6.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `7_lane` = SFSymbol(identifier: "7.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `8_lane` = SFSymbol(identifier: "8.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `9_lane` = SFSymbol(identifier: "9.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `10_lane` = SFSymbol(identifier: "10.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `11_lane` = SFSymbol(identifier: "11.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `12_lane` = SFSymbol(identifier: "12.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let snowflake_slash = SFSymbol(identifier: "snowflake.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let play_square_stack = SFSymbol(identifier: "play.square.stack")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let play_square_stack_fill = SFSymbol(identifier: "play.square.stack.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let sos = SFSymbol(identifier: "sos")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let sos_circle = SFSymbol(identifier: "sos.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let sos_circle_fill = SFSymbol(identifier: "sos.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let bolt_trianglebadge_exclamationmark = SFSymbol(identifier: "bolt.trianglebadge.exclamationmark")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let bolt_trianglebadge_exclamationmark_fill = SFSymbol(identifier: "bolt.trianglebadge.exclamationmark.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let handbag = SFSymbol(identifier: "handbag")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let handbag_fill = SFSymbol(identifier: "handbag.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let cross_case_circle = SFSymbol(identifier: "cross.case.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let cross_case_circle_fill = SFSymbol(identifier: "cross.case.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suitcase_rolling = SFSymbol(identifier: "suitcase.rolling")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suitcase_rolling_fill = SFSymbol(identifier: "suitcase.rolling.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let toilet_circle = SFSymbol(identifier: "toilet.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let toilet_circle_fill = SFSymbol(identifier: "toilet.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tent_circle = SFSymbol(identifier: "tent.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tent_circle_fill = SFSymbol(identifier: "tent.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tent_2 = SFSymbol(identifier: "tent.2")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tent_2_fill = SFSymbol(identifier: "tent.2.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tent_2_circle = SFSymbol(identifier: "tent.2.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tent_2_circle_fill = SFSymbol(identifier: "tent.2.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let house_lodge = SFSymbol(identifier: "house.lodge")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let house_lodge_fill = SFSymbol(identifier: "house.lodge.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let house_lodge_circle = SFSymbol(identifier: "house.lodge.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let house_lodge_circle_fill = SFSymbol(identifier: "house.lodge.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let house_and_flag = SFSymbol(identifier: "house.and.flag")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let house_and_flag_fill = SFSymbol(identifier: "house.and.flag.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let house_and_flag_circle = SFSymbol(identifier: "house.and.flag.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let house_and_flag_circle_fill = SFSymbol(identifier: "house.and.flag.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_left_circle = SFSymbol(identifier: "signpost.left.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_left_circle_fill = SFSymbol(identifier: "signpost.left.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_right_circle = SFSymbol(identifier: "signpost.right.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_right_circle_fill = SFSymbol(identifier: "signpost.right.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_right_and_left = SFSymbol(identifier: "signpost.right.and.left")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_right_and_left_fill = SFSymbol(identifier: "signpost.right.and.left.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_right_and_left_circle = SFSymbol(identifier: "signpost.right.and.left.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_right_and_left_circle_fill = SFSymbol(identifier: "signpost.right.and.left.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_and_arrowtriangle_up = SFSymbol(identifier: "signpost.and.arrowtriangle.up")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_and_arrowtriangle_up_fill = SFSymbol(identifier: "signpost.and.arrowtriangle.up.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_and_arrowtriangle_up_circle = SFSymbol(identifier: "signpost.and.arrowtriangle.up.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let signpost_and_arrowtriangle_up_circle_fill = SFSymbol(identifier: "signpost.and.arrowtriangle.up.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mountain_2 = SFSymbol(identifier: "mountain.2")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mountain_2_fill = SFSymbol(identifier: "mountain.2.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mountain_2_circle = SFSymbol(identifier: "mountain.2.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mountain_2_circle_fill = SFSymbol(identifier: "mountain.2.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let lock_open_rotation = SFSymbol(identifier: "lock.open.rotation")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let key_radiowaves_forward = SFSymbol(identifier: "key.radiowaves.forward")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let key_radiowaves_forward_fill = SFSymbol(identifier: "key.radiowaves.forward.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let key_horizontal = SFSymbol(identifier: "key.horizontal")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let key_horizontal_fill = SFSymbol(identifier: "key.horizontal.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let questionmark_key_filled = SFSymbol(identifier: "questionmark.key.filled")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let laptopcomputer_slash = SFSymbol(identifier: "laptopcomputer.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let macbook_and_iphone = SFSymbol(identifier: "macbook.and.iphone")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let macbook_and_ipad = SFSymbol(identifier: "macbook.and.ipad")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1 = SFSymbol(identifier: "iphone.gen1")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_circle = SFSymbol(identifier: "iphone.gen1.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_circle_fill = SFSymbol(identifier: "iphone.gen1.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_landscape = SFSymbol(identifier: "iphone.gen1.landscape")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_radiowaves_left_and_right = SFSymbol(identifier: "iphone.gen1.radiowaves.left.and.right")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_radiowaves_left_and_right_circle = SFSymbol(identifier: "iphone.gen1.radiowaves.left.and.right.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_radiowaves_left_and_right_circle_fill = SFSymbol(identifier: "iphone.gen1.radiowaves.left.and.right.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_slash = SFSymbol(identifier: "iphone.gen1.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_slash_circle = SFSymbol(identifier: "iphone.gen1.slash.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_slash_circle_fill = SFSymbol(identifier: "iphone.gen1.slash.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen1_badge_play = SFSymbol(identifier: "iphone.gen1.badge.play")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2 = SFSymbol(identifier: "iphone.gen2")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_circle = SFSymbol(identifier: "iphone.gen2.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_circle_fill = SFSymbol(identifier: "iphone.gen2.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_landscape = SFSymbol(identifier: "iphone.gen2.landscape")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_radiowaves_left_and_right = SFSymbol(identifier: "iphone.gen2.radiowaves.left.and.right")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_radiowaves_left_and_right_circle = SFSymbol(identifier: "iphone.gen2.radiowaves.left.and.right.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_radiowaves_left_and_right_circle_fill = SFSymbol(identifier: "iphone.gen2.radiowaves.left.and.right.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_slash = SFSymbol(identifier: "iphone.gen2.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_slash_circle = SFSymbol(identifier: "iphone.gen2.slash.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_slash_circle_fill = SFSymbol(identifier: "iphone.gen2.slash.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen2_badge_play = SFSymbol(identifier: "iphone.gen2.badge.play")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3 = SFSymbol(identifier: "iphone.gen3")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_circle = SFSymbol(identifier: "iphone.gen3.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_circle_fill = SFSymbol(identifier: "iphone.gen3.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_landscape = SFSymbol(identifier: "iphone.gen3.landscape")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_radiowaves_left_and_right = SFSymbol(identifier: "iphone.gen3.radiowaves.left.and.right")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_radiowaves_left_and_right_circle = SFSymbol(identifier: "iphone.gen3.radiowaves.left.and.right.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_radiowaves_left_and_right_circle_fill = SFSymbol(identifier: "iphone.gen3.radiowaves.left.and.right.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_slash = SFSymbol(identifier: "iphone.gen3.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_slash_circle = SFSymbol(identifier: "iphone.gen3.slash.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_slash_circle_fill = SFSymbol(identifier: "iphone.gen3.slash.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let iphone_gen3_badge_play = SFSymbol(identifier: "iphone.gen3.badge.play")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let ipad_gen1 = SFSymbol(identifier: "ipad.gen1")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let ipad_gen1_badge_play = SFSymbol(identifier: "ipad.gen1.badge.play")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let ipad_gen1_landscape = SFSymbol(identifier: "ipad.gen1.landscape")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let ipad_gen1_landscape_badge_play = SFSymbol(identifier: "ipad.gen1.landscape.badge.play")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let ipad_gen2 = SFSymbol(identifier: "ipad.gen2")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let ipad_gen2_badge_play = SFSymbol(identifier: "ipad.gen2.badge.play")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let ipad_gen2_landscape = SFSymbol(identifier: "ipad.gen2.landscape")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let ipad_gen2_landscape_badge_play = SFSymbol(identifier: "ipad.gen2.landscape.badge.play")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_front_waves_up = SFSymbol(identifier: "car.front.waves.up")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_front_waves_up_fill = SFSymbol(identifier: "car.front.waves.up.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_rear = SFSymbol(identifier: "car.rear")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_rear_fill = SFSymbol(identifier: "car.rear.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_rear_waves_up = SFSymbol(identifier: "car.rear.waves.up")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_rear_waves_up_fill = SFSymbol(identifier: "car.rear.waves.up.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_rear_and_tire_marks = SFSymbol(identifier: "car.rear.and.tire.marks")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_rear_and_tire_marks_slash = SFSymbol(identifier: "car.rear.and.tire.marks.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let sailboat_circle = SFSymbol(identifier: "sailboat.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let sailboat_circle_fill = SFSymbol(identifier: "sailboat.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let stroller = SFSymbol(identifier: "stroller")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let stroller_fill = SFSymbol(identifier: "stroller.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let engine_combustion = SFSymbol(identifier: "engine.combustion")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let engine_combustion_fill = SFSymbol(identifier: "engine.combustion.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let headlight_fog = SFSymbol(identifier: "headlight.fog")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let headlight_fog_fill = SFSymbol(identifier: "headlight.fog.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let taillight_fog = SFSymbol(identifier: "taillight.fog")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let taillight_fog_fill = SFSymbol(identifier: "taillight.fog.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let headlight_daytime = SFSymbol(identifier: "headlight.daytime")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let headlight_daytime_fill = SFSymbol(identifier: "headlight.daytime.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let light_overhead_right = SFSymbol(identifier: "light.overhead.right")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let light_overhead_right_fill = SFSymbol(identifier: "light.overhead.right.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let light_overhead_left = SFSymbol(identifier: "light.overhead.left")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let light_overhead_left_fill = SFSymbol(identifier: "light.overhead.left.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let glowplug = SFSymbol(identifier: "glowplug")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let info_windshield = SFSymbol(identifier: "info.windshield")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let heat_element_windshield = SFSymbol(identifier: "heat.element.windshield")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_front_and_spray = SFSymbol(identifier: "windshield.front.and.spray")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_front_and_wiper_and_spray = SFSymbol(identifier: "windshield.front.and.wiper.and.spray")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_front_and_fluid_and_spray = SFSymbol(identifier: "windshield.front.and.fluid.and.spray")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_front_and_wiper_intermittent = SFSymbol(identifier: "windshield.front.and.wiper.intermittent")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_front_and_heat_waves = SFSymbol(identifier: "windshield.front.and.heat.waves")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_front_and_wiper_exclamationmark = SFSymbol(identifier: "windshield.front.and.wiper.exclamationmark")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_rear_and_spray = SFSymbol(identifier: "windshield.rear.and.spray")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_rear_and_wiper_and_spray = SFSymbol(identifier: "windshield.rear.and.wiper.and.spray")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_rear_and_fluid_and_spray = SFSymbol(identifier: "windshield.rear.and.fluid.and.spray")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_rear_and_wiper_intermittent = SFSymbol(identifier: "windshield.rear.and.wiper.intermittent")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_rear_and_wiper_and_drop = SFSymbol(identifier: "windshield.rear.and.wiper.and.drop")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_rear_and_heat_waves = SFSymbol(identifier: "windshield.rear.and.heat.waves")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let windshield_rear_and_wiper_exclamationmark = SFSymbol(identifier: "windshield.rear.and.wiper.exclamationmark")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mirror_side_left_and_heat_waves = SFSymbol(identifier: "mirror.side.left.and.heat.waves")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mirror_side_right_and_heat_waves = SFSymbol(identifier: "mirror.side.right.and.heat.waves")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mirror_side_left_and_arrow_turn_down_right = SFSymbol(identifier: "mirror.side.left.and.arrow.turn.down.right")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mirror_side_right_and_arrow_turn_down_left = SFSymbol(identifier: "mirror.side.right.and.arrow.turn.down.left")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `1_brakesignal` = SFSymbol(identifier: "1.brakesignal")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `2_brakesignal` = SFSymbol(identifier: "2.brakesignal")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let abs_brakesignal_slash = SFSymbol(identifier: "abs.brakesignal.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let hand_raised_brakesignal = SFSymbol(identifier: "hand.raised.brakesignal")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let hand_raised_brakesignal_slash = SFSymbol(identifier: "hand.raised.brakesignal.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let retarder_brakesignal = SFSymbol(identifier: "retarder.brakesignal")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let transmission = SFSymbol(identifier: "transmission")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let exclamationmark_transmission = SFSymbol(identifier: "exclamationmark.transmission")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let thermometer_transmission = SFSymbol(identifier: "thermometer.transmission")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let fluid_transmission = SFSymbol(identifier: "fluid.transmission")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let oilcan = SFSymbol(identifier: "oilcan")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let oilcan_fill = SFSymbol(identifier: "oilcan.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let figure_seated_seatbelt = SFSymbol(identifier: "figure.seated.seatbelt")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let figure_seated_seatbelt_and_airbag_on = SFSymbol(identifier: "figure.seated.seatbelt.and.airbag.on")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let figure_seated_seatbelt_and_airbag_off = SFSymbol(identifier: "figure.seated.seatbelt.and.airbag.off")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let hazardsign = SFSymbol(identifier: "hazardsign")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let hazardsign_fill = SFSymbol(identifier: "hazardsign.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let wrongwaysign = SFSymbol(identifier: "wrongwaysign")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let wrongwaysign_fill = SFSymbol(identifier: "wrongwaysign.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let thermometer_and_liquid_waves = SFSymbol(identifier: "thermometer.and.liquid.waves")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let steeringwheel = SFSymbol(identifier: "steeringwheel")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let steeringwheel_slash = SFSymbol(identifier: "steeringwheel.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let steeringwheel_and_heat_waves = SFSymbol(identifier: "steeringwheel.and.heat.waves")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let steeringwheel_exclamationmark = SFSymbol(identifier: "steeringwheel.exclamationmark")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let steeringwheel_and_key = SFSymbol(identifier: "steeringwheel.and.key")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side = SFSymbol(identifier: "car.side")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_fill = SFSymbol(identifier: "car.side.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_front_open = SFSymbol(identifier: "car.side.front.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_front_open_fill = SFSymbol(identifier: "car.side.front.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_rear_open = SFSymbol(identifier: "car.side.rear.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_rear_open_fill = SFSymbol(identifier: "car.side.rear.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_air_circulate = SFSymbol(identifier: "car.side.air.circulate")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_air_circulate_fill = SFSymbol(identifier: "car.side.air.circulate.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_air_fresh = SFSymbol(identifier: "car.side.air.fresh")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_air_fresh_fill = SFSymbol(identifier: "car.side.air.fresh.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_and_exclamationmark = SFSymbol(identifier: "car.side.and.exclamationmark")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_and_exclamationmark_fill = SFSymbol(identifier: "car.side.and.exclamationmark.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_arrowtriangle_up_arrowtriangle_down = SFSymbol(identifier: "car.side.arrowtriangle.up.arrowtriangle.down")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_arrowtriangle_up_arrowtriangle_down_fill = SFSymbol(identifier: "car.side.arrowtriangle.up.arrowtriangle.down.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_arrowtriangle_up = SFSymbol(identifier: "car.side.arrowtriangle.up")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_arrowtriangle_up_fill = SFSymbol(identifier: "car.side.arrowtriangle.up.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_arrowtriangle_down = SFSymbol(identifier: "car.side.arrowtriangle.down")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_side_arrowtriangle_down_fill = SFSymbol(identifier: "car.side.arrowtriangle.down.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side = SFSymbol(identifier: "suv.side")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_fill = SFSymbol(identifier: "suv.side.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_front_open = SFSymbol(identifier: "suv.side.front.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_front_open_fill = SFSymbol(identifier: "suv.side.front.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_rear_open = SFSymbol(identifier: "suv.side.rear.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_rear_open_fill = SFSymbol(identifier: "suv.side.rear.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_air_circulate = SFSymbol(identifier: "suv.side.air.circulate")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_air_circulate_fill = SFSymbol(identifier: "suv.side.air.circulate.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_air_fresh = SFSymbol(identifier: "suv.side.air.fresh")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_air_fresh_fill = SFSymbol(identifier: "suv.side.air.fresh.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_and_exclamationmark = SFSymbol(identifier: "suv.side.and.exclamationmark")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_and_exclamationmark_fill = SFSymbol(identifier: "suv.side.and.exclamationmark.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_arrowtriangle_up_arrowtriangle_down = SFSymbol(identifier: "suv.side.arrowtriangle.up.arrowtriangle.down")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_arrowtriangle_up_arrowtriangle_down_fill = SFSymbol(identifier: "suv.side.arrowtriangle.up.arrowtriangle.down.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_arrowtriangle_up = SFSymbol(identifier: "suv.side.arrowtriangle.up")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_arrowtriangle_up_fill = SFSymbol(identifier: "suv.side.arrowtriangle.up.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_arrowtriangle_down = SFSymbol(identifier: "suv.side.arrowtriangle.down")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let suv_side_arrowtriangle_down_fill = SFSymbol(identifier: "suv.side.arrowtriangle.down.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_open = SFSymbol(identifier: "car.top.door.front.left.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_open_fill = SFSymbol(identifier: "car.top.door.front.left.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_right_open = SFSymbol(identifier: "car.top.door.front.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_right_open_fill = SFSymbol(identifier: "car.top.door.front.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_rear_left_open = SFSymbol(identifier: "car.top.door.rear.left.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_rear_left_open_fill = SFSymbol(identifier: "car.top.door.rear.left.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_rear_right_open = SFSymbol(identifier: "car.top.door.rear.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_rear_right_open_fill = SFSymbol(identifier: "car.top.door.rear.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_front_right_open = SFSymbol(identifier: "car.top.door.front.left.and.front.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_front_right_open_fill = SFSymbol(identifier: "car.top.door.front.left.and.front.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_rear_left_and_rear_right_open = SFSymbol(identifier: "car.top.door.rear.left.and.rear.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_rear_left_and_rear_right_open_fill = SFSymbol(identifier: "car.top.door.rear.left.and.rear.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_rear_left_open = SFSymbol(identifier: "car.top.door.front.left.and.rear.left.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_rear_left_open_fill = SFSymbol(identifier: "car.top.door.front.left.and.rear.left.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_right_and_rear_right_open = SFSymbol(identifier: "car.top.door.front.right.and.rear.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_right_and_rear_right_open_fill = SFSymbol(identifier: "car.top.door.front.right.and.rear.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_rear_right_open = SFSymbol(identifier: "car.top.door.front.left.and.rear.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_rear_right_open_fill = SFSymbol(identifier: "car.top.door.front.left.and.rear.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_right_and_rear_left_open = SFSymbol(identifier: "car.top.door.front.right.and.rear.left.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_right_and_rear_left_open_fill = SFSymbol(identifier: "car.top.door.front.right.and.rear.left.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_front_right_and_rear_left_open = SFSymbol(identifier: "car.top.door.front.left.and.front.right.and.rear.left.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_front_right_and_rear_left_open_fill = SFSymbol(identifier: "car.top.door.front.left.and.front.right.and.rear.left.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_front_right_and_rear_right_open = SFSymbol(identifier: "car.top.door.front.left.and.front.right.and.rear.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_front_right_and_rear_right_open_fill = SFSymbol(identifier: "car.top.door.front.left.and.front.right.and.rear.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_rear_left_and_rear_right_open = SFSymbol(identifier: "car.top.door.front.left.and.rear.left.and.rear.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_rear_left_and_rear_right_open_fill = SFSymbol(identifier: "car.top.door.front.left.and.rear.left.and.rear.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_right_and_rear_left_and_rear_right_open = SFSymbol(identifier: "car.top.door.front.right.and.rear.left.and.rear.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_right_and_rear_left_and_rear_right_open_fill = SFSymbol(identifier: "car.top.door.front.right.and.rear.left.and.rear.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_front_right_and_rear_left_and_rear_right_open = SFSymbol(identifier: "car.top.door.front.left.and.front.right.and.rear.left.and.rear.right.open")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_door_front_left_and_front_right_and_rear_left_and_rear_right_open_fill = SFSymbol(identifier: "car.top.door.front.left.and.front.right.and.rear.left.and.rear.right.open.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_rear_right = SFSymbol(identifier: "car.top.radiowaves.rear.right")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_rear_right_fill = SFSymbol(identifier: "car.top.radiowaves.rear.right.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_rear_left = SFSymbol(identifier: "car.top.radiowaves.rear.left")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_rear_left_fill = SFSymbol(identifier: "car.top.radiowaves.rear.left.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_front = SFSymbol(identifier: "car.top.radiowaves.front")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_front_fill = SFSymbol(identifier: "car.top.radiowaves.front.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_rear = SFSymbol(identifier: "car.top.radiowaves.rear")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_rear_fill = SFSymbol(identifier: "car.top.radiowaves.rear.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_rear_left_and_rear_right = SFSymbol(identifier: "car.top.radiowaves.rear.left.and.rear.right")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_radiowaves_rear_left_and_rear_right_fill = SFSymbol(identifier: "car.top.radiowaves.rear.left.and.rear.right.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_lane_dashed_departure_left = SFSymbol(identifier: "car.top.lane.dashed.departure.left")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_lane_dashed_departure_left_fill = SFSymbol(identifier: "car.top.lane.dashed.departure.left.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_lane_dashed_departure_right = SFSymbol(identifier: "car.top.lane.dashed.departure.right")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_lane_dashed_departure_right_fill = SFSymbol(identifier: "car.top.lane.dashed.departure.right.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_lane_dashed_arrowtriangle_inward = SFSymbol(identifier: "car.top.lane.dashed.arrowtriangle.inward")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_lane_dashed_arrowtriangle_inward_fill = SFSymbol(identifier: "car.top.lane.dashed.arrowtriangle.inward.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_lane_dashed_badge_steeringwheel = SFSymbol(identifier: "car.top.lane.dashed.badge.steeringwheel")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_top_lane_dashed_badge_steeringwheel_fill = SFSymbol(identifier: "car.top.lane.dashed.badge.steeringwheel.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let autostartstop = SFSymbol(identifier: "autostartstop")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let autostartstop_slash = SFSymbol(identifier: "autostartstop.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let autostartstop_trianglebadge_exclamationmark = SFSymbol(identifier: "autostartstop.trianglebadge.exclamationmark")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let batteryblock = SFSymbol(identifier: "batteryblock")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let batteryblock_fill = SFSymbol(identifier: "batteryblock.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let batteryblock_slash = SFSymbol(identifier: "batteryblock.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let batteryblock_slash_fill = SFSymbol(identifier: "batteryblock.slash.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let minus_plus_batteryblock_slash = SFSymbol(identifier: "minus.plus.batteryblock.slash")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let minus_plus_batteryblock_slash_fill = SFSymbol(identifier: "minus.plus.batteryblock.slash.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let minus_plus_and_fluid_batteryblock = SFSymbol(identifier: "minus.plus.and.fluid.batteryblock")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let minus_plus_batteryblock_exclamationmark = SFSymbol(identifier: "minus.plus.batteryblock.exclamationmark")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let minus_plus_batteryblock_exclamationmark_fill = SFSymbol(identifier: "minus.plus.batteryblock.exclamationmark.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let minus_plus_batteryblock_stack = SFSymbol(identifier: "minus.plus.batteryblock.stack")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let minus_plus_batteryblock_stack_fill = SFSymbol(identifier: "minus.plus.batteryblock.stack.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let minus_plus_batteryblock_stack_exclamationmark = SFSymbol(identifier: "minus.plus.batteryblock.stack.exclamationmark")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let minus_plus_batteryblock_stack_exclamationmark_fill = SFSymbol(identifier: "minus.plus.batteryblock.stack.exclamationmark.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let road_lane_arrowtriangle_2_inward = SFSymbol(identifier: "road.lane.arrowtriangle.2.inward")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_rear_road_lane = SFSymbol(identifier: "car.rear.road.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let car_rear_road_lane_dashed = SFSymbol(identifier: "car.rear.road.lane.dashed")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let snowflake_road_lane = SFSymbol(identifier: "snowflake.road.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let snowflake_road_lane_dashed = SFSymbol(identifier: "snowflake.road.lane.dashed")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let steeringwheel_road_lane = SFSymbol(identifier: "steeringwheel.road.lane")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let steeringwheel_road_lane_dashed = SFSymbol(identifier: "steeringwheel.road.lane.dashed")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let abs = SFSymbol(identifier: "abs")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let abs_circle = SFSymbol(identifier: "abs.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let abs_circle_fill = SFSymbol(identifier: "abs.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mph = SFSymbol(identifier: "mph")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mph_circle = SFSymbol(identifier: "mph.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mph_circle_fill = SFSymbol(identifier: "mph.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let kph = SFSymbol(identifier: "kph")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let kph_circle = SFSymbol(identifier: "kph.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let kph_circle_fill = SFSymbol(identifier: "kph.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let fish_circle = SFSymbol(identifier: "fish.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let fish_circle_fill = SFSymbol(identifier: "fish.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tree = SFSymbol(identifier: "tree")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tree_fill = SFSymbol(identifier: "tree.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tree_circle = SFSymbol(identifier: "tree.circle")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let tree_circle_fill = SFSymbol(identifier: "tree.circle.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let hand_raised_app = SFSymbol(identifier: "hand.raised.app")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let hand_raised_app_fill = SFSymbol(identifier: "hand.raised.app.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let ellipsis_viewfinder = SFSymbol(identifier: "ellipsis.viewfinder")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mug = SFSymbol(identifier: "mug")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let mug_fill = SFSymbol(identifier: "mug.fill")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let chart_dots_scatter = SFSymbol(identifier: "chart.dots.scatter")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `0_circle_ar` = SFSymbol(identifier: "0.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `0_circle_fill_ar` = SFSymbol(identifier: "0.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `0_square_ar` = SFSymbol(identifier: "0.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `0_square_fill_ar` = SFSymbol(identifier: "0.square.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `1_circle_ar` = SFSymbol(identifier: "1.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `1_circle_fill_ar` = SFSymbol(identifier: "1.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `1_square_ar` = SFSymbol(identifier: "1.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `1_square_fill_ar` = SFSymbol(identifier: "1.square.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `2_circle_ar` = SFSymbol(identifier: "2.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `2_circle_fill_ar` = SFSymbol(identifier: "2.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `2_square_ar` = SFSymbol(identifier: "2.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `2_square_fill_ar` = SFSymbol(identifier: "2.square.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `3_circle_ar` = SFSymbol(identifier: "3.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `3_circle_fill_ar` = SFSymbol(identifier: "3.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `3_square_ar` = SFSymbol(identifier: "3.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `3_square_fill_ar` = SFSymbol(identifier: "3.square.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `4_circle_ar` = SFSymbol(identifier: "4.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `4_circle_fill_ar` = SFSymbol(identifier: "4.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `4_square_ar` = SFSymbol(identifier: "4.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `4_square_fill_ar` = SFSymbol(identifier: "4.square.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `5_circle_ar` = SFSymbol(identifier: "5.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `5_circle_fill_ar` = SFSymbol(identifier: "5.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `5_square_ar` = SFSymbol(identifier: "5.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `5_square_fill_ar` = SFSymbol(identifier: "5.square.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `6_circle_ar` = SFSymbol(identifier: "6.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `6_circle_fill_ar` = SFSymbol(identifier: "6.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `6_square_ar` = SFSymbol(identifier: "6.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `6_square_fill_ar` = SFSymbol(identifier: "6.square.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `7_circle_ar` = SFSymbol(identifier: "7.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `7_circle_fill_ar` = SFSymbol(identifier: "7.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `7_square_ar` = SFSymbol(identifier: "7.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `7_square_fill_ar` = SFSymbol(identifier: "7.square.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `8_circle_ar` = SFSymbol(identifier: "8.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `8_circle_fill_ar` = SFSymbol(identifier: "8.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `8_square_ar` = SFSymbol(identifier: "8.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `8_square_fill_ar` = SFSymbol(identifier: "8.square.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `9_circle_ar` = SFSymbol(identifier: "9.circle.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `9_circle_fill_ar` = SFSymbol(identifier: "9.circle.fill.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `9_square_ar` = SFSymbol(identifier: "9.square.ar")
 
-	@available(iOS 16.1, macOS 13.0, tvOS 16.1, visionOS 1.0, watchOS 9.1, *)
 	static public let `9_square_fill_ar` = SFSymbol(identifier: "9.square.fill.ar")
 }

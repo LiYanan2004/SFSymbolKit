@@ -6,22 +6,17 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 15.4, macOS 12.3, tvOS 15.4, visionOS 1.0, watchOS 8.5, *)
 extension SFSymbol {
-	@available(iOS 15.4, macOS 12.3, tvOS 15.4, visionOS 1.0, watchOS 8.5, *)
 	static public let person_badge_key = SFSymbol(identifier: "person.badge.key")
 
-	@available(iOS 15.4, macOS 12.3, tvOS 15.4, visionOS 1.0, watchOS 8.5, *)
 	static public let person_badge_key_fill = SFSymbol(identifier: "person.badge.key.fill")
 
-	@available(iOS 15.4, macOS 12.3, tvOS 15.4, visionOS 1.0, watchOS 8.5, *)
 	static public let camera_macro = SFSymbol(identifier: "camera.macro")
 
-	@available(iOS 15.4, macOS 12.3, tvOS 15.4, visionOS 1.0, watchOS 8.5, *)
 	static public let camera_macro_circle = SFSymbol(identifier: "camera.macro.circle")
 
-	@available(iOS 15.4, macOS 12.3, tvOS 15.4, visionOS 1.0, watchOS 8.5, *)
 	static public let camera_macro_circle_fill = SFSymbol(identifier: "camera.macro.circle.fill")
 
-	@available(iOS 15.4, macOS 12.3, tvOS 15.4, visionOS 1.0, watchOS 8.5, *)
 	static public let key_viewfinder = SFSymbol(identifier: "key.viewfinder")
 }

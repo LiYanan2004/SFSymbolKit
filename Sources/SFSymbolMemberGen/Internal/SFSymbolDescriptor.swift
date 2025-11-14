@@ -22,16 +22,9 @@ extension SFSymbolDescriptor {
             let propertyIdentifier = identifier.replacingOccurrences(of: ".", with: "_")
             let validIdentifier = propertyIdentifier.isValidSwiftIdentifier(for: .variableName) ? propertyIdentifier : "`\(propertyIdentifier)`"
             
-            let attributeList = AttributeListSyntax {
-                AttributeSyntax(
-                    "@available(\(raw: availablePlatforms.joined(separator: ", ")), *)"
-                ).with(\.trailingTrivia, .newline + .tab)
-            }
-            
             return try VariableDeclSyntax("""
             static public let \(raw: validIdentifier) = SFSymbol(identifier: \"\(raw: self.identifier)\")
             """)
-            .with(\.attributes, attributeList)
             .with(\.leadingTrivia, .newline + .tab)
             .with(\.trailingTrivia, .newline)
         }

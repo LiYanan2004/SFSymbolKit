@@ -6,712 +6,477 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 extension SFSymbol {
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let square_and_arrow_up_badge_checkmark = SFSymbol(identifier: "square.and.arrow.up.badge.checkmark")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let square_and_arrow_up_badge_checkmark_fill = SFSymbol(identifier: "square.and.arrow.up.badge.checkmark.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let long_text_page_and_pencil = SFSymbol(identifier: "long.text.page.and.pencil")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let long_text_page_and_pencil_fill = SFSymbol(identifier: "long.text.page.and.pencil.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let info_circle_text_page = SFSymbol(identifier: "info.circle.text.page")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let info_circle_text_page_fill = SFSymbol(identifier: "info.circle.text.page.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let info_circle_text_page_rtl = SFSymbol(identifier: "info.circle.text.page.rtl")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let info_circle_text_page_fill_rtl = SFSymbol(identifier: "info.circle.text.page.fill.rtl")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let person_checkmark_and_xmark = SFSymbol(identifier: "person.checkmark.and.xmark")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let person_fill_checkmark_and_xmark = SFSymbol(identifier: "person.fill.checkmark.and.xmark")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let person_checkmark_and_xmark_rtl = SFSymbol(identifier: "person.checkmark.and.xmark.rtl")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let person_fill_checkmark_and_xmark_rtl = SFSymbol(identifier: "person.fill.checkmark.and.xmark.rtl")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let memories_slash = SFSymbol(identifier: "memories.slash")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let plus_minus_capsule = SFSymbol(identifier: "plus.minus.capsule")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let plus_minus_capsule_fill = SFSymbol(identifier: "plus.minus.capsule.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let star_hexagon = SFSymbol(identifier: "star.hexagon")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let star_hexagon_fill = SFSymbol(identifier: "star.hexagon.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let flag_pattern_checkered_lc = SFSymbol(identifier: "flag.pattern.checkered.lc")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let envelope_and_arrow_3_down = SFSymbol(identifier: "envelope.and.arrow.3.down")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let envelope_and_arrow_3_down_fill = SFSymbol(identifier: "envelope.and.arrow.3.down.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let nosign_badge_clock = SFSymbol(identifier: "nosign.badge.clock")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let robotic_vacuum_and_ellipsis = SFSymbol(identifier: "robotic.vacuum.and.ellipsis")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let robotic_vacuum_and_ellipsis_fill = SFSymbol(identifier: "robotic.vacuum.and.ellipsis.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let robotic_vacuum_and_arrowtriangle_up = SFSymbol(identifier: "robotic.vacuum.and.arrowtriangle.up")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let robotic_vacuum_and_arrowtriangle_up_fill = SFSymbol(identifier: "robotic.vacuum.and.arrowtriangle.up.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let macmini_gen2 = SFSymbol(identifier: "macmini.gen2")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let macmini_gen2_fill = SFSymbol(identifier: "macmini.gen2.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let macmini_gen3 = SFSymbol(identifier: "macmini.gen3")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let macmini_gen3_fill = SFSymbol(identifier: "macmini.gen3.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_side_arrow_left_and_right = SFSymbol(identifier: "car.side.arrow.left.and.right")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_side_arrow_left_and_right_fill = SFSymbol(identifier: "car.side.arrow.left.and.right.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let key_car_side = SFSymbol(identifier: "key.car.side")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let key_car_side_fill = SFSymbol(identifier: "key.car.side.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let suv_side_arrow_left_and_right = SFSymbol(identifier: "suv.side.arrow.left.and.right")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let suv_side_arrow_left_and_right_fill = SFSymbol(identifier: "suv.side.arrow.left.and.right.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let key_suv_side = SFSymbol(identifier: "key.suv.side")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let key_suv_side_fill = SFSymbol(identifier: "key.suv.side.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let truck_pickup_side_arrow_left_and_right = SFSymbol(identifier: "truck.pickup.side.arrow.left.and.right")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let truck_pickup_side_arrow_left_and_right_fill = SFSymbol(identifier: "truck.pickup.side.arrow.left.and.right.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let key_truck_pickup_side = SFSymbol(identifier: "key.truck.pickup.side")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let key_truck_pickup_side_fill = SFSymbol(identifier: "key.truck.pickup.side.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let convertible_side_arrow_left_and_right = SFSymbol(identifier: "convertible.side.arrow.left.and.right")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let convertible_side_arrow_left_and_right_fill = SFSymbol(identifier: "convertible.side.arrow.left.and.right.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let key_convertible_side = SFSymbol(identifier: "key.convertible.side")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let key_convertible_side_fill = SFSymbol(identifier: "key.convertible.side.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle = SFSymbol(identifier: "car.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle_fill = SFSymbol(identifier: "car.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let suv_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle = SFSymbol(identifier: "suv.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let suv_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle_fill = SFSymbol(identifier: "suv.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let truck_pickup_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle = SFSymbol(identifier: "truck.pickup.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let truck_pickup_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle_fill = SFSymbol(identifier: "truck.pickup.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let convertible_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle = SFSymbol(identifier: "convertible.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let convertible_side_hill_down_and_gauge_open_with_lines_needle_25percent_and_arrowtriangle_fill = SFSymbol(identifier: "convertible.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_side_rear_and_collision_and_car_side_front_and_arrow_forward = SFSymbol(identifier: "car.side.rear.and.collision.and.car.side.front.and.arrow.forward")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_side_rear_and_collision_and_car_side_front_and_steeringwheel = SFSymbol(identifier: "car.side.rear.and.collision.and.car.side.front.and.steeringwheel")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_top_lane_dashed_departure_left_slash = SFSymbol(identifier: "car.top.lane.dashed.departure.left.slash")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_top_lane_dashed_departure_left_slash_fill = SFSymbol(identifier: "car.top.lane.dashed.departure.left.slash.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_top_lane_dashed_departure_right_slash = SFSymbol(identifier: "car.top.lane.dashed.departure.right.slash")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let car_top_lane_dashed_departure_right_slash_fill = SFSymbol(identifier: "car.top.lane.dashed.departure.right.slash.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let minus_plus_batteryblock_stack_arrowtriangle_right = SFSymbol(identifier: "minus.plus.batteryblock.stack.arrowtriangle.right")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let minus_plus_batteryblock_stack_arrowtriangle_right_fill = SFSymbol(identifier: "minus.plus.batteryblock.stack.arrowtriangle.right.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let minus_plus_batteryblock_stack_arrowtriangle_left = SFSymbol(identifier: "minus.plus.batteryblock.stack.arrowtriangle.left")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let minus_plus_batteryblock_stack_arrowtriangle_left_fill = SFSymbol(identifier: "minus.plus.batteryblock.stack.arrowtriangle.left.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let minus_plus_batteryblock_stack_arrowtriangle_right_and_arrowtriangle_left = SFSymbol(identifier: "minus.plus.batteryblock.stack.arrowtriangle.right.and.arrowtriangle.left")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let minus_plus_batteryblock_stack_arrowtriangle_right_and_arrowtriangle_left_fill = SFSymbol(identifier: "minus.plus.batteryblock.stack.arrowtriangle.right.and.arrowtriangle.left.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let fuel_filter_water = SFSymbol(identifier: "fuel.filter.water")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let road_lane_arrowtriangle_2_outward = SFSymbol(identifier: "road.lane.arrowtriangle.2.outward")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let engine_emission_and_drop_2_water_wave_below = SFSymbol(identifier: "engine.emission.and.drop.2.water.wave.below")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let electronic_toll_collection = SFSymbol(identifier: "electronic.toll.collection")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let electronic_toll_collection_rectangle = SFSymbol(identifier: "electronic.toll.collection.rectangle")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let electronic_toll_collection_rectangle_fill = SFSymbol(identifier: "electronic.toll.collection.rectangle.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let electronic_toll_collection_rectangle_slash = SFSymbol(identifier: "electronic.toll.collection.rectangle.slash")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let electronic_toll_collection_rectangle_slash_fill = SFSymbol(identifier: "electronic.toll.collection.rectangle.slash.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let electronic_toll_collection_rectangle_trianglebadge_exclamationmark = SFSymbol(identifier: "electronic.toll.collection.rectangle.trianglebadge.exclamationmark")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let electronic_toll_collection_rectangle_trianglebadge_exclamationmark_fill = SFSymbol(identifier: "electronic.toll.collection.rectangle.trianglebadge.exclamationmark.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let hydrogen = SFSymbol(identifier: "hydrogen")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let hydrogen_circle = SFSymbol(identifier: "hydrogen.circle")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let hydrogen_circle_fill = SFSymbol(identifier: "hydrogen.circle.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let hydrogen_square = SFSymbol(identifier: "hydrogen.square")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let hydrogen_square_fill = SFSymbol(identifier: "hydrogen.square.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let photo_badge_shield_exclamationmark = SFSymbol(identifier: "photo.badge.shield.exclamationmark")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let photo_badge_shield_exclamationmark_fill = SFSymbol(identifier: "photo.badge.shield.exclamationmark.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let photo_trianglebadge_exclamationmark = SFSymbol(identifier: "photo.trianglebadge.exclamationmark")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let photo_trianglebadge_exclamationmark_fill = SFSymbol(identifier: "photo.trianglebadge.exclamationmark.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let spoon_serving = SFSymbol(identifier: "spoon.serving")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let squareshape_split_2x2_dotted_inside_and_outside = SFSymbol(identifier: "squareshape.split.2x2.dotted.inside.and.outside")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let squareshape_split_2x2_dotted_inside = SFSymbol(identifier: "squareshape.split.2x2.dotted.inside")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let squareshape_split_2x2_dotted_outside = SFSymbol(identifier: "squareshape.split.2x2.dotted.outside")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_bn = SFSymbol(identifier: "textformat.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_mr = SFSymbol(identifier: "textformat.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_gu = SFSymbol(identifier: "textformat.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_pa = SFSymbol(identifier: "textformat.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_kn = SFSymbol(identifier: "textformat.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_ml = SFSymbol(identifier: "textformat.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_mni = SFSymbol(identifier: "textformat.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_or = SFSymbol(identifier: "textformat.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_sat = SFSymbol(identifier: "textformat.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_si = SFSymbol(identifier: "textformat.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_ta = SFSymbol(identifier: "textformat.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_te = SFSymbol(identifier: "textformat.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_bn = SFSymbol(identifier: "textformat.alt.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_mr = SFSymbol(identifier: "textformat.alt.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_gu = SFSymbol(identifier: "textformat.alt.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_pa = SFSymbol(identifier: "textformat.alt.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_kn = SFSymbol(identifier: "textformat.alt.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_ml = SFSymbol(identifier: "textformat.alt.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_mni = SFSymbol(identifier: "textformat.alt.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_or = SFSymbol(identifier: "textformat.alt.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_sat = SFSymbol(identifier: "textformat.alt.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_si = SFSymbol(identifier: "textformat.alt.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_ta = SFSymbol(identifier: "textformat.alt.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_alt_te = SFSymbol(identifier: "textformat.alt.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_bn = SFSymbol(identifier: "textformat.superscript.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_mr = SFSymbol(identifier: "textformat.superscript.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_gu = SFSymbol(identifier: "textformat.superscript.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_pa = SFSymbol(identifier: "textformat.superscript.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_kn = SFSymbol(identifier: "textformat.superscript.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_ml = SFSymbol(identifier: "textformat.superscript.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_mni = SFSymbol(identifier: "textformat.superscript.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_or = SFSymbol(identifier: "textformat.superscript.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_sat = SFSymbol(identifier: "textformat.superscript.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_si = SFSymbol(identifier: "textformat.superscript.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_ta = SFSymbol(identifier: "textformat.superscript.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_superscript_te = SFSymbol(identifier: "textformat.superscript.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_bn = SFSymbol(identifier: "textformat.subscript.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_mr = SFSymbol(identifier: "textformat.subscript.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_gu = SFSymbol(identifier: "textformat.subscript.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_pa = SFSymbol(identifier: "textformat.subscript.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_kn = SFSymbol(identifier: "textformat.subscript.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_ml = SFSymbol(identifier: "textformat.subscript.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_mni = SFSymbol(identifier: "textformat.subscript.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_or = SFSymbol(identifier: "textformat.subscript.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_sat = SFSymbol(identifier: "textformat.subscript.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_si = SFSymbol(identifier: "textformat.subscript.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_ta = SFSymbol(identifier: "textformat.subscript.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_subscript_te = SFSymbol(identifier: "textformat.subscript.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_bn = SFSymbol(identifier: "textformat.characters.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_mr = SFSymbol(identifier: "textformat.characters.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_gu = SFSymbol(identifier: "textformat.characters.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_pa = SFSymbol(identifier: "textformat.characters.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_kn = SFSymbol(identifier: "textformat.characters.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_ml = SFSymbol(identifier: "textformat.characters.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_mni = SFSymbol(identifier: "textformat.characters.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_or = SFSymbol(identifier: "textformat.characters.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_sat = SFSymbol(identifier: "textformat.characters.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_si = SFSymbol(identifier: "textformat.characters.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_ta = SFSymbol(identifier: "textformat.characters.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_te = SFSymbol(identifier: "textformat.characters.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_bn = SFSymbol(identifier: "textformat.characters.dottedunderline.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_mr = SFSymbol(identifier: "textformat.characters.dottedunderline.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_gu = SFSymbol(identifier: "textformat.characters.dottedunderline.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_pa = SFSymbol(identifier: "textformat.characters.dottedunderline.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_kn = SFSymbol(identifier: "textformat.characters.dottedunderline.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_ml = SFSymbol(identifier: "textformat.characters.dottedunderline.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_mni = SFSymbol(identifier: "textformat.characters.dottedunderline.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_or = SFSymbol(identifier: "textformat.characters.dottedunderline.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_sat = SFSymbol(identifier: "textformat.characters.dottedunderline.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_si = SFSymbol(identifier: "textformat.characters.dottedunderline.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_ta = SFSymbol(identifier: "textformat.characters.dottedunderline.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_dottedunderline_te = SFSymbol(identifier: "textformat.characters.dottedunderline.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_bn = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_mr = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_gu = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_pa = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_kn = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_ml = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_mni = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_or = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_sat = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_si = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_ta = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let textformat_characters_arrow_left_and_right_te = SFSymbol(identifier: "textformat.characters.arrow.left.and.right.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_bn = SFSymbol(identifier: "character.cursor.ibeam.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_mr = SFSymbol(identifier: "character.cursor.ibeam.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_gu = SFSymbol(identifier: "character.cursor.ibeam.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_pa = SFSymbol(identifier: "character.cursor.ibeam.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_kn = SFSymbol(identifier: "character.cursor.ibeam.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_ml = SFSymbol(identifier: "character.cursor.ibeam.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_mni = SFSymbol(identifier: "character.cursor.ibeam.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_or = SFSymbol(identifier: "character.cursor.ibeam.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_sat = SFSymbol(identifier: "character.cursor.ibeam.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_si = SFSymbol(identifier: "character.cursor.ibeam.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_ta = SFSymbol(identifier: "character.cursor.ibeam.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_cursor_ibeam_te = SFSymbol(identifier: "character.cursor.ibeam.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let function_ar = SFSymbol(identifier: "function.ar")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_bn = SFSymbol(identifier: "character.textbox.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_mr = SFSymbol(identifier: "character.textbox.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_gu = SFSymbol(identifier: "character.textbox.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_pa = SFSymbol(identifier: "character.textbox.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_kn = SFSymbol(identifier: "character.textbox.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_ml = SFSymbol(identifier: "character.textbox.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_mni = SFSymbol(identifier: "character.textbox.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_or = SFSymbol(identifier: "character.textbox.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_sat = SFSymbol(identifier: "character.textbox.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_si = SFSymbol(identifier: "character.textbox.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_ta = SFSymbol(identifier: "character.textbox.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_te = SFSymbol(identifier: "character.textbox.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles = SFSymbol(identifier: "character.textbox.badge.sparkles")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_ar = SFSymbol(identifier: "character.textbox.badge.sparkles.ar")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_he = SFSymbol(identifier: "character.textbox.badge.sparkles.he")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_th = SFSymbol(identifier: "character.textbox.badge.sparkles.th")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_zh = SFSymbol(identifier: "character.textbox.badge.sparkles.zh")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_ja = SFSymbol(identifier: "character.textbox.badge.sparkles.ja")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_ko = SFSymbol(identifier: "character.textbox.badge.sparkles.ko")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_hi = SFSymbol(identifier: "character.textbox.badge.sparkles.hi")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_bn = SFSymbol(identifier: "character.textbox.badge.sparkles.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_mr = SFSymbol(identifier: "character.textbox.badge.sparkles.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_gu = SFSymbol(identifier: "character.textbox.badge.sparkles.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_pa = SFSymbol(identifier: "character.textbox.badge.sparkles.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_kn = SFSymbol(identifier: "character.textbox.badge.sparkles.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_ml = SFSymbol(identifier: "character.textbox.badge.sparkles.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_mni = SFSymbol(identifier: "character.textbox.badge.sparkles.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_or = SFSymbol(identifier: "character.textbox.badge.sparkles.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_sat = SFSymbol(identifier: "character.textbox.badge.sparkles.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_si = SFSymbol(identifier: "character.textbox.badge.sparkles.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_ta = SFSymbol(identifier: "character.textbox.badge.sparkles.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_textbox_badge_sparkles_te = SFSymbol(identifier: "character.textbox.badge.sparkles.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_bn = SFSymbol(identifier: "character.magnify.bn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_mr = SFSymbol(identifier: "character.magnify.mr")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_gu = SFSymbol(identifier: "character.magnify.gu")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_pa = SFSymbol(identifier: "character.magnify.pa")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_kn = SFSymbol(identifier: "character.magnify.kn")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_ml = SFSymbol(identifier: "character.magnify.ml")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_mni = SFSymbol(identifier: "character.magnify.mni")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_or = SFSymbol(identifier: "character.magnify.or")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_sat = SFSymbol(identifier: "character.magnify.sat")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_si = SFSymbol(identifier: "character.magnify.si")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_ta = SFSymbol(identifier: "character.magnify.ta")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let character_magnify_te = SFSymbol(identifier: "character.magnify.te")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let pi = SFSymbol(identifier: "pi")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let pi_circle = SFSymbol(identifier: "pi.circle")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let pi_circle_fill = SFSymbol(identifier: "pi.circle.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let pi_square = SFSymbol(identifier: "pi.square")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let pi_square_fill = SFSymbol(identifier: "pi.square.fill")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let arrow_backward_to_line_compact = SFSymbol(identifier: "arrow.backward.to.line.compact")
 
-	@available(iOS 18.4, macOS 15.4, tvOS 18.4, visionOS 2.4, watchOS 11.4, *)
 	static public let arrow_forward_to_line_compact = SFSymbol(identifier: "arrow.forward.to.line.compact")
 }

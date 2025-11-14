@@ -6,73 +6,51 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 extension SFSymbol {
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let apple_terminal_circle = SFSymbol(identifier: "apple.terminal.circle")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let apple_terminal_circle_fill = SFSymbol(identifier: "apple.terminal.circle.fill")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let plus_circle_dashed = SFSymbol(identifier: "plus.circle.dashed")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let arrow_down_app_dashed = SFSymbol(identifier: "arrow.down.app.dashed")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let arrow_down_app_dashed_trianglebadge_exclamationmark = SFSymbol(identifier: "arrow.down.app.dashed.trianglebadge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let medal_star = SFSymbol(identifier: "medal.star")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let medal_star_fill = SFSymbol(identifier: "medal.star.fill")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let translate = SFSymbol(identifier: "translate")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let iphone_gen1_badge_exclamationmark = SFSymbol(identifier: "iphone.gen1.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let iphone_gen2_badge_exclamationmark = SFSymbol(identifier: "iphone.gen2.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let iphone_gen3_badge_exclamationmark = SFSymbol(identifier: "iphone.gen3.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let iphone_badge_exclamationmark = SFSymbol(identifier: "iphone.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let ipad_gen1_badge_exclamationmark = SFSymbol(identifier: "ipad.gen1.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let ipad_gen1_landscape_badge_exclamationmark = SFSymbol(identifier: "ipad.gen1.landscape.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let ipad_gen2_badge_exclamationmark = SFSymbol(identifier: "ipad.gen2.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let ipad_gen2_landscape_badge_exclamationmark = SFSymbol(identifier: "ipad.gen2.landscape.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let ipad_badge_exclamationmark = SFSymbol(identifier: "ipad.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let ipad_landscape_badge_exclamationmark = SFSymbol(identifier: "ipad.landscape.badge.exclamationmark")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let audio_jack_stereo = SFSymbol(identifier: "audio.jack.stereo")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let audio_jack_mono = SFSymbol(identifier: "audio.jack.mono")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let apple_meditate = SFSymbol(identifier: "apple.meditate")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let apple_meditate_square_stack = SFSymbol(identifier: "apple.meditate.square.stack")
 
-	@available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 	static public let apple_meditate_square_stack_fill = SFSymbol(identifier: "apple.meditate.square.stack.fill")
 }

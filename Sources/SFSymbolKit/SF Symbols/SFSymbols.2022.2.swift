@@ -6,100 +6,69 @@
 //  swift-format-ignore-file
 
 @_documentation(visibility: internal)
+@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 extension SFSymbol {
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `1_lane_ar` = SFSymbol(identifier: "1.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `2_lane_ar` = SFSymbol(identifier: "2.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `3_lane_ar` = SFSymbol(identifier: "3.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `4_lane_ar` = SFSymbol(identifier: "4.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `5_lane_ar` = SFSymbol(identifier: "5.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `6_lane_ar` = SFSymbol(identifier: "6.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `7_lane_ar` = SFSymbol(identifier: "7.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `8_lane_ar` = SFSymbol(identifier: "8.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `9_lane_ar` = SFSymbol(identifier: "9.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `10_lane_ar` = SFSymbol(identifier: "10.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `11_lane_ar` = SFSymbol(identifier: "11.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `12_lane_ar` = SFSymbol(identifier: "12.lane.ar")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `1_lane_hi` = SFSymbol(identifier: "1.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `2_lane_hi` = SFSymbol(identifier: "2.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `3_lane_hi` = SFSymbol(identifier: "3.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `4_lane_hi` = SFSymbol(identifier: "4.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `5_lane_hi` = SFSymbol(identifier: "5.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `6_lane_hi` = SFSymbol(identifier: "6.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `7_lane_hi` = SFSymbol(identifier: "7.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `8_lane_hi` = SFSymbol(identifier: "8.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `9_lane_hi` = SFSymbol(identifier: "9.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `10_lane_hi` = SFSymbol(identifier: "10.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `11_lane_hi` = SFSymbol(identifier: "11.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let `12_lane_hi` = SFSymbol(identifier: "12.lane.hi")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let beats_powerbeats_right = SFSymbol(identifier: "beats.powerbeats.right")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let beats_powerbeats_left = SFSymbol(identifier: "beats.powerbeats.left")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let beats_powerbeats3_right = SFSymbol(identifier: "beats.powerbeats3.right")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let beats_powerbeats3_left = SFSymbol(identifier: "beats.powerbeats3.left")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let axle_2 = SFSymbol(identifier: "axle.2")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let axle_2_front_engaged = SFSymbol(identifier: "axle.2.front.engaged")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let axle_2_rear_engaged = SFSymbol(identifier: "axle.2.rear.engaged")
 
-	@available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 	static public let axle_2_front_and_rear_engaged = SFSymbol(identifier: "axle.2.front.and.rear.engaged")
 }
