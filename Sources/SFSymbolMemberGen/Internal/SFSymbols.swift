@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SFSymbols
 
 internal enum SFSymbols_Private {    
     static internal let allSymbolDescriptors: [SFSymbolDescriptor] = {
@@ -59,6 +60,12 @@ internal enum SFSymbols_Private {
             ) as? [String : [String]]
         }
         
+        let store = SymbolMetadataStore.system
+        let csvRowsByName = Mirror(reflecting: store).descendant("csvRowsByName") as! [String : Any]
+        let privateScalarByName: [String : UnicodeScalar] = csvRowsByName.mapValues({ csvRow in
+            Mirror(reflecting: csvRow).descendant("privateScalar") as! UnicodeScalar
+        })
+        
         return symbols.compactMap { symbolName -> SFSymbolDescriptor? in
             guard let availability = symbolAvailabilityDict[symbolName] else {
                 return nil
@@ -69,6 +76,7 @@ internal enum SFSymbols_Private {
             return SFSymbolDescriptor(
                 identifier: symbolName,
                 availability: availability,
+                privateScalar: privateScalarByName[symbolName],
                 availablePlatforms: availabilities,
                 categories: symbolCategories?[symbolName],
                 searchKeywords: symbolSearch?[symbolName]

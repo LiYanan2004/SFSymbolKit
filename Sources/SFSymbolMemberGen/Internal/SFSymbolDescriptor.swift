@@ -13,6 +13,7 @@ internal struct SFSymbolDescriptor: Hashable, Sendable {
     var identifier: String
     var availability: String
     
+    var privateScalar: UnicodeScalar?
     var availablePlatforms: [String]
     var categories: [String]?
     var searchKeywords: [String]?
@@ -46,8 +47,9 @@ extension SFSymbolDescriptor {
     
     private var documentationBlockTrivia: Trivia {
         var documentationTrivia = Trivia.tab
+        let glyphPreviewScalar = privateScalar.map({ "\($0) " }) ?? ""
         appendDocumentationLine(
-            content: "/// `\(identifier)`",
+            content: "/// \(glyphPreviewScalar)`\(identifier)`",
             to: &documentationTrivia
         )
         if let categories, !categories.isEmpty {

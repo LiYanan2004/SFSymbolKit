@@ -24,8 +24,12 @@ let package = Package(
     ],
     targets: [
         .target(
+            name: "SFSymbolKit"
+        ),
+        .target(
             name: "SFSymbolMemberGen",
             dependencies: [
+                "SFSymbols",
                 .product(name: "SwiftSyntax", package: "swift-syntax"),
                 .product(name: "SwiftSyntaxBuilder", package: "swift-syntax"),
             ]
@@ -37,8 +41,9 @@ let package = Package(
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
             ]
         ),
-        .target(
-            name: "SFSymbolKit"
-        ),
+        .binaryTarget(
+            name: "SFSymbols",
+            path: "./DarwinPrivateFrameworks/SFSymbols.xcframework.zip"
+        )
     ]
 )
