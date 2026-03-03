@@ -8,21 +8,14 @@
 import Foundation
 import SFSymbols
 
-internal enum SFSymbols_Private {    
-    static internal let allSymbolDescriptors: [SFSymbolDescriptor] = {
+extension SymbolMetadataStore {
+    static internal let allSystemSymbolDescriptors: [SFSymbolDescriptor] = {
         // find CoreGlyphs.bundle
         let coreGlyphsBundlePath = Bundle(url: sfSymbolsFrameworkURL)?
             .path(forResource: "CoreGlyphs", ofType: "bundle")
         guard let coreGlyphsBundlePath,
               let coreGlyphsBundle = Bundle(path: coreGlyphsBundlePath)
         else { return [] }
-        
-        // fetch ordered symbols
-        let symbolList = coreGlyphsBundle.path(forResource: "symbol_order", ofType: "plist")
-        guard let symbolList,
-              let symbols = NSArray(contentsOfFile: symbolList) as? [String] else {
-            return []
-        }
         
         // fetch symbol availabilities
         let availabilityList = coreGlyphsBundle.path(forResource: "name_availability", ofType: "plist")
@@ -66,7 +59,7 @@ internal enum SFSymbols_Private {
             Mirror(reflecting: csvRow).descendant("privateScalar") as! UnicodeScalar
         })
         
-        return symbols.compactMap { symbolName -> SFSymbolDescriptor? in
+        return SFSymbols.symbol_order.compactMap { symbolName -> SFSymbolDescriptor? in
             guard let availability = symbolAvailabilityDict[symbolName] else {
                 return nil
             }

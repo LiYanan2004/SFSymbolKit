@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SFSymbols
 import SwiftSyntax
 import SwiftSyntaxBuilder
 
@@ -20,7 +21,7 @@ package struct SFSymbolMembersGenerator {
         try FileManager.default.removeItemIfNecessary(at: directoryURL)
         
         var availabilityCategorizedSymbols = [String : [SFSymbolDescriptor]]()
-        SFSymbols_Private.allSymbolDescriptors.forEach {
+        SymbolMetadataStore.allSystemSymbolDescriptors.forEach {
             availabilityCategorizedSymbols[$0.availability, default: []].append($0)
         }
         
