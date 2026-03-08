@@ -9,6 +9,9 @@
 @available(iOS 17.4, macOS 14.4, tvOS 17.4, visionOS 1.1, watchOS 10.4, *)
 extension SFSymbol {
 	/// 􂝕 `apple.terminal.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let apple_terminal_circle = SFSymbol(identifier: "apple.terminal.circle")
 
 	/// 􂝖 `apple.terminal.circle.fill`

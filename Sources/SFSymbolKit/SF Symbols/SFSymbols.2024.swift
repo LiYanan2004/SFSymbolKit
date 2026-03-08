@@ -65,6 +65,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `document`
@@ -209,6 +210,7 @@ extension SFSymbol {
 	/// 􀈼 `arrow.up.document.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	static public let arrow_up_document_fill = SFSymbol(identifier: "arrow.up.document.fill")
 
@@ -221,6 +223,7 @@ extension SFSymbol {
 	/// 􀈾 `arrow.down.document.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	static public let arrow_down_document_fill = SFSymbol(identifier: "arrow.down.document.fill")
 
@@ -234,6 +237,7 @@ extension SFSymbol {
 	/// 􀉀 `text.document.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	static public let text_document_fill = SFSymbol(identifier: "text.document.fill")
 
@@ -323,6 +327,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `health`
+	///   - `multicolor`
 	///   - `objectsandtools`
 	///
 	/// - search keywords:
@@ -398,9 +403,18 @@ extension SFSymbol {
 	static public let richtext_page_fill_hi = SFSymbol(identifier: "richtext.page.fill.hi")
 
 	/// 􀉆 `text.page`
+	///
+	/// - search keywords:
+	///   - `reader`
 	static public let text_page = SFSymbol(identifier: "text.page")
 
 	/// 􀥨 `text.page.fill`
+	///
+	/// - categories:
+	///   - `multicolor`
+	///
+	/// - search keywords:
+	///   - `reader`
 	static public let text_page_fill = SFSymbol(identifier: "text.page.fill")
 
 	/// 􂱑 `text.page.slash`
@@ -440,27 +454,18 @@ extension SFSymbol {
 	static public let checkmark_seal_text_page_fill_rtl = SFSymbol(identifier: "checkmark.seal.text.page.fill.rtl")
 
 	/// 􂇲 `questionmark.text.page`
-	///
-	/// - categories:
-	///   - `multicolor`
 	static public let questionmark_text_page = SFSymbol(identifier: "questionmark.text.page")
 
 	/// 􂇳 `questionmark.text.page.fill`
 	static public let questionmark_text_page_fill = SFSymbol(identifier: "questionmark.text.page.fill")
 
 	/// 􂇴 `questionmark.text.page.ar`
-	///
-	/// - categories:
-	///   - `multicolor`
 	static public let questionmark_text_page_ar = SFSymbol(identifier: "questionmark.text.page.ar")
 
 	/// 􂇵 `questionmark.text.page.fill.ar`
 	static public let questionmark_text_page_fill_ar = SFSymbol(identifier: "questionmark.text.page.fill.ar")
 
 	/// 􂇶 `questionmark.text.page.rtl`
-	///
-	/// - categories:
-	///   - `multicolor`
 	static public let questionmark_text_page_rtl = SFSymbol(identifier: "questionmark.text.page.rtl")
 
 	/// 􂇷 `questionmark.text.page.fill.rtl`
@@ -469,14 +474,14 @@ extension SFSymbol {
 	/// 􀥜 `chart.bar.horizontal.page`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chart_bar_horizontal_page = SFSymbol(identifier: "chart.bar.horizontal.page")
 
 	/// 􀦌 `chart.bar.horizontal.page.fill`
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chart_bar_horizontal_page_fill = SFSymbol(identifier: "chart.bar.horizontal.page.fill")
 
 	/// 􀕹 `text.page.badge.magnifyingglass`
@@ -492,6 +497,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `human`
+	///   - `multicolor`
 	///   - `objectsandtools`
 	///
 	/// - search keywords:
@@ -571,6 +577,9 @@ extension SFSymbol {
 
 	/// 􀩾 `text.rectangle.page.fill`
 	///
+	/// - categories:
+	///   - `multicolor`
+	///
 	/// - search keywords:
 	///   - `today`
 	static public let text_rectangle_page_fill = SFSymbol(identifier: "text.rectangle.page.fill")
@@ -615,10 +624,10 @@ extension SFSymbol {
 	static public let inset_filled_rectangle_and_person_filled = SFSymbol(identifier: "inset.filled.rectangle.and.person.filled")
 
 	/// 􂃕 `inset.filled.rectangle.badge.record`
+	///
+	/// - categories:
+	///   - `human`
 	static public let inset_filled_rectangle_badge_record = SFSymbol(identifier: "inset.filled.rectangle.badge.record")
-
-	/// 􂇕 `inset.filled.rectangle.and.cursorarrow`
-	static public let inset_filled_rectangle_and_cursorarrow = SFSymbol(identifier: "inset.filled.rectangle.and.cursorarrow")
 
 	/// 􁅁 `sharedwithyou`
 	///
@@ -634,6 +643,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -847,6 +857,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -889,6 +900,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -917,6 +929,7 @@ extension SFSymbol {
 	///   - `accessibility`
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -946,6 +959,7 @@ extension SFSymbol {
 	///   - `accessibility`
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -974,6 +988,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -999,6 +1014,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1024,6 +1040,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1049,6 +1066,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1074,6 +1092,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1099,6 +1118,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1124,6 +1144,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1149,6 +1170,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1174,6 +1196,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1199,6 +1222,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1224,6 +1248,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1249,6 +1274,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1274,6 +1300,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1299,6 +1326,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1324,6 +1352,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1349,6 +1378,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1374,6 +1404,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1399,6 +1430,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1424,6 +1456,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1449,6 +1482,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1474,6 +1508,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1499,6 +1534,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1524,6 +1560,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1549,6 +1586,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1574,6 +1612,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1599,6 +1638,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1624,6 +1664,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1649,6 +1690,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1674,6 +1716,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1699,6 +1742,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `hiit`
@@ -1726,6 +1770,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1751,6 +1796,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1850,6 +1896,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1875,6 +1922,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1900,6 +1948,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1925,6 +1974,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1950,6 +2000,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1975,6 +2026,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2000,6 +2052,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2025,6 +2078,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2050,6 +2104,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2077,6 +2132,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `bicycle`
@@ -2104,6 +2160,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `paddling`
@@ -2127,6 +2184,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2152,6 +2210,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2177,6 +2236,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2202,6 +2262,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2229,6 +2290,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2254,6 +2316,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2291,6 +2354,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2328,6 +2392,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2353,6 +2418,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2378,6 +2444,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2415,6 +2482,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2452,6 +2520,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2477,6 +2546,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2514,6 +2584,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2551,6 +2622,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2576,6 +2648,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2601,6 +2674,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2626,6 +2700,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2651,6 +2726,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2676,6 +2752,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2701,6 +2778,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2726,6 +2804,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2751,6 +2830,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2776,6 +2856,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2801,6 +2882,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2826,6 +2908,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2851,6 +2934,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2876,6 +2960,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2901,6 +2986,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2928,6 +3014,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2955,6 +3042,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -2980,6 +3068,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -3034,6 +3123,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `sports`
@@ -3075,6 +3165,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `sports`
@@ -3116,6 +3207,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `sports`
@@ -3157,6 +3249,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `sports`
@@ -3196,7 +3289,7 @@ extension SFSymbol {
 	/// 􀴽 `progress.indicator`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let progress_indicator = SFSymbol(identifier: "progress.indicator")
 
 	/// 􀜢 `beziercurve`
@@ -3252,7 +3345,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `nature`
-	///   - `variablecolor`
+	///   - `variable`
 	///   - `weather`
 	///
 	/// - search keywords:
@@ -3264,7 +3357,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `nature`
-	///   - `variablecolor`
+	///   - `variable`
 	///   - `weather`
 	///
 	/// - search keywords:
@@ -3276,7 +3369,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `nature`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `dive`
@@ -3294,7 +3387,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `nature`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `dive`
@@ -3313,7 +3406,7 @@ extension SFSymbol {
 	///   - `fitness`
 	///   - `multicolor`
 	///   - `nature`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `!`
@@ -3344,7 +3437,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `volume`
@@ -3363,6 +3456,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `microphone`
@@ -4427,6 +4521,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `communication`
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `dictate`
@@ -4491,6 +4586,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `communication`
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `remove`
@@ -4553,7 +4649,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let microphone_and_signal_meter = SFSymbol(identifier: "microphone.and.signal.meter")
 
 	/// 􁎓 `microphone.and.signal.meter.fill`
@@ -4561,7 +4657,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let microphone_and_signal_meter_fill = SFSymbol(identifier: "microphone.and.signal.meter.fill")
 
 	/// 􁹨 `circle.bottomrighthalf.pattern.checkered`
@@ -4575,6 +4671,9 @@ extension SFSymbol {
 	static public let circle_bottomrighthalf_pattern_checkered = SFSymbol(identifier: "circle.bottomrighthalf.pattern.checkered")
 
 	/// 􀝜 `inset.filled.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `completed`
@@ -5002,6 +5101,7 @@ extension SFSymbol {
 	///   - `fitness`
 	///   - `gaming`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -5054,6 +5154,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
+	///   - `multicolor`
 	static public let arrow_trianglehead_clockwise_icloud_fill = SFSymbol(identifier: "arrow.trianglehead.clockwise.icloud.fill")
 
 	/// 􀙹 `arrow.trianglehead.counterclockwise.icloud`
@@ -5066,6 +5167,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
+	///   - `multicolor`
 	static public let arrow_trianglehead_counterclockwise_icloud_fill = SFSymbol(identifier: "arrow.trianglehead.counterclockwise.icloud.fill")
 
 	/// 􂆍 `arrow.trianglehead.2.clockwise.rotate.90.icloud`
@@ -5078,6 +5180,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
+	///   - `multicolor`
 	static public let arrow_trianglehead_2_clockwise_rotate_90_icloud_fill = SFSymbol(identifier: "arrow.trianglehead.2.clockwise.rotate.90.icloud.fill")
 
 	/// 􂲯 `squareroot`
@@ -5097,6 +5200,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `cameraandphotos`
+	///   - `multicolor`
 	///   - `objectsandtools`
 	static public let arrow_trianglehead_2_clockwise_rotate_90_camera_fill = SFSymbol(identifier: "arrow.trianglehead.2.clockwise.rotate.90.camera.fill")
 
@@ -5179,6 +5283,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
+	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `address`
@@ -5201,6 +5306,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
+	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `address`
@@ -5312,6 +5418,9 @@ extension SFSymbol {
 	/// - categories:
 	///   - `editing`
 	///   - `objectsandtools`
+	///
+	/// - search keywords:
+	///   - `magic`
 	static public let wand_and_sparkles = SFSymbol(identifier: "wand.and.sparkles")
 
 	/// 􀜎 `wand.and.sparkles.inverse`
@@ -5319,6 +5428,9 @@ extension SFSymbol {
 	/// - categories:
 	///   - `editing`
 	///   - `objectsandtools`
+	///
+	/// - search keywords:
+	///   - `magic`
 	static public let wand_and_sparkles_inverse = SFSymbol(identifier: "wand.and.sparkles.inverse")
 
 	/// 􂠄 `square.grid.3x3.square.badge.ellipsis`
@@ -5422,7 +5534,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `home`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `home`
@@ -5434,7 +5546,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `home`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `home`
@@ -5446,7 +5558,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let australsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "australsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂨼 `australiandollarsign.gauge.chart.lefthalf.righthalf`
@@ -5454,7 +5566,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let australiandollarsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "australiandollarsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂨽 `bahtsign.gauge.chart.lefthalf.righthalf`
@@ -5462,7 +5574,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bahtsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "bahtsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂨾 `bitcoinsign.gauge.chart.lefthalf.righthalf`
@@ -5470,7 +5582,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bitcoinsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "bitcoinsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂨿 `brazilianrealsign.gauge.chart.lefthalf.righthalf`
@@ -5478,7 +5590,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let brazilianrealsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "brazilianrealsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩀 `cedisign.gauge.chart.lefthalf.righthalf`
@@ -5486,7 +5598,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let cedisign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "cedisign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩁 `centsign.gauge.chart.lefthalf.righthalf`
@@ -5494,7 +5606,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let centsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "centsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩂 `chineseyuanrenminbisign.gauge.chart.lefthalf.righthalf`
@@ -5502,7 +5614,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chineseyuanrenminbisign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "chineseyuanrenminbisign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩃 `coloncurrencysign.gauge.chart.lefthalf.righthalf`
@@ -5510,7 +5622,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let coloncurrencysign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "coloncurrencysign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩄 `cruzeirosign.gauge.chart.lefthalf.righthalf`
@@ -5518,7 +5630,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let cruzeirosign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "cruzeirosign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩅 `danishkronesign.gauge.chart.lefthalf.righthalf`
@@ -5526,7 +5638,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let danishkronesign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "danishkronesign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩆 `dongsign.gauge.chart.lefthalf.righthalf`
@@ -5534,7 +5646,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let dongsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "dongsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂧈 `dollarsign.gauge.chart.lefthalf.righthalf`
@@ -5542,7 +5654,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let dollarsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "dollarsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩇 `eurosign.gauge.chart.lefthalf.righthalf`
@@ -5550,7 +5662,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let eurosign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "eurosign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩈 `eurozonesign.gauge.chart.lefthalf.righthalf`
@@ -5558,7 +5670,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let eurozonesign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "eurozonesign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩉 `florinsign.gauge.chart.lefthalf.righthalf`
@@ -5566,7 +5678,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let florinsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "florinsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩊 `francsign.gauge.chart.lefthalf.righthalf`
@@ -5574,7 +5686,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let francsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "francsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩋 `guaranisign.gauge.chart.lefthalf.righthalf`
@@ -5582,7 +5694,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let guaranisign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "guaranisign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩌 `hryvniasign.gauge.chart.lefthalf.righthalf`
@@ -5590,7 +5702,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let hryvniasign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "hryvniasign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩍 `indianrupeesign.gauge.chart.lefthalf.righthalf`
@@ -5598,7 +5710,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let indianrupeesign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "indianrupeesign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩎 `kipsign.gauge.chart.lefthalf.righthalf`
@@ -5606,7 +5718,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let kipsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "kipsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩏 `larisign.gauge.chart.lefthalf.righthalf`
@@ -5614,7 +5726,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let larisign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "larisign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩐 `lirasign.gauge.chart.lefthalf.righthalf`
@@ -5622,7 +5734,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let lirasign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "lirasign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩑 `manatsign.gauge.chart.lefthalf.righthalf`
@@ -5630,7 +5742,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let manatsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "manatsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩒 `malaysianringgitsign.gauge.chart.lefthalf.righthalf`
@@ -5638,7 +5750,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let malaysianringgitsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "malaysianringgitsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩓 `millsign.gauge.chart.lefthalf.righthalf`
@@ -5646,7 +5758,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let millsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "millsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩔 `nairasign.gauge.chart.lefthalf.righthalf`
@@ -5654,7 +5766,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let nairasign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "nairasign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩕 `norwegiankronesign.gauge.chart.lefthalf.righthalf`
@@ -5662,7 +5774,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let norwegiankronesign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "norwegiankronesign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩖 `peruviansolessign.gauge.chart.lefthalf.righthalf`
@@ -5670,7 +5782,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let peruviansolessign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "peruviansolessign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩗 `pesetasign.gauge.chart.lefthalf.righthalf`
@@ -5678,7 +5790,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let pesetasign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "pesetasign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩘 `pesosign.gauge.chart.lefthalf.righthalf`
@@ -5686,7 +5798,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let pesosign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "pesosign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩙 `polishzlotysign.gauge.chart.lefthalf.righthalf`
@@ -5694,7 +5806,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let polishzlotysign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "polishzlotysign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩚 `rublesign.gauge.chart.lefthalf.righthalf`
@@ -5702,7 +5814,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let rublesign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "rublesign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩛 `rupeesign.gauge.chart.lefthalf.righthalf`
@@ -5710,7 +5822,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let rupeesign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "rupeesign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩜 `shekelsign.gauge.chart.lefthalf.righthalf`
@@ -5718,7 +5830,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let shekelsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "shekelsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩝 `singaporedollarsign.gauge.chart.lefthalf.righthalf`
@@ -5726,7 +5838,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let singaporedollarsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "singaporedollarsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩞 `sterlingsign.gauge.chart.lefthalf.righthalf`
@@ -5734,7 +5846,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let sterlingsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "sterlingsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩟 `swedishkronasign.gauge.chart.lefthalf.righthalf`
@@ -5742,7 +5854,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let swedishkronasign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "swedishkronasign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩠 `tengesign.gauge.chart.lefthalf.righthalf`
@@ -5750,7 +5862,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let tengesign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "tengesign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩡 `tugriksign.gauge.chart.lefthalf.righthalf`
@@ -5758,7 +5870,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let tugriksign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "tugriksign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩢 `turkishlirasign.gauge.chart.lefthalf.righthalf`
@@ -5766,7 +5878,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let turkishlirasign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "turkishlirasign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩣 `yensign.gauge.chart.lefthalf.righthalf`
@@ -5774,7 +5886,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let yensign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "yensign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩤 `wonsign.gauge.chart.lefthalf.righthalf`
@@ -5782,7 +5894,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wonsign_gauge_chart_lefthalf_righthalf = SFSymbol(identifier: "wonsign.gauge.chart.lefthalf.righthalf")
 
 	/// 􂩥 `australsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5790,7 +5902,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let australsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "australsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩦 `australiandollarsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5798,7 +5910,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let australiandollarsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "australiandollarsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩧 `bahtsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5806,7 +5918,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bahtsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "bahtsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩨 `bitcoinsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5814,7 +5926,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bitcoinsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "bitcoinsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩩 `brazilianrealsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5822,7 +5934,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let brazilianrealsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "brazilianrealsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩪 `cedisign.gauge.chart.leftthird.topthird.rightthird`
@@ -5830,7 +5942,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let cedisign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "cedisign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩫 `centsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5838,7 +5950,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let centsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "centsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩬 `chineseyuanrenminbisign.gauge.chart.leftthird.topthird.rightthird`
@@ -5846,7 +5958,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chineseyuanrenminbisign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "chineseyuanrenminbisign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩭 `coloncurrencysign.gauge.chart.leftthird.topthird.rightthird`
@@ -5854,7 +5966,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let coloncurrencysign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "coloncurrencysign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩮 `cruzeirosign.gauge.chart.leftthird.topthird.rightthird`
@@ -5862,7 +5974,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let cruzeirosign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "cruzeirosign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩯 `danishkronesign.gauge.chart.leftthird.topthird.rightthird`
@@ -5870,7 +5982,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let danishkronesign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "danishkronesign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩰 `dongsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5878,7 +5990,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let dongsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "dongsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂧉 `dollarsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5886,7 +5998,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let dollarsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "dollarsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩱 `eurosign.gauge.chart.leftthird.topthird.rightthird`
@@ -5894,7 +6006,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let eurosign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "eurosign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩲 `eurozonesign.gauge.chart.leftthird.topthird.rightthird`
@@ -5902,7 +6014,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let eurozonesign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "eurozonesign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩳 `florinsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5910,7 +6022,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let florinsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "florinsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩴 `francsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5918,7 +6030,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let francsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "francsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩵 `guaranisign.gauge.chart.leftthird.topthird.rightthird`
@@ -5926,7 +6038,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let guaranisign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "guaranisign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩶 `hryvniasign.gauge.chart.leftthird.topthird.rightthird`
@@ -5934,7 +6046,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let hryvniasign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "hryvniasign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩷 `indianrupeesign.gauge.chart.leftthird.topthird.rightthird`
@@ -5942,7 +6054,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let indianrupeesign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "indianrupeesign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩸 `kipsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5950,7 +6062,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let kipsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "kipsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩹 `larisign.gauge.chart.leftthird.topthird.rightthird`
@@ -5958,7 +6070,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let larisign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "larisign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩺 `lirasign.gauge.chart.leftthird.topthird.rightthird`
@@ -5966,7 +6078,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let lirasign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "lirasign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩻 `manatsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5974,7 +6086,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let manatsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "manatsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩼 `malaysianringgitsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5982,7 +6094,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let malaysianringgitsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "malaysianringgitsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩽 `millsign.gauge.chart.leftthird.topthird.rightthird`
@@ -5990,7 +6102,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let millsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "millsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩾 `nairasign.gauge.chart.leftthird.topthird.rightthird`
@@ -5998,7 +6110,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let nairasign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "nairasign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂩿 `norwegiankronesign.gauge.chart.leftthird.topthird.rightthird`
@@ -6006,7 +6118,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let norwegiankronesign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "norwegiankronesign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪀 `peruviansolessign.gauge.chart.leftthird.topthird.rightthird`
@@ -6014,7 +6126,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let peruviansolessign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "peruviansolessign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪁 `pesetasign.gauge.chart.leftthird.topthird.rightthird`
@@ -6022,7 +6134,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let pesetasign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "pesetasign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪂 `pesosign.gauge.chart.leftthird.topthird.rightthird`
@@ -6030,7 +6142,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let pesosign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "pesosign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪃 `polishzlotysign.gauge.chart.leftthird.topthird.rightthird`
@@ -6038,7 +6150,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let polishzlotysign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "polishzlotysign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪄 `rublesign.gauge.chart.leftthird.topthird.rightthird`
@@ -6046,7 +6158,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let rublesign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "rublesign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪅 `rupeesign.gauge.chart.leftthird.topthird.rightthird`
@@ -6054,7 +6166,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let rupeesign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "rupeesign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪆 `shekelsign.gauge.chart.leftthird.topthird.rightthird`
@@ -6062,7 +6174,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let shekelsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "shekelsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪇 `singaporedollarsign.gauge.chart.leftthird.topthird.rightthird`
@@ -6070,7 +6182,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let singaporedollarsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "singaporedollarsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪈 `sterlingsign.gauge.chart.leftthird.topthird.rightthird`
@@ -6078,7 +6190,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let sterlingsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "sterlingsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪉 `swedishkronasign.gauge.chart.leftthird.topthird.rightthird`
@@ -6086,7 +6198,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let swedishkronasign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "swedishkronasign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪊 `tengesign.gauge.chart.leftthird.topthird.rightthird`
@@ -6094,7 +6206,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let tengesign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "tengesign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪋 `tugriksign.gauge.chart.leftthird.topthird.rightthird`
@@ -6102,7 +6214,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let tugriksign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "tugriksign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪌 `turkishlirasign.gauge.chart.leftthird.topthird.rightthird`
@@ -6110,7 +6222,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let turkishlirasign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "turkishlirasign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪍 `yensign.gauge.chart.leftthird.topthird.rightthird`
@@ -6118,7 +6230,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let yensign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "yensign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂪎 `wonsign.gauge.chart.leftthird.topthird.rightthird`
@@ -6126,7 +6238,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wonsign_gauge_chart_leftthird_topthird_rightthird = SFSymbol(identifier: "wonsign.gauge.chart.leftthird.topthird.rightthird")
 
 	/// 􂯡 `australsign.ring.dashed`
@@ -6134,7 +6246,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let australsign_ring_dashed = SFSymbol(identifier: "australsign.ring.dashed")
 
 	/// 􂯢 `australiandollarsign.ring.dashed`
@@ -6142,7 +6254,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let australiandollarsign_ring_dashed = SFSymbol(identifier: "australiandollarsign.ring.dashed")
 
 	/// 􂯣 `bahtsign.ring.dashed`
@@ -6150,7 +6262,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bahtsign_ring_dashed = SFSymbol(identifier: "bahtsign.ring.dashed")
 
 	/// 􂯤 `bitcoinsign.ring.dashed`
@@ -6158,7 +6270,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bitcoinsign_ring_dashed = SFSymbol(identifier: "bitcoinsign.ring.dashed")
 
 	/// 􂯥 `brazilianrealsign.ring.dashed`
@@ -6166,7 +6278,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let brazilianrealsign_ring_dashed = SFSymbol(identifier: "brazilianrealsign.ring.dashed")
 
 	/// 􂯦 `cedisign.ring.dashed`
@@ -6174,7 +6286,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let cedisign_ring_dashed = SFSymbol(identifier: "cedisign.ring.dashed")
 
 	/// 􂯧 `centsign.ring.dashed`
@@ -6182,7 +6294,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let centsign_ring_dashed = SFSymbol(identifier: "centsign.ring.dashed")
 
 	/// 􂯨 `chineseyuanrenminbisign.ring.dashed`
@@ -6190,7 +6302,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chineseyuanrenminbisign_ring_dashed = SFSymbol(identifier: "chineseyuanrenminbisign.ring.dashed")
 
 	/// 􂯩 `coloncurrencysign.ring.dashed`
@@ -6198,7 +6310,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let coloncurrencysign_ring_dashed = SFSymbol(identifier: "coloncurrencysign.ring.dashed")
 
 	/// 􂯪 `cruzeirosign.ring.dashed`
@@ -6206,7 +6318,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let cruzeirosign_ring_dashed = SFSymbol(identifier: "cruzeirosign.ring.dashed")
 
 	/// 􂯫 `danishkronesign.ring.dashed`
@@ -6214,7 +6326,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let danishkronesign_ring_dashed = SFSymbol(identifier: "danishkronesign.ring.dashed")
 
 	/// 􂯬 `dongsign.ring.dashed`
@@ -6222,7 +6334,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let dongsign_ring_dashed = SFSymbol(identifier: "dongsign.ring.dashed")
 
 	/// 􂮇 `dollarsign.ring.dashed`
@@ -6230,7 +6342,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let dollarsign_ring_dashed = SFSymbol(identifier: "dollarsign.ring.dashed")
 
 	/// 􂯭 `eurosign.ring.dashed`
@@ -6238,7 +6350,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let eurosign_ring_dashed = SFSymbol(identifier: "eurosign.ring.dashed")
 
 	/// 􂯮 `eurozonesign.ring.dashed`
@@ -6246,7 +6358,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let eurozonesign_ring_dashed = SFSymbol(identifier: "eurozonesign.ring.dashed")
 
 	/// 􂯯 `florinsign.ring.dashed`
@@ -6254,7 +6366,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let florinsign_ring_dashed = SFSymbol(identifier: "florinsign.ring.dashed")
 
 	/// 􂯰 `francsign.ring.dashed`
@@ -6262,7 +6374,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let francsign_ring_dashed = SFSymbol(identifier: "francsign.ring.dashed")
 
 	/// 􂯱 `guaranisign.ring.dashed`
@@ -6270,7 +6382,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let guaranisign_ring_dashed = SFSymbol(identifier: "guaranisign.ring.dashed")
 
 	/// 􂯲 `hryvniasign.ring.dashed`
@@ -6278,7 +6390,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let hryvniasign_ring_dashed = SFSymbol(identifier: "hryvniasign.ring.dashed")
 
 	/// 􂯳 `indianrupeesign.ring.dashed`
@@ -6286,7 +6398,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let indianrupeesign_ring_dashed = SFSymbol(identifier: "indianrupeesign.ring.dashed")
 
 	/// 􂯴 `kipsign.ring.dashed`
@@ -6294,7 +6406,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let kipsign_ring_dashed = SFSymbol(identifier: "kipsign.ring.dashed")
 
 	/// 􂯵 `larisign.ring.dashed`
@@ -6302,7 +6414,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let larisign_ring_dashed = SFSymbol(identifier: "larisign.ring.dashed")
 
 	/// 􂯶 `lirasign.ring.dashed`
@@ -6310,7 +6422,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let lirasign_ring_dashed = SFSymbol(identifier: "lirasign.ring.dashed")
 
 	/// 􂯷 `manatsign.ring.dashed`
@@ -6318,7 +6430,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let manatsign_ring_dashed = SFSymbol(identifier: "manatsign.ring.dashed")
 
 	/// 􂯸 `malaysianringgitsign.ring.dashed`
@@ -6326,7 +6438,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let malaysianringgitsign_ring_dashed = SFSymbol(identifier: "malaysianringgitsign.ring.dashed")
 
 	/// 􂯹 `millsign.ring.dashed`
@@ -6334,7 +6446,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let millsign_ring_dashed = SFSymbol(identifier: "millsign.ring.dashed")
 
 	/// 􂯺 `nairasign.ring.dashed`
@@ -6342,7 +6454,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let nairasign_ring_dashed = SFSymbol(identifier: "nairasign.ring.dashed")
 
 	/// 􂯻 `norwegiankronesign.ring.dashed`
@@ -6350,7 +6462,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let norwegiankronesign_ring_dashed = SFSymbol(identifier: "norwegiankronesign.ring.dashed")
 
 	/// 􂯼 `peruviansolessign.ring.dashed`
@@ -6358,7 +6470,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let peruviansolessign_ring_dashed = SFSymbol(identifier: "peruviansolessign.ring.dashed")
 
 	/// 􂯽 `pesetasign.ring.dashed`
@@ -6366,7 +6478,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let pesetasign_ring_dashed = SFSymbol(identifier: "pesetasign.ring.dashed")
 
 	/// 􂯾 `pesosign.ring.dashed`
@@ -6374,7 +6486,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let pesosign_ring_dashed = SFSymbol(identifier: "pesosign.ring.dashed")
 
 	/// 􂯿 `polishzlotysign.ring.dashed`
@@ -6382,7 +6494,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let polishzlotysign_ring_dashed = SFSymbol(identifier: "polishzlotysign.ring.dashed")
 
 	/// 􂰀 `rublesign.ring.dashed`
@@ -6390,7 +6502,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let rublesign_ring_dashed = SFSymbol(identifier: "rublesign.ring.dashed")
 
 	/// 􂰁 `rupeesign.ring.dashed`
@@ -6398,7 +6510,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let rupeesign_ring_dashed = SFSymbol(identifier: "rupeesign.ring.dashed")
 
 	/// 􂰂 `shekelsign.ring.dashed`
@@ -6406,7 +6518,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let shekelsign_ring_dashed = SFSymbol(identifier: "shekelsign.ring.dashed")
 
 	/// 􂰃 `singaporedollarsign.ring.dashed`
@@ -6414,7 +6526,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let singaporedollarsign_ring_dashed = SFSymbol(identifier: "singaporedollarsign.ring.dashed")
 
 	/// 􂰄 `sterlingsign.ring.dashed`
@@ -6422,7 +6534,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let sterlingsign_ring_dashed = SFSymbol(identifier: "sterlingsign.ring.dashed")
 
 	/// 􂰅 `swedishkronasign.ring.dashed`
@@ -6430,7 +6542,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let swedishkronasign_ring_dashed = SFSymbol(identifier: "swedishkronasign.ring.dashed")
 
 	/// 􂰆 `tengesign.ring.dashed`
@@ -6438,7 +6550,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let tengesign_ring_dashed = SFSymbol(identifier: "tengesign.ring.dashed")
 
 	/// 􂰇 `tugriksign.ring.dashed`
@@ -6446,7 +6558,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let tugriksign_ring_dashed = SFSymbol(identifier: "tugriksign.ring.dashed")
 
 	/// 􂰈 `turkishlirasign.ring.dashed`
@@ -6454,7 +6566,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let turkishlirasign_ring_dashed = SFSymbol(identifier: "turkishlirasign.ring.dashed")
 
 	/// 􂰉 `yensign.ring.dashed`
@@ -6462,7 +6574,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let yensign_ring_dashed = SFSymbol(identifier: "yensign.ring.dashed")
 
 	/// 􂰊 `wonsign.ring.dashed`
@@ -6470,43 +6582,91 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `home`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wonsign_ring_dashed = SFSymbol(identifier: "wonsign.ring.dashed")
 
 	/// 􂰋 `australsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let australsign_ring = SFSymbol(identifier: "australsign.ring")
 
 	/// 􂰌 `australiandollarsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let australiandollarsign_ring = SFSymbol(identifier: "australiandollarsign.ring")
 
 	/// 􂰍 `bahtsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let bahtsign_ring = SFSymbol(identifier: "bahtsign.ring")
 
 	/// 􂰎 `bitcoinsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let bitcoinsign_ring = SFSymbol(identifier: "bitcoinsign.ring")
 
 	/// 􂰏 `brazilianrealsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let brazilianrealsign_ring = SFSymbol(identifier: "brazilianrealsign.ring")
 
 	/// 􂰐 `cedisign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let cedisign_ring = SFSymbol(identifier: "cedisign.ring")
 
 	/// 􂰑 `centsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let centsign_ring = SFSymbol(identifier: "centsign.ring")
 
 	/// 􂰒 `chineseyuanrenminbisign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let chineseyuanrenminbisign_ring = SFSymbol(identifier: "chineseyuanrenminbisign.ring")
 
 	/// 􂰓 `coloncurrencysign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let coloncurrencysign_ring = SFSymbol(identifier: "coloncurrencysign.ring")
 
 	/// 􂰔 `cruzeirosign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let cruzeirosign_ring = SFSymbol(identifier: "cruzeirosign.ring")
 
 	/// 􂰕 `danishkronesign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let danishkronesign_ring = SFSymbol(identifier: "danishkronesign.ring")
 
 	/// 􂰖 `dongsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let dongsign_ring = SFSymbol(identifier: "dongsign.ring")
 
 	/// 􂮈 `dollarsign.ring`
@@ -6517,93 +6677,213 @@ extension SFSymbol {
 	static public let dollarsign_ring = SFSymbol(identifier: "dollarsign.ring")
 
 	/// 􂰗 `eurosign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let eurosign_ring = SFSymbol(identifier: "eurosign.ring")
 
 	/// 􂰘 `eurozonesign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let eurozonesign_ring = SFSymbol(identifier: "eurozonesign.ring")
 
 	/// 􂰙 `florinsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let florinsign_ring = SFSymbol(identifier: "florinsign.ring")
 
 	/// 􂰚 `francsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let francsign_ring = SFSymbol(identifier: "francsign.ring")
 
 	/// 􂰛 `guaranisign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let guaranisign_ring = SFSymbol(identifier: "guaranisign.ring")
 
 	/// 􂰜 `hryvniasign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let hryvniasign_ring = SFSymbol(identifier: "hryvniasign.ring")
 
 	/// 􂰝 `indianrupeesign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let indianrupeesign_ring = SFSymbol(identifier: "indianrupeesign.ring")
 
 	/// 􂰞 `kipsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let kipsign_ring = SFSymbol(identifier: "kipsign.ring")
 
 	/// 􂰟 `larisign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let larisign_ring = SFSymbol(identifier: "larisign.ring")
 
 	/// 􂰠 `lirasign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let lirasign_ring = SFSymbol(identifier: "lirasign.ring")
 
 	/// 􂰡 `manatsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let manatsign_ring = SFSymbol(identifier: "manatsign.ring")
 
 	/// 􂰢 `malaysianringgitsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let malaysianringgitsign_ring = SFSymbol(identifier: "malaysianringgitsign.ring")
 
 	/// 􂰣 `millsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let millsign_ring = SFSymbol(identifier: "millsign.ring")
 
 	/// 􂰤 `nairasign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let nairasign_ring = SFSymbol(identifier: "nairasign.ring")
 
 	/// 􂰥 `norwegiankronesign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let norwegiankronesign_ring = SFSymbol(identifier: "norwegiankronesign.ring")
 
 	/// 􂰦 `peruviansolessign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let peruviansolessign_ring = SFSymbol(identifier: "peruviansolessign.ring")
 
 	/// 􂰧 `pesetasign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let pesetasign_ring = SFSymbol(identifier: "pesetasign.ring")
 
 	/// 􂰨 `pesosign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let pesosign_ring = SFSymbol(identifier: "pesosign.ring")
 
 	/// 􂰩 `polishzlotysign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let polishzlotysign_ring = SFSymbol(identifier: "polishzlotysign.ring")
 
 	/// 􂰪 `rublesign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let rublesign_ring = SFSymbol(identifier: "rublesign.ring")
 
 	/// 􂰫 `rupeesign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let rupeesign_ring = SFSymbol(identifier: "rupeesign.ring")
 
 	/// 􂰬 `shekelsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let shekelsign_ring = SFSymbol(identifier: "shekelsign.ring")
 
 	/// 􂰭 `singaporedollarsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let singaporedollarsign_ring = SFSymbol(identifier: "singaporedollarsign.ring")
 
 	/// 􂰮 `sterlingsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let sterlingsign_ring = SFSymbol(identifier: "sterlingsign.ring")
 
 	/// 􂰯 `swedishkronasign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let swedishkronasign_ring = SFSymbol(identifier: "swedishkronasign.ring")
 
 	/// 􂰰 `tengesign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let tengesign_ring = SFSymbol(identifier: "tengesign.ring")
 
 	/// 􂰱 `tugriksign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let tugriksign_ring = SFSymbol(identifier: "tugriksign.ring")
 
 	/// 􂰲 `turkishlirasign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let turkishlirasign_ring = SFSymbol(identifier: "turkishlirasign.ring")
 
 	/// 􂰳 `yensign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let yensign_ring = SFSymbol(identifier: "yensign.ring")
 
 	/// 􂰴 `wonsign.ring`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `home`
 	static public let wonsign_ring = SFSymbol(identifier: "wonsign.ring")
 
 	/// 􂬹 `powerplug.portrait`
@@ -6973,6 +7253,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	static public let vision_pro_circle = SFSymbol(identifier: "vision.pro.circle")
 
 	/// 􂆀 `vision.pro.circle.fill`
@@ -6998,6 +7279,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	static public let vision_pro_slash_circle = SFSymbol(identifier: "vision.pro.slash.circle")
 
 	/// 􂆟 `vision.pro.slash.circle.fill`
@@ -7067,12 +7349,6 @@ extension SFSymbol {
 	///   - `devices`
 	static public let macbook_and_vision_pro = SFSymbol(identifier: "macbook.and.vision.pro")
 
-	/// 􁟹 `head.profile.arrow.forward.and.vision.pro`
-	///
-	/// - categories:
-	///   - `devices`
-	static public let head_profile_arrow_forward_and_vision_pro = SFSymbol(identifier: "head.profile.arrow.forward.and.vision.pro")
-
 	/// 􁤒 `applepencil.hover`
 	///
 	/// - categories:
@@ -7083,14 +7359,14 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let applepencil_squeeze = SFSymbol(identifier: "applepencil.squeeze")
 
 	/// 􂤀 `applepencil.doubletap`
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let applepencil_doubletap = SFSymbol(identifier: "applepencil.doubletap")
 
 	/// 􀴪 `inset.filled.applewatch.case`
@@ -7116,6 +7392,11 @@ extension SFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `objectsandtools`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `sound`
+	///   - `speaker`
 	static public let headphones_slash = SFSymbol(identifier: "headphones.slash")
 
 	/// 􂣵 `headset`
@@ -7136,6 +7417,7 @@ extension SFSymbol {
 	///   - `automotive`
 	///   - `devices`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `concierge`
@@ -7210,7 +7492,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `audio`
@@ -7220,7 +7502,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `audio`
@@ -7950,6 +8232,9 @@ extension SFSymbol {
 	static public let airplay_video = SFSymbol(identifier: "airplay.video")
 
 	/// 􀾑 `airplay.video.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let airplay_video_circle = SFSymbol(identifier: "airplay.video.circle")
 
 	/// 􀾒 `airplay.video.circle.fill`
@@ -7970,27 +8255,27 @@ extension SFSymbol {
 	/// 􀑢 `airplay.audio`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let airplay_audio = SFSymbol(identifier: "airplay.audio")
 
 	/// 􀾧 `airplay.audio.circle`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let airplay_audio_circle = SFSymbol(identifier: "airplay.audio.circle")
 
 	/// 􀾨 `airplay.audio.circle.fill`
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let airplay_audio_circle_fill = SFSymbol(identifier: "airplay.audio.circle.fill")
 
 	/// 􀱫 `airplay.audio.badge.exclamationmark`
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `warning`
@@ -8000,14 +8285,14 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_up = SFSymbol(identifier: "wave.3.up")
 
 	/// 􂙨 `wave.3.up.circle`
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_up_circle = SFSymbol(identifier: "wave.3.up.circle")
 
 	/// 􂙩 `wave.3.up.circle.fill`
@@ -8015,21 +8300,21 @@ extension SFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_up_circle_fill = SFSymbol(identifier: "wave.3.up.circle.fill")
 
 	/// 􂙪 `wave.3.down`
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down = SFSymbol(identifier: "wave.3.down")
 
 	/// 􂙫 `wave.3.down.circle`
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_circle = SFSymbol(identifier: "wave.3.down.circle")
 
 	/// 􂙬 `wave.3.down.circle.fill`
@@ -8037,7 +8322,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_circle_fill = SFSymbol(identifier: "wave.3.down.circle.fill")
 
 	/// 􂪻 `antenna.radiowaves.left.and.right.slash.circle`
@@ -8045,6 +8330,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `cellular`
@@ -8071,7 +8357,7 @@ extension SFSymbol {
 	///   - `automotive`
 	///   - `devices`
 	///   - `transportation`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_front_waves_left_and_right_and_up = SFSymbol(identifier: "car.front.waves.left.and.right.and.up")
 
 	/// 􂤼 `car.front.waves.left.and.right.and.up.fill`
@@ -8080,7 +8366,7 @@ extension SFSymbol {
 	///   - `automotive`
 	///   - `devices`
 	///   - `transportation`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_front_waves_left_and_right_and_up_fill = SFSymbol(identifier: "car.front.waves.left.and.right.and.up.fill")
 
 	/// 􂤭 `car.badge.gearshape`
@@ -8189,7 +8475,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let parkingsign_radiowaves_down_right_off = SFSymbol(identifier: "parkingsign.radiowaves.down.right.off")
 
 	/// 􂥫 `fuelpump.and.filter`
@@ -8614,6 +8900,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_upper = SFSymbol(identifier: "figure.seated.side.left.air.distribution.upper")
@@ -8625,6 +8912,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_lower = SFSymbol(identifier: "figure.seated.side.left.air.distribution.lower")
@@ -8636,6 +8924,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_middle = SFSymbol(identifier: "figure.seated.side.left.air.distribution.middle")
@@ -8647,6 +8936,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_middle_and_lower = SFSymbol(identifier: "figure.seated.side.left.air.distribution.middle.and.lower")
@@ -8658,6 +8948,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_upper_angled_and_middle = SFSymbol(identifier: "figure.seated.side.left.air.distribution.upper.angled.and.middle")
@@ -8669,6 +8960,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_upper_angled_and_lower_angled = SFSymbol(identifier: "figure.seated.side.left.air.distribution.upper.angled.and.lower.angled")
@@ -8680,6 +8972,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_middle_and_lower_angled = SFSymbol(identifier: "figure.seated.side.left.air.distribution.middle.and.lower.angled")
@@ -8691,6 +8984,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_upper_angled_and_middle_and_lower_angled = SFSymbol(identifier: "figure.seated.side.left.air.distribution.upper.angled.and.middle.and.lower.angled")
@@ -8713,6 +9007,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_air_distribution_upper = SFSymbol(identifier: "figure.seated.side.right.air.distribution.upper")
@@ -8724,6 +9019,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_air_distribution_lower = SFSymbol(identifier: "figure.seated.side.right.air.distribution.lower")
@@ -8735,6 +9031,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_air_distribution_middle = SFSymbol(identifier: "figure.seated.side.right.air.distribution.middle")
@@ -8746,6 +9043,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_air_distribution_middle_and_lower = SFSymbol(identifier: "figure.seated.side.right.air.distribution.middle.and.lower")
@@ -8757,6 +9055,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_air_distribution_upper_angled_and_middle = SFSymbol(identifier: "figure.seated.side.right.air.distribution.upper.angled.and.middle")
@@ -8768,6 +9067,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_air_distribution_upper_angled_and_lower_angled = SFSymbol(identifier: "figure.seated.side.right.air.distribution.upper.angled.and.lower.angled")
@@ -8779,6 +9079,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_air_distribution_middle_and_lower_angled = SFSymbol(identifier: "figure.seated.side.right.air.distribution.middle.and.lower.angled")
@@ -8790,6 +9091,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_air_distribution_upper_angled_and_middle_and_lower_angled = SFSymbol(identifier: "figure.seated.side.right.air.distribution.upper.angled.and.middle.and.lower.angled")
@@ -8812,6 +9114,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_middle_and_lower = SFSymbol(identifier: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower")
@@ -8823,6 +9126,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_middle_and_lower = SFSymbol(identifier: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.middle.and.lower")
@@ -8834,6 +9138,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_middle = SFSymbol(identifier: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper.and.middle")
@@ -8845,6 +9150,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper_and_lower = SFSymbol(identifier: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper.and.lower")
@@ -8856,6 +9162,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_upper = SFSymbol(identifier: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.upper")
@@ -8867,6 +9174,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_lower = SFSymbol(identifier: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.lower")
@@ -8878,6 +9186,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_windshield_front_and_heat_waves_air_distribution_middle = SFSymbol(identifier: "figure.seated.side.left.windshield.front.and.heat.waves.air.distribution.middle")
@@ -8900,6 +9209,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_middle_and_lower = SFSymbol(identifier: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper.and.middle.and.lower")
@@ -8911,6 +9221,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_middle_and_lower = SFSymbol(identifier: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.middle.and.lower")
@@ -8922,6 +9233,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_middle = SFSymbol(identifier: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper.and.middle")
@@ -8933,6 +9245,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper_and_lower = SFSymbol(identifier: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper.and.lower")
@@ -8944,6 +9257,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_upper = SFSymbol(identifier: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.upper")
@@ -8955,6 +9269,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_lower = SFSymbol(identifier: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.lower")
@@ -8966,6 +9281,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_windshield_front_and_heat_waves_air_distribution_middle = SFSymbol(identifier: "figure.seated.side.right.windshield.front.and.heat.waves.air.distribution.middle")
@@ -9217,7 +9533,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_car_side = SFSymbol(identifier: "wave.3.down.car.side")
 
 	/// 􂨁 `wave.3.down.car.side.fill`
@@ -9225,7 +9541,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `automotive`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_car_side_fill = SFSymbol(identifier: "wave.3.down.car.side.fill")
 
 	/// 􂞖 `suv.side.front.open.crop`
@@ -9293,7 +9609,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_suv_side = SFSymbol(identifier: "wave.3.down.suv.side")
 
 	/// 􂨃 `wave.3.down.suv.side.fill`
@@ -9301,7 +9617,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `automotive`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_suv_side_fill = SFSymbol(identifier: "wave.3.down.suv.side.fill")
 
 	/// 􂞚 `truck.pickup.side.front.open.crop`
@@ -9357,7 +9673,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_pickup_side = SFSymbol(identifier: "wave.3.down.pickup.side")
 
 	/// 􂨅 `wave.3.down.pickup.side.fill`
@@ -9365,7 +9681,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `automotive`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_pickup_side_fill = SFSymbol(identifier: "wave.3.down.pickup.side.fill")
 
 	/// 􂥂 `convertible.side`
@@ -9532,7 +9848,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_convertible_side = SFSymbol(identifier: "wave.3.down.convertible.side")
 
 	/// 􂨇 `wave.3.down.convertible.side.fill`
@@ -9540,7 +9856,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `automotive`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_down_convertible_side_fill = SFSymbol(identifier: "wave.3.down.convertible.side.fill")
 
 	/// 􂬦 `convertible.side.arrow.trianglehead.forward`
@@ -9757,56 +10073,56 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_right_car_top_front = SFSymbol(identifier: "car.top.radiowaves.rear.right.car.top.front")
 
 	/// 􂥁 `car.top.radiowaves.rear.right.car.top.front.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_right_car_top_front_fill = SFSymbol(identifier: "car.top.radiowaves.rear.right.car.top.front.fill")
 
 	/// 􂤾 `car.top.radiowaves.rear.left.car.top.front`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_left_car_top_front = SFSymbol(identifier: "car.top.radiowaves.rear.left.car.top.front")
 
 	/// 􂤿 `car.top.radiowaves.rear.left.car.top.front.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_left_car_top_front_fill = SFSymbol(identifier: "car.top.radiowaves.rear.left.car.top.front.fill")
 
 	/// 􂨒 `car.top.front.radiowaves.front.left.and.front.and.front.right`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_front_radiowaves_front_left_and_front_and_front_right = SFSymbol(identifier: "car.top.front.radiowaves.front.left.and.front.and.front.right")
 
 	/// 􂨓 `car.top.front.radiowaves.front.left.and.front.and.front.right.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_front_radiowaves_front_left_and_front_and_front_right_fill = SFSymbol(identifier: "car.top.front.radiowaves.front.left.and.front.and.front.right.fill")
 
 	/// 􂨔 `car.top.rear.radiowaves.rear.left.and.rear.and.rear.right`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_rear_radiowaves_rear_left_and_rear_and_rear_right = SFSymbol(identifier: "car.top.rear.radiowaves.rear.left.and.rear.and.rear.right")
 
 	/// 􂨕 `car.top.rear.radiowaves.rear.left.and.rear.and.rear.right.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_rear_radiowaves_rear_left_and_rear_and_rear_right_fill = SFSymbol(identifier: "car.top.rear.radiowaves.rear.left.and.rear.and.rear.right.fill")
 
 	/// 􂊯 `suspension.shock`
@@ -9835,7 +10151,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `automotive`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let key_car_radiowaves_forward = SFSymbol(identifier: "key.car.radiowaves.forward")
 
 	/// 􂬳 `key.car.radiowaves.forward.fill`
@@ -9843,7 +10159,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `automotive`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let key_car_radiowaves_forward_fill = SFSymbol(identifier: "key.car.radiowaves.forward.fill")
 
 	/// 􂬴 `key.car.radiowaves.forward.rtl`
@@ -9851,7 +10167,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `automotive`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let key_car_radiowaves_forward_rtl = SFSymbol(identifier: "key.car.radiowaves.forward.rtl")
 
 	/// 􂬵 `key.car.radiowaves.forward.fill.rtl`
@@ -9859,7 +10175,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `automotive`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let key_car_radiowaves_forward_fill_rtl = SFSymbol(identifier: "key.car.radiowaves.forward.fill.rtl")
 
 	/// 􂥢 `fluid.batteryblock`
@@ -9942,77 +10258,77 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_wave_up = SFSymbol(identifier: "car.rear.road.lane.wave.up")
 
 	/// 􂊺 `car.rear.road.lane.distance.1`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_1 = SFSymbol(identifier: "car.rear.road.lane.distance.1")
 
 	/// 􂊻 `car.rear.road.lane.distance.2`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_2 = SFSymbol(identifier: "car.rear.road.lane.distance.2")
 
 	/// 􂊼 `car.rear.road.lane.distance.3`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_3 = SFSymbol(identifier: "car.rear.road.lane.distance.3")
 
 	/// 􂊽 `car.rear.road.lane.distance.4`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_4 = SFSymbol(identifier: "car.rear.road.lane.distance.4")
 
 	/// 􂊾 `car.rear.road.lane.distance.5`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_5 = SFSymbol(identifier: "car.rear.road.lane.distance.5")
 
 	/// 􂊿 `car.rear.road.lane.distance.1.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_1_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = SFSymbol(identifier: "car.rear.road.lane.distance.1.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
 
 	/// 􂋀 `car.rear.road.lane.distance.2.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_2_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = SFSymbol(identifier: "car.rear.road.lane.distance.2.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
 
 	/// 􂋁 `car.rear.road.lane.distance.3.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_3_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = SFSymbol(identifier: "car.rear.road.lane.distance.3.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
 
 	/// 􂋂 `car.rear.road.lane.distance.4.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_4_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = SFSymbol(identifier: "car.rear.road.lane.distance.4.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
 
 	/// 􂋃 `car.rear.road.lane.distance.5.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_road_lane_distance_5_and_gauge_open_with_lines_needle_67percent_and_arrowtriangle = SFSymbol(identifier: "car.rear.road.lane.distance.5.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle")
 
 	/// 􂚚 `tachometer`
@@ -10065,6 +10381,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
+	///   - `variable`
 	static public let tsa_circle = SFSymbol(identifier: "tsa.circle")
 
 	/// 􂮠 `tsa.circle.fill`
@@ -10092,6 +10409,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `health`
 	///   - `nature`
+	///   - `variable`
 	static public let apple_meditate_circle = SFSymbol(identifier: "apple.meditate.circle")
 
 	/// 􂛒 `apple.meditate.circle.fill`
@@ -10126,6 +10444,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `nature`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `animals`
@@ -10158,6 +10477,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `cameraandphotos`
 	///   - `nature`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `macro`
@@ -10576,6 +10896,7 @@ extension SFSymbol {
 	///   - `fitness`
 	///   - `gaming`
 	///   - `objectsandtools`
+	///   - `variable`
 	static public let gamecontroller_circle = SFSymbol(identifier: "gamecontroller.circle")
 
 	/// 􂝉 `gamecontroller.circle.fill`
@@ -10630,14 +10951,14 @@ extension SFSymbol {
 	/// 􂯞 `chart.bar.yaxis`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chart_bar_yaxis = SFSymbol(identifier: "chart.bar.yaxis")
 
 	/// 􁃨 `waveform.badge.microphone`
 	///
 	/// - categories:
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `microphone`
@@ -11689,6 +12010,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `a`
@@ -11727,6 +12049,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
+	///   - `variable`
 	static public let character_circle_ar = SFSymbol(identifier: "character.circle.ar")
 
 	/// 􂐃 `character.circle.fill.ar`
@@ -11753,6 +12076,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
+	///   - `variable`
 	static public let character_circle_he = SFSymbol(identifier: "character.circle.he")
 
 	/// 􂐈 `character.circle.fill.he`
@@ -11779,6 +12103,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
+	///   - `variable`
 	static public let character_circle_th = SFSymbol(identifier: "character.circle.th")
 
 	/// 􂐌 `character.circle.fill.th`
@@ -11805,6 +12130,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
+	///   - `variable`
 	static public let character_circle_zh = SFSymbol(identifier: "character.circle.zh")
 
 	/// 􂐐 `character.circle.fill.zh`
@@ -11831,6 +12157,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
+	///   - `variable`
 	static public let character_circle_ja = SFSymbol(identifier: "character.circle.ja")
 
 	/// 􂐔 `character.circle.fill.ja`
@@ -11857,6 +12184,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
+	///   - `variable`
 	static public let character_circle_ko = SFSymbol(identifier: "character.circle.ko")
 
 	/// 􂐘 `character.circle.fill.ko`
@@ -11883,6 +12211,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
+	///   - `variable`
 	static public let character_circle_hi = SFSymbol(identifier: "character.circle.hi")
 
 	/// 􂐜 `character.circle.fill.hi`
@@ -12626,18 +12955,6 @@ extension SFSymbol {
 	///   - `textformatting`
 	static public let textformat_numbers_hi = SFSymbol(identifier: "textformat.numbers.hi")
 
-	/// 􁰨 `textformat.numbers.my`
-	///
-	/// - categories:
-	///   - `textformatting`
-	static public let textformat_numbers_my = SFSymbol(identifier: "textformat.numbers.my")
-
-	/// 􁰩 `textformat.numbers.km`
-	///
-	/// - categories:
-	///   - `textformatting`
-	static public let textformat_numbers_km = SFSymbol(identifier: "textformat.numbers.km")
-
 	/// 􂧱 `textformat.numbers.bn`
 	///
 	/// - categories:
@@ -12656,11 +12973,17 @@ extension SFSymbol {
 	///   - `textformatting`
 	static public let textformat_numbers_pa = SFSymbol(identifier: "textformat.numbers.pa")
 
-	/// 􂧴 `textformat.numbers.te`
+	/// 􂧷 `textformat.numbers.kn`
 	///
 	/// - categories:
 	///   - `textformatting`
-	static public let textformat_numbers_te = SFSymbol(identifier: "textformat.numbers.te")
+	static public let textformat_numbers_kn = SFSymbol(identifier: "textformat.numbers.kn")
+
+	/// 􁰩 `textformat.numbers.km`
+	///
+	/// - categories:
+	///   - `textformatting`
+	static public let textformat_numbers_km = SFSymbol(identifier: "textformat.numbers.km")
 
 	/// 􂧵 `textformat.numbers.ml`
 	///
@@ -12668,17 +12991,23 @@ extension SFSymbol {
 	///   - `textformatting`
 	static public let textformat_numbers_ml = SFSymbol(identifier: "textformat.numbers.ml")
 
+	/// 􂧹 `textformat.numbers.mni`
+	///
+	/// - categories:
+	///   - `textformatting`
+	static public let textformat_numbers_mni = SFSymbol(identifier: "textformat.numbers.mni")
+
+	/// 􁰨 `textformat.numbers.my`
+	///
+	/// - categories:
+	///   - `textformatting`
+	static public let textformat_numbers_my = SFSymbol(identifier: "textformat.numbers.my")
+
 	/// 􂧶 `textformat.numbers.or`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_numbers_or = SFSymbol(identifier: "textformat.numbers.or")
-
-	/// 􂧷 `textformat.numbers.kn`
-	///
-	/// - categories:
-	///   - `textformatting`
-	static public let textformat_numbers_kn = SFSymbol(identifier: "textformat.numbers.kn")
 
 	/// 􂧸 `textformat.numbers.sat`
 	///
@@ -12686,11 +13015,11 @@ extension SFSymbol {
 	///   - `textformatting`
 	static public let textformat_numbers_sat = SFSymbol(identifier: "textformat.numbers.sat")
 
-	/// 􂧹 `textformat.numbers.mni`
+	/// 􂧴 `textformat.numbers.te`
 	///
 	/// - categories:
 	///   - `textformatting`
-	static public let textformat_numbers_mni = SFSymbol(identifier: "textformat.numbers.mni")
+	static public let textformat_numbers_te = SFSymbol(identifier: "textformat.numbers.te")
 
 	/// 􂪯 `notequal`
 	///
@@ -12705,6 +13034,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `math`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `≠`
@@ -12753,6 +13083,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `math`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `<`
@@ -12805,6 +13136,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `math`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `>`
@@ -13122,6 +13454,8 @@ extension SFSymbol {
 	/// - categories:
 	///   - `arrows`
 	///   - `maps`
+	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `directions`
@@ -13182,6 +13516,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `indices`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `currencies`
@@ -13239,6 +13574,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `indices`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `currencies`
@@ -13296,6 +13632,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `indices`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `currencies`

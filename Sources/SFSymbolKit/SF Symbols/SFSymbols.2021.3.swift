@@ -36,9 +36,6 @@ extension SFSymbol {
 	///   - `user`
 	static public let person_badge_key_fill = SFSymbol(identifier: "person.badge.key.fill")
 
-	/// 􁑢 `dots.and.line.vertical.and.cursorarrow.rectangle`
-	static public let dots_and_line_vertical_and_cursorarrow_rectangle = SFSymbol(identifier: "dots.and.line.vertical.and.cursorarrow.rectangle")
-
 	/// 􁂂 `camera.macro`
 	///
 	/// - categories:
@@ -54,6 +51,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `cameraandphotos`
 	///   - `nature`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `macro`

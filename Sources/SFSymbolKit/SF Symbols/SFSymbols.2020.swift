@@ -13,7 +13,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `editing`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `action`
@@ -31,7 +31,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `editing`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `action`
@@ -176,6 +176,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `send`
@@ -195,6 +196,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `inbox`
@@ -319,7 +321,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let externaldrive_badge_wifi = SFSymbol(identifier: "externaldrive.badge.wifi")
 
 	/// 􀩯 `externaldrive.fill.badge.wifi`
@@ -327,7 +329,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let externaldrive_fill_badge_wifi = SFSymbol(identifier: "externaldrive.fill.badge.wifi")
 
 	/// 􀪹 `externaldrive.badge.icloud`
@@ -398,6 +400,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `archive`
@@ -426,6 +429,7 @@ extension SFSymbol {
 	/// 􀈲 `xmark.bin.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	///
 	/// - search keywords:
@@ -437,6 +441,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `junk`
@@ -454,31 +459,6 @@ extension SFSymbol {
 
 	/// 􀩳 `list.bullet.rectangle`
 	static public let list_bullet_rectangle = SFSymbol(identifier: "list.bullet.rectangle")
-
-	/// 􀧵 `note`
-	///
-	/// - categories:
-	///   - `objectsandtools`
-	static public let note = SFSymbol(identifier: "note")
-
-	/// 􀓕 `note.text`
-	///
-	/// - categories:
-	///   - `objectsandtools`
-	static public let note_text = SFSymbol(identifier: "note.text")
-
-	/// 􀣙 `note.text.badge.plus`
-	///
-	/// - categories:
-	///   - `multicolor`
-	///   - `objectsandtools`
-	///
-	/// - search keywords:
-	///   - `+`
-	///   - `add`
-	///   - `create`
-	///   - `new`
-	static public let note_text_badge_plus = SFSymbol(identifier: "note.text.badge.plus")
 
 	/// 􀧞 `calendar.badge.clock`
 	///
@@ -528,6 +508,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	static public let arrowshape_turn_up_backward_circle = SFSymbol(identifier: "arrowshape.turn.up.backward.circle")
 
 	/// 􀰝 `arrowshape.turn.up.backward.circle.fill`
@@ -553,6 +534,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	static public let arrowshape_turn_up_forward_circle = SFSymbol(identifier: "arrowshape.turn.up.forward.circle")
 
 	/// 􀰡 `arrowshape.turn.up.forward.circle.fill`
@@ -566,6 +548,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `reply all`
@@ -597,6 +580,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	static public let arrowshape_turn_up_backward_2_circle = SFSymbol(identifier: "arrowshape.turn.up.backward.2.circle")
 
 	/// 􀰥 `arrowshape.turn.up.backward.2.circle.fill`
@@ -702,6 +686,7 @@ extension SFSymbol {
 	/// 􀫘 `text.book.closed.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	///
 	/// - search keywords:
@@ -729,6 +714,7 @@ extension SFSymbol {
 	/// 􀥅 `newspaper.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	static public let newspaper_fill = SFSymbol(identifier: "newspaper.fill")
 
@@ -737,6 +723,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `bookmark`
@@ -975,6 +962,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -1113,6 +1101,7 @@ extension SFSymbol {
 	///   - `human`
 	///   - `maps`
 	///   - `transportation`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1188,6 +1177,7 @@ extension SFSymbol {
 	///   - `human`
 	///   - `maps`
 	///   - `transportation`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -1211,6 +1201,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `keyboard`
+	///   - `variable`
 	static public let command_circle = SFSymbol(identifier: "command.circle")
 
 	/// 􀪀 `command.circle.fill`
@@ -1240,6 +1231,9 @@ extension SFSymbol {
 	static public let restart = SFSymbol(identifier: "restart")
 
 	/// 􀣨 `restart.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `restart`
@@ -1273,6 +1267,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `keyboard`
+	///   - `variable`
 	static public let eject_circle = SFSymbol(identifier: "eject.circle")
 
 	/// 􀢢 `eject.circle.fill`
@@ -1294,85 +1289,11 @@ extension SFSymbol {
 	///   - `keyboard`
 	static public let mount_fill = SFSymbol(identifier: "mount.fill")
 
-	/// 􀇰 `cursorarrow.rays`
-	///
-	/// - categories:
-	///   - `accessibility`
-	///
-	/// - search keywords:
-	///   - `light`
-	static public let cursorarrow_rays = SFSymbol(identifier: "cursorarrow.rays")
-
-	/// 􀭅 `cursorarrow.square`
-	static public let cursorarrow_square = SFSymbol(identifier: "cursorarrow.square")
-
-	/// 􀣠 `cursorarrow.motionlines`
-	///
-	/// - categories:
-	///   - `accessibility`
-	static public let cursorarrow_motionlines = SFSymbol(identifier: "cursorarrow.motionlines")
-
-	/// 􀣡 `cursorarrow.motionlines.click`
-	///
-	/// - categories:
-	///   - `accessibility`
-	static public let cursorarrow_motionlines_click = SFSymbol(identifier: "cursorarrow.motionlines.click")
-
-	/// 􀮴 `cursorarrow.click.badge.clock`
-	///
-	/// - categories:
-	///   - `accessibility`
-	///   - `multicolor`
-	static public let cursorarrow_click_badge_clock = SFSymbol(identifier: "cursorarrow.click.badge.clock")
-
-	/// 􀭆 `cursorarrow.click`
-	///
-	/// - categories:
-	///   - `accessibility`
-	static public let cursorarrow_click = SFSymbol(identifier: "cursorarrow.click")
-
-	/// 􀭇 `cursorarrow.click.2`
-	///
-	/// - categories:
-	///   - `accessibility`
-	///   - `variablecolor`
-	static public let cursorarrow_click_2 = SFSymbol(identifier: "cursorarrow.click.2")
-
-	/// 􀮐 `cursorarrow.and.square.on.square.dashed`
-	///
-	/// - categories:
-	///   - `accessibility`
-	static public let cursorarrow_and_square_on_square_dashed = SFSymbol(identifier: "cursorarrow.and.square.on.square.dashed")
-
-	/// 􀭈 `contextualmenu.and.cursorarrow`
-	///
-	/// - categories:
-	///   - `accessibility`
-	static public let contextualmenu_and_cursorarrow = SFSymbol(identifier: "contextualmenu.and.cursorarrow")
-
-	/// 􀯪 `filemenu.and.cursorarrow`
-	///
-	/// - categories:
-	///   - `accessibility`
-	static public let filemenu_and_cursorarrow = SFSymbol(identifier: "filemenu.and.cursorarrow")
-
-	/// 􀱣 `filemenu.and.cursorarrow.rtl`
-	///
-	/// - categories:
-	///   - `accessibility`
-	static public let filemenu_and_cursorarrow_rtl = SFSymbol(identifier: "filemenu.and.cursorarrow.rtl")
-
 	/// 􀱢 `filemenu.and.selection`
 	///
 	/// - categories:
 	///   - `multicolor`
 	static public let filemenu_and_selection = SFSymbol(identifier: "filemenu.and.selection")
-
-	/// 􀫍 `dot.circle.and.cursorarrow`
-	///
-	/// - categories:
-	///   - `accessibility`
-	static public let dot_circle_and_cursorarrow = SFSymbol(identifier: "dot.circle.and.cursorarrow")
 
 	/// 􀫒 `keyboard.badge.ellipsis`
 	///
@@ -1429,6 +1350,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `nature`
+	///   - `variable`
 	///   - `weather`
 	///
 	/// - search keywords:
@@ -1479,6 +1401,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `media`
+	///   - `variable`
 	static public let record_circle = SFSymbol(identifier: "record.circle")
 
 	/// 􀢚 `record.circle.fill`
@@ -1534,6 +1457,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `remove`
@@ -1555,6 +1479,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `remove`
@@ -1576,7 +1501,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `volume`
@@ -1586,7 +1511,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `volume`
@@ -1596,7 +1521,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `volume`
@@ -1606,7 +1531,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `volume`
@@ -1616,7 +1541,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `volume`
@@ -1627,7 +1552,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `volume`
@@ -1637,7 +1562,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `volume`
@@ -1647,7 +1572,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `volume`
@@ -1657,7 +1582,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `+`
@@ -1666,6 +1591,9 @@ extension SFSymbol {
 	static public let badge_plus_radiowaves_forward = SFSymbol(identifier: "badge.plus.radiowaves.forward")
 
 	/// 􀫀 `music.quarternote.3`
+	///
+	/// - search keywords:
+	///   - `media`
 	static public let music_quarternote_3 = SFSymbol(identifier: "music.quarternote.3")
 
 	/// 􀫊 `swift`
@@ -1719,16 +1647,10 @@ extension SFSymbol {
 	///   - `communication`
 	static public let line_diagonal = SFSymbol(identifier: "line.diagonal")
 
-	/// 􀫱 `line.diagonal.arrow`
-	///
-	/// - categories:
-	///   - `communication`
-	static public let line_diagonal_arrow = SFSymbol(identifier: "line.diagonal.arrow")
-
 	/// 􀢊 `target`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `dot`
@@ -1928,6 +1850,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `conversations`
@@ -2029,6 +1952,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `health`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `medical`
@@ -2099,6 +2023,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `remove`
@@ -2149,6 +2074,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `remove`
@@ -2208,6 +2134,7 @@ extension SFSymbol {
 	///   - `cameraandphotos`
 	///   - `multicolor`
 	///   - `nature`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `camera`
@@ -2241,6 +2168,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
+	///   - `multicolor`
 	///   - `privacyandsecurity`
 	static public let checkmark_icloud_fill = SFSymbol(identifier: "checkmark.icloud.fill")
 
@@ -2255,6 +2183,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
+	///   - `multicolor`
 	///   - `privacyandsecurity`
 	static public let key_icloud_fill = SFSymbol(identifier: "key.icloud.fill")
 
@@ -2284,6 +2213,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
+	///   - `multicolor`
 	static public let arrow_up_message_fill = SFSymbol(identifier: "arrow.up.message.fill")
 
 	/// 􀡙 `plus.message`
@@ -2299,6 +2229,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
+	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `add`
@@ -2316,6 +2247,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
+	///   - `multicolor`
 	static public let quote_bubble_fill_rtl = SFSymbol(identifier: "quote.bubble.fill.rtl")
 
 	/// 􀨻 `text.bubble.rtl`
@@ -2328,6 +2260,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
+	///   - `multicolor`
 	static public let text_bubble_fill_rtl = SFSymbol(identifier: "text.bubble.fill.rtl")
 
 	/// 􀕺 `ellipsis.bubble`
@@ -2335,7 +2268,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `action`
@@ -2352,7 +2285,7 @@ extension SFSymbol {
 	///   - `accessibility`
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `action`
@@ -2375,6 +2308,7 @@ extension SFSymbol {
 	///   - `accessibility`
 	///   - `communication`
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `phone`
@@ -2469,6 +2403,9 @@ extension SFSymbol {
 	static public let mail = SFSymbol(identifier: "mail")
 
 	/// 􀣫 `mail.fill`
+	///
+	/// - categories:
+	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `address`
@@ -2571,7 +2508,7 @@ extension SFSymbol {
 	/// 􀠩 `ellipsis.rectangle`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `action`
@@ -2587,7 +2524,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `action`
@@ -2604,6 +2541,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `objectsandtools`
+	///   - `variable`
 	static public let bag_circle = SFSymbol(identifier: "bag.circle")
 
 	/// 􀒬 `bag.circle.fill`
@@ -2619,6 +2557,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `objectsandtools`
+	///   - `variable`
 	static public let creditcard_circle = SFSymbol(identifier: "creditcard.circle")
 
 	/// 􀒰 `creditcard.circle.fill`
@@ -2650,6 +2589,7 @@ extension SFSymbol {
 	/// 􀟿 `wallet.pass.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	static public let wallet_pass_fill = SFSymbol(identifier: "wallet.pass.fill")
 
@@ -2934,20 +2874,13 @@ extension SFSymbol {
 	///   - `objectsandtools`
 	static public let puzzlepiece_fill = SFSymbol(identifier: "puzzlepiece.fill")
 
-	/// 􀠀 `homekit`
-	///
-	/// - categories:
-	///   - `home`
-	///   - `multicolor`
-	///   - `variablecolor`
-	static public let homekit = SFSymbol(identifier: "homekit")
-
 	/// 􀥆 `house.circle`
 	///
 	/// - categories:
 	///   - `gaming`
 	///   - `home`
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `home`
@@ -3138,6 +3071,7 @@ extension SFSymbol {
 	/// 􀡝 `lock.square.stack.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
 	///
@@ -3188,6 +3122,7 @@ extension SFSymbol {
 	/// 􀢲 `lock.rectangle.stack.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
 	///
@@ -3435,7 +3370,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_radiowaves_left_and_right = SFSymbol(identifier: "iphone.radiowaves.left.and.right")
 
 	/// 􀨵 `iphone.slash`
@@ -3533,7 +3468,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let applewatch_radiowaves_left_and_right = SFSymbol(identifier: "applewatch.radiowaves.left.and.right")
 
 	/// 􀨶 `applewatch.slash`
@@ -3550,6 +3485,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `audio`
@@ -3749,7 +3685,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -3759,14 +3695,14 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_left = SFSymbol(identifier: "wave.3.left")
 
 	/// 􀭷 `wave.3.left.circle`
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_left_circle = SFSymbol(identifier: "wave.3.left.circle")
 
 	/// 􀭸 `wave.3.left.circle.fill`
@@ -3774,14 +3710,14 @@ extension SFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_left_circle_fill = SFSymbol(identifier: "wave.3.left.circle.fill")
 
 	/// 􀱘 `wave.3.backward`
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `left`
@@ -3791,7 +3727,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `left`
@@ -3802,7 +3738,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `left`
@@ -3812,14 +3748,14 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_right = SFSymbol(identifier: "wave.3.right")
 
 	/// 􀭹 `wave.3.right.circle`
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_right_circle = SFSymbol(identifier: "wave.3.right.circle")
 
 	/// 􀭺 `wave.3.right.circle.fill`
@@ -3827,14 +3763,14 @@ extension SFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_right_circle_fill = SFSymbol(identifier: "wave.3.right.circle.fill")
 
 	/// 􀱛 `wave.3.forward`
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -3844,7 +3780,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -3855,7 +3791,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -3911,6 +3847,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `transportation`
+	///   - `variable`
 	static public let airplane_circle = SFSymbol(identifier: "airplane.circle")
 
 	/// 􀒹 `airplane.circle.fill`
@@ -3928,6 +3865,7 @@ extension SFSymbol {
 	///   - `maps`
 	///   - `multicolor`
 	///   - `transportation`
+	///   - `variable`
 	static public let car_circle = SFSymbol(identifier: "car.circle")
 
 	/// 􀭰 `car.circle.fill`
@@ -4014,6 +3952,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `maps`
 	///   - `transportation`
+	///   - `variable`
 	static public let tram_circle = SFSymbol(identifier: "tram.circle")
 
 	/// 􀲜 `tram.circle.fill`
@@ -4038,6 +3977,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `maps`
 	///   - `transportation`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `bike`
@@ -4132,6 +4072,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `health`
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `medical`
@@ -4151,6 +4092,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `health`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `medical`
@@ -4279,6 +4221,7 @@ extension SFSymbol {
 	///   - `health`
 	///   - `human`
 	///   - `privacyandsecurity`
+	///   - `variable`
 	static public let eye_circle = SFSymbol(identifier: "eye.circle")
 
 	/// 􀜀 `eye.circle.fill`
@@ -4559,21 +4502,21 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `cameraandphotos`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let camera_metering_center_weighted = SFSymbol(identifier: "camera.metering.center.weighted")
 
 	/// 􀢫 `camera.metering.matrix`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let camera_metering_matrix = SFSymbol(identifier: "camera.metering.matrix")
 
 	/// 􀢬 `camera.metering.multispot`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let camera_metering_multispot = SFSymbol(identifier: "camera.metering.multispot")
 
 	/// 􀢭 `camera.metering.none`
@@ -4683,6 +4626,9 @@ extension SFSymbol {
 	static public let sparkles_rectangle_stack = SFSymbol(identifier: "sparkles.rectangle.stack")
 
 	/// 􀲴 `sparkles.rectangle.stack.fill`
+	///
+	/// - categories:
+	///   - `multicolor`
 	static public let sparkles_rectangle_stack_fill = SFSymbol(identifier: "sparkles.rectangle.stack.fill")
 
 	/// 􀰱 `sidebar.leading`
@@ -4746,15 +4692,27 @@ extension SFSymbol {
 	static public let menubar_arrow_down_rectangle = SFSymbol(identifier: "menubar.arrow.down.rectangle")
 
 	/// 􀢌 `macwindow.on.rectangle`
+	///
+	/// - categories:
+	///   - `multicolor`
 	static public let macwindow_on_rectangle = SFSymbol(identifier: "macwindow.on.rectangle")
 
 	/// 􀧔 `macwindow.on.rectangle.rtl`
+	///
+	/// - categories:
+	///   - `multicolor`
 	static public let macwindow_on_rectangle_rtl = SFSymbol(identifier: "macwindow.on.rectangle.rtl")
 
 	/// 􀣚 `text.and.command.macwindow`
+	///
+	/// - categories:
+	///   - `multicolor`
 	static public let text_and_command_macwindow = SFSymbol(identifier: "text.and.command.macwindow")
 
 	/// 􀤯 `keyboard.macwindow`
+	///
+	/// - categories:
+	///   - `multicolor`
 	static public let keyboard_macwindow = SFSymbol(identifier: "keyboard.macwindow")
 
 	/// 􀯫 `mosaic`
@@ -4830,7 +4788,7 @@ extension SFSymbol {
 	/// 􀰳 `square.stack.3d.down.forward`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -4839,7 +4797,7 @@ extension SFSymbol {
 	/// 􀰴 `square.stack.3d.down.forward.fill`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -4848,13 +4806,13 @@ extension SFSymbol {
 	/// 􀐠 `square.stack.3d.forward.dottedline`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let square_stack_3d_forward_dottedline = SFSymbol(identifier: "square.stack.3d.forward.dottedline")
 
 	/// 􀧏 `square.stack.3d.forward.dottedline.fill`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let square_stack_3d_forward_dottedline_fill = SFSymbol(identifier: "square.stack.3d.forward.dottedline.fill")
 
 	/// 􀡑 `deskclock`
@@ -4930,6 +4888,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `gaming`
+	///   - `variable`
 	static public let circle_circle = SFSymbol(identifier: "circle.circle")
 
 	/// 􀨂 `circle.circle.fill`
@@ -4943,6 +4902,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `gaming`
+	///   - `variable`
 	static public let square_circle = SFSymbol(identifier: "square.circle")
 
 	/// 􀨄 `square.circle.fill`
@@ -4956,6 +4916,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `gaming`
+	///   - `variable`
 	static public let triangle_circle = SFSymbol(identifier: "triangle.circle")
 
 	/// 􀨆 `triangle.circle.fill`
@@ -4994,7 +4955,7 @@ extension SFSymbol {
 	/// 􀣉 `chart.bar.xaxis`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chart_bar_xaxis = SFSymbol(identifier: "chart.bar.xaxis")
 
 	/// 􀮋 `dot.squareshape.split.2x2`
@@ -5087,7 +5048,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `authentication`
@@ -5133,8 +5094,8 @@ extension SFSymbol {
 	/// 􀓀 `gift.circle`
 	///
 	/// - categories:
-	///   - `multicolor`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `birthday`
@@ -5210,6 +5171,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `accessibility`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `zoom`
@@ -5230,6 +5192,9 @@ extension SFSymbol {
 	static public let binoculars_fill = SFSymbol(identifier: "binoculars.fill")
 
 	/// 􀭞 `square.fill.text.grid.1x2`
+	///
+	/// - categories:
+	///   - `textformatting`
 	static public let square_fill_text_grid_1x2 = SFSymbol(identifier: "square.fill.text.grid.1x2")
 
 	/// 􀢽 `list.triangle`
@@ -5306,6 +5271,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `@`
@@ -5334,6 +5300,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `indices`
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `help`
@@ -5542,7 +5509,6 @@ extension SFSymbol {
 	/// 􀡮 `checkmark.rectangle.portrait`
 	///
 	/// - categories:
-	///   - `multicolor`
 	///   - `privacyandsecurity`
 	static public let checkmark_rectangle_portrait = SFSymbol(identifier: "checkmark.rectangle.portrait")
 
@@ -5568,6 +5534,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `arrows`
 	///   - `cameraandphotos`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `left`
@@ -5618,6 +5585,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `arrows`
 	///   - `cameraandphotos`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -5684,6 +5652,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `left`
@@ -5731,6 +5700,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -5778,6 +5748,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `left`
@@ -5825,6 +5796,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -5872,6 +5844,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `left`
@@ -5919,6 +5892,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -5963,6 +5937,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	static public let arrow_left_arrow_right_circle = SFSymbol(identifier: "arrow.left.arrow.right.circle")
 
 	/// 􀂁 `arrow.left.arrow.right.circle.fill`
@@ -5999,6 +5974,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `left`
@@ -6021,6 +5997,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `arrows`
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `action`
@@ -6068,6 +6045,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `redo`
@@ -6137,6 +6115,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `arrows`
 	///   - `cameraandphotos`
+	///   - `variable`
 	static public let arrow_up_left_and_arrow_down_right_circle = SFSymbol(identifier: "arrow.up.left.and.arrow.down.right.circle")
 
 	/// 􀧜 `arrow.up.left.and.arrow.down.right.circle.fill`
@@ -6159,6 +6138,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `arrows`
 	///   - `cameraandphotos`
+	///   - `variable`
 	static public let arrow_up_backward_and_arrow_down_forward_circle = SFSymbol(identifier: "arrow.up.backward.and.arrow.down.forward.circle")
 
 	/// 􀱸 `arrow.up.backward.and.arrow.down.forward.circle.fill`
@@ -6174,6 +6154,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `arrows`
 	///   - `cameraandphotos`
+	///   - `variable`
 	static public let arrow_down_right_and_arrow_up_left_circle = SFSymbol(identifier: "arrow.down.right.and.arrow.up.left.circle")
 
 	/// 􀫟 `arrow.down.right.and.arrow.up.left.circle.fill`
@@ -6196,6 +6177,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `arrows`
 	///   - `cameraandphotos`
+	///   - `variable`
 	static public let arrow_down_forward_and_arrow_up_backward_circle = SFSymbol(identifier: "arrow.down.forward.and.arrow.up.backward.circle")
 
 	/// 􀱽 `arrow.down.forward.and.arrow.up.backward.circle.fill`
@@ -6228,6 +6210,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `left`
@@ -6284,6 +6267,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `right`
@@ -6323,6 +6307,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `indices`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `currencies`

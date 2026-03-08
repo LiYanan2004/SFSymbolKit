@@ -17,8 +17,8 @@ extension SFSymbol {
 	/// 􀒔 `paperclip.circle`
 	///
 	/// - categories:
-	///   - `multicolor`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `attach`
@@ -75,6 +75,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `pin`
@@ -96,6 +97,7 @@ extension SFSymbol {
 	///   - `maps`
 	///   - `multicolor`
 	///   - `objectsandtools`
+	///   - `variable`
 	static public let mappin_circle = SFSymbol(identifier: "mappin.circle")
 
 	/// 􀜈 `mappin.circle.fill`
@@ -133,6 +135,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `arrows`
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `action`

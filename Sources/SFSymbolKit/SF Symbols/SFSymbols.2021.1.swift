@@ -43,28 +43,28 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `cameraandphotos`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let square_3_layers_3d_down_right = SFSymbol(identifier: "square.3.layers.3d.down.right")
 
 	/// 􁉼 `square.3.layers.3d.down.left`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let square_3_layers_3d_down_left = SFSymbol(identifier: "square.3.layers.3d.down.left")
 
 	/// 􁋛 `square.3.layers.3d.down.forward`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let square_3_layers_3d_down_forward = SFSymbol(identifier: "square.3.layers.3d.down.forward")
 
 	/// 􁋜 `square.3.layers.3d.down.backward`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let square_3_layers_3d_down_backward = SFSymbol(identifier: "square.3.layers.3d.down.backward")
 
 	/// 􀌄 `text.justify.left`

@@ -36,6 +36,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -100,7 +101,12 @@ extension SFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `sound`
+	///   - `speaker`
 	static public let headphones_dots = SFSymbol(identifier: "headphones.dots")
 
 	/// 􂭃 `airpods.gen4`
@@ -155,6 +161,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_upper_and_middle_and_lower = SFSymbol(identifier: "figure.seated.side.left.air.distribution.upper.and.middle.and.lower")
@@ -166,6 +173,7 @@ extension SFSymbol {
 	///   - `human`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `human`
 	///   - `person`
 	static public let figure_seated_side_right_air_distribution_upper_and_middle_and_lower = SFSymbol(identifier: "figure.seated.side.right.air.distribution.upper.and.middle.and.lower")

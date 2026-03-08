@@ -36,6 +36,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `0_circle_hi` = SFSymbol(identifier: "0.circle.hi")
 
 	/// 􂑄 `0.circle.fill.hi`
@@ -62,6 +63,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `1_circle_hi` = SFSymbol(identifier: "1.circle.hi")
 
 	/// 􂑈 `1.circle.fill.hi`
@@ -88,6 +90,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `2_circle_hi` = SFSymbol(identifier: "2.circle.hi")
 
 	/// 􂑌 `2.circle.fill.hi`
@@ -114,6 +117,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `3_circle_hi` = SFSymbol(identifier: "3.circle.hi")
 
 	/// 􂑐 `3.circle.fill.hi`
@@ -140,6 +144,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `4_circle_hi` = SFSymbol(identifier: "4.circle.hi")
 
 	/// 􂑔 `4.circle.fill.hi`
@@ -166,6 +171,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `5_circle_hi` = SFSymbol(identifier: "5.circle.hi")
 
 	/// 􂑘 `5.circle.fill.hi`
@@ -192,6 +198,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `6_circle_hi` = SFSymbol(identifier: "6.circle.hi")
 
 	/// 􂑜 `6.circle.fill.hi`
@@ -218,6 +225,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `7_circle_hi` = SFSymbol(identifier: "7.circle.hi")
 
 	/// 􂑠 `7.circle.fill.hi`
@@ -244,6 +252,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `8_circle_hi` = SFSymbol(identifier: "8.circle.hi")
 
 	/// 􂑤 `8.circle.fill.hi`
@@ -270,6 +279,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `9_circle_hi` = SFSymbol(identifier: "9.circle.hi")
 
 	/// 􂑨 `9.circle.fill.hi`
@@ -296,6 +306,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `00_circle_ar` = SFSymbol(identifier: "00.circle.ar")
 
 	/// 􂋪 `00.circle.fill.ar`
@@ -322,6 +333,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `01_circle_ar` = SFSymbol(identifier: "01.circle.ar")
 
 	/// 􂋮 `01.circle.fill.ar`
@@ -348,6 +360,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `02_circle_ar` = SFSymbol(identifier: "02.circle.ar")
 
 	/// 􂋲 `02.circle.fill.ar`
@@ -374,6 +387,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `03_circle_ar` = SFSymbol(identifier: "03.circle.ar")
 
 	/// 􂋶 `03.circle.fill.ar`
@@ -400,6 +414,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `04_circle_ar` = SFSymbol(identifier: "04.circle.ar")
 
 	/// 􂋺 `04.circle.fill.ar`
@@ -426,6 +441,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `05_circle_ar` = SFSymbol(identifier: "05.circle.ar")
 
 	/// 􂋾 `05.circle.fill.ar`
@@ -452,6 +468,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `06_circle_ar` = SFSymbol(identifier: "06.circle.ar")
 
 	/// 􂌂 `06.circle.fill.ar`
@@ -478,6 +495,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `07_circle_ar` = SFSymbol(identifier: "07.circle.ar")
 
 	/// 􂌆 `07.circle.fill.ar`
@@ -504,6 +522,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `08_circle_ar` = SFSymbol(identifier: "08.circle.ar")
 
 	/// 􂌊 `08.circle.fill.ar`
@@ -530,6 +549,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `09_circle_ar` = SFSymbol(identifier: "09.circle.ar")
 
 	/// 􂌎 `09.circle.fill.ar`
@@ -556,6 +576,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `10_circle_ar` = SFSymbol(identifier: "10.circle.ar")
 
 	/// 􂌒 `10.circle.fill.ar`
@@ -582,6 +603,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `11_circle_ar` = SFSymbol(identifier: "11.circle.ar")
 
 	/// 􂌖 `11.circle.fill.ar`
@@ -608,6 +630,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `12_circle_ar` = SFSymbol(identifier: "12.circle.ar")
 
 	/// 􂌚 `12.circle.fill.ar`
@@ -634,6 +657,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `13_circle_ar` = SFSymbol(identifier: "13.circle.ar")
 
 	/// 􂌞 `13.circle.fill.ar`
@@ -660,6 +684,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `14_circle_ar` = SFSymbol(identifier: "14.circle.ar")
 
 	/// 􂌢 `14.circle.fill.ar`
@@ -686,6 +711,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `15_circle_ar` = SFSymbol(identifier: "15.circle.ar")
 
 	/// 􂌦 `15.circle.fill.ar`
@@ -712,6 +738,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `16_circle_ar` = SFSymbol(identifier: "16.circle.ar")
 
 	/// 􂌪 `16.circle.fill.ar`
@@ -738,6 +765,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `17_circle_ar` = SFSymbol(identifier: "17.circle.ar")
 
 	/// 􂌮 `17.circle.fill.ar`
@@ -764,6 +792,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `18_circle_ar` = SFSymbol(identifier: "18.circle.ar")
 
 	/// 􂌲 `18.circle.fill.ar`
@@ -790,6 +819,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `19_circle_ar` = SFSymbol(identifier: "19.circle.ar")
 
 	/// 􂌶 `19.circle.fill.ar`
@@ -816,6 +846,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `20_circle_ar` = SFSymbol(identifier: "20.circle.ar")
 
 	/// 􂌺 `20.circle.fill.ar`
@@ -842,6 +873,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `21_circle_ar` = SFSymbol(identifier: "21.circle.ar")
 
 	/// 􂌾 `21.circle.fill.ar`
@@ -868,6 +900,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `22_circle_ar` = SFSymbol(identifier: "22.circle.ar")
 
 	/// 􂍂 `22.circle.fill.ar`
@@ -894,6 +927,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `23_circle_ar` = SFSymbol(identifier: "23.circle.ar")
 
 	/// 􂍆 `23.circle.fill.ar`
@@ -920,6 +954,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `24_circle_ar` = SFSymbol(identifier: "24.circle.ar")
 
 	/// 􂍊 `24.circle.fill.ar`
@@ -946,6 +981,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `25_circle_ar` = SFSymbol(identifier: "25.circle.ar")
 
 	/// 􂍎 `25.circle.fill.ar`
@@ -972,6 +1008,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `26_circle_ar` = SFSymbol(identifier: "26.circle.ar")
 
 	/// 􂍒 `26.circle.fill.ar`
@@ -998,6 +1035,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `27_circle_ar` = SFSymbol(identifier: "27.circle.ar")
 
 	/// 􂍖 `27.circle.fill.ar`
@@ -1024,6 +1062,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `28_circle_ar` = SFSymbol(identifier: "28.circle.ar")
 
 	/// 􂍚 `28.circle.fill.ar`
@@ -1050,6 +1089,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `29_circle_ar` = SFSymbol(identifier: "29.circle.ar")
 
 	/// 􂍞 `29.circle.fill.ar`
@@ -1076,6 +1116,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `30_circle_ar` = SFSymbol(identifier: "30.circle.ar")
 
 	/// 􂍢 `30.circle.fill.ar`
@@ -1102,6 +1143,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `31_circle_ar` = SFSymbol(identifier: "31.circle.ar")
 
 	/// 􂍦 `31.circle.fill.ar`
@@ -1128,6 +1170,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `32_circle_ar` = SFSymbol(identifier: "32.circle.ar")
 
 	/// 􂍪 `32.circle.fill.ar`
@@ -1154,6 +1197,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `33_circle_ar` = SFSymbol(identifier: "33.circle.ar")
 
 	/// 􂍮 `33.circle.fill.ar`
@@ -1180,6 +1224,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `34_circle_ar` = SFSymbol(identifier: "34.circle.ar")
 
 	/// 􂍲 `34.circle.fill.ar`
@@ -1206,6 +1251,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `35_circle_ar` = SFSymbol(identifier: "35.circle.ar")
 
 	/// 􂍶 `35.circle.fill.ar`
@@ -1232,6 +1278,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `36_circle_ar` = SFSymbol(identifier: "36.circle.ar")
 
 	/// 􂍺 `36.circle.fill.ar`
@@ -1258,6 +1305,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `37_circle_ar` = SFSymbol(identifier: "37.circle.ar")
 
 	/// 􂍾 `37.circle.fill.ar`
@@ -1284,6 +1332,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `38_circle_ar` = SFSymbol(identifier: "38.circle.ar")
 
 	/// 􂎂 `38.circle.fill.ar`
@@ -1310,6 +1359,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `39_circle_ar` = SFSymbol(identifier: "39.circle.ar")
 
 	/// 􂎆 `39.circle.fill.ar`
@@ -1336,6 +1386,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `40_circle_ar` = SFSymbol(identifier: "40.circle.ar")
 
 	/// 􂎊 `40.circle.fill.ar`
@@ -1362,6 +1413,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `41_circle_ar` = SFSymbol(identifier: "41.circle.ar")
 
 	/// 􂎎 `41.circle.fill.ar`
@@ -1388,6 +1440,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `42_circle_ar` = SFSymbol(identifier: "42.circle.ar")
 
 	/// 􂎒 `42.circle.fill.ar`
@@ -1414,6 +1467,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `43_circle_ar` = SFSymbol(identifier: "43.circle.ar")
 
 	/// 􂎖 `43.circle.fill.ar`
@@ -1440,6 +1494,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `44_circle_ar` = SFSymbol(identifier: "44.circle.ar")
 
 	/// 􂎚 `44.circle.fill.ar`
@@ -1466,6 +1521,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `45_circle_ar` = SFSymbol(identifier: "45.circle.ar")
 
 	/// 􂎞 `45.circle.fill.ar`
@@ -1492,6 +1548,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `46_circle_ar` = SFSymbol(identifier: "46.circle.ar")
 
 	/// 􂎢 `46.circle.fill.ar`
@@ -1518,6 +1575,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `47_circle_ar` = SFSymbol(identifier: "47.circle.ar")
 
 	/// 􂎦 `47.circle.fill.ar`
@@ -1544,6 +1602,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `48_circle_ar` = SFSymbol(identifier: "48.circle.ar")
 
 	/// 􂎪 `48.circle.fill.ar`
@@ -1570,6 +1629,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `49_circle_ar` = SFSymbol(identifier: "49.circle.ar")
 
 	/// 􂎮 `49.circle.fill.ar`
@@ -1596,6 +1656,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `50_circle_ar` = SFSymbol(identifier: "50.circle.ar")
 
 	/// 􂎲 `50.circle.fill.ar`
@@ -1622,6 +1683,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `00_circle_hi` = SFSymbol(identifier: "00.circle.hi")
 
 	/// 􂑴 `00.circle.fill.hi`
@@ -1648,6 +1710,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `01_circle_hi` = SFSymbol(identifier: "01.circle.hi")
 
 	/// 􂑸 `01.circle.fill.hi`
@@ -1674,6 +1737,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `02_circle_hi` = SFSymbol(identifier: "02.circle.hi")
 
 	/// 􂒉 `02.circle.fill.hi`
@@ -1700,6 +1764,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `03_circle_hi` = SFSymbol(identifier: "03.circle.hi")
 
 	/// 􂒍 `03.circle.fill.hi`
@@ -1726,6 +1791,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `04_circle_hi` = SFSymbol(identifier: "04.circle.hi")
 
 	/// 􂒑 `04.circle.fill.hi`
@@ -1752,6 +1818,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `05_circle_hi` = SFSymbol(identifier: "05.circle.hi")
 
 	/// 􂒕 `05.circle.fill.hi`
@@ -1778,6 +1845,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `06_circle_hi` = SFSymbol(identifier: "06.circle.hi")
 
 	/// 􂒙 `06.circle.fill.hi`
@@ -1804,6 +1872,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `07_circle_hi` = SFSymbol(identifier: "07.circle.hi")
 
 	/// 􂒝 `07.circle.fill.hi`
@@ -1830,6 +1899,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `08_circle_hi` = SFSymbol(identifier: "08.circle.hi")
 
 	/// 􂒯 `08.circle.fill.hi`
@@ -1856,6 +1926,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `09_circle_hi` = SFSymbol(identifier: "09.circle.hi")
 
 	/// 􂒷 `09.circle.fill.hi`
@@ -1882,6 +1953,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `10_circle_hi` = SFSymbol(identifier: "10.circle.hi")
 
 	/// 􂒻 `10.circle.fill.hi`
@@ -1908,6 +1980,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `11_circle_hi` = SFSymbol(identifier: "11.circle.hi")
 
 	/// 􂒿 `11.circle.fill.hi`
@@ -1934,6 +2007,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `12_circle_hi` = SFSymbol(identifier: "12.circle.hi")
 
 	/// 􂓃 `12.circle.fill.hi`
@@ -1960,6 +2034,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `13_circle_hi` = SFSymbol(identifier: "13.circle.hi")
 
 	/// 􂓇 `13.circle.fill.hi`
@@ -1986,6 +2061,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `14_circle_hi` = SFSymbol(identifier: "14.circle.hi")
 
 	/// 􂓋 `14.circle.fill.hi`
@@ -2012,6 +2088,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `15_circle_hi` = SFSymbol(identifier: "15.circle.hi")
 
 	/// 􂓏 `15.circle.fill.hi`
@@ -2038,6 +2115,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `16_circle_hi` = SFSymbol(identifier: "16.circle.hi")
 
 	/// 􂓓 `16.circle.fill.hi`
@@ -2064,6 +2142,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `17_circle_hi` = SFSymbol(identifier: "17.circle.hi")
 
 	/// 􂓗 `17.circle.fill.hi`
@@ -2090,6 +2169,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `18_circle_hi` = SFSymbol(identifier: "18.circle.hi")
 
 	/// 􂓛 `18.circle.fill.hi`
@@ -2116,6 +2196,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `19_circle_hi` = SFSymbol(identifier: "19.circle.hi")
 
 	/// 􂓟 `19.circle.fill.hi`
@@ -2142,6 +2223,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `20_circle_hi` = SFSymbol(identifier: "20.circle.hi")
 
 	/// 􂐪 `20.circle.fill.hi`
@@ -2168,6 +2250,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `21_circle_hi` = SFSymbol(identifier: "21.circle.hi")
 
 	/// 􂐸 `21.circle.fill.hi`
@@ -2194,6 +2277,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `22_circle_hi` = SFSymbol(identifier: "22.circle.hi")
 
 	/// 􂐼 `22.circle.fill.hi`
@@ -2220,6 +2304,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `23_circle_hi` = SFSymbol(identifier: "23.circle.hi")
 
 	/// 􂖣 `23.circle.fill.hi`
@@ -2246,6 +2331,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `24_circle_hi` = SFSymbol(identifier: "24.circle.hi")
 
 	/// 􂖧 `24.circle.fill.hi`
@@ -2272,6 +2358,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `25_circle_hi` = SFSymbol(identifier: "25.circle.hi")
 
 	/// 􂖫 `25.circle.fill.hi`
@@ -2298,6 +2385,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `26_circle_hi` = SFSymbol(identifier: "26.circle.hi")
 
 	/// 􂖯 `26.circle.fill.hi`
@@ -2324,6 +2412,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `27_circle_hi` = SFSymbol(identifier: "27.circle.hi")
 
 	/// 􂖳 `27.circle.fill.hi`
@@ -2350,6 +2439,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `28_circle_hi` = SFSymbol(identifier: "28.circle.hi")
 
 	/// 􂖷 `28.circle.fill.hi`
@@ -2376,6 +2466,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `29_circle_hi` = SFSymbol(identifier: "29.circle.hi")
 
 	/// 􂖻 `29.circle.fill.hi`
@@ -2402,6 +2493,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `30_circle_hi` = SFSymbol(identifier: "30.circle.hi")
 
 	/// 􂖿 `30.circle.fill.hi`
@@ -2428,6 +2520,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `31_circle_hi` = SFSymbol(identifier: "31.circle.hi")
 
 	/// 􂗃 `31.circle.fill.hi`
@@ -2454,6 +2547,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `32_circle_hi` = SFSymbol(identifier: "32.circle.hi")
 
 	/// 􂗇 `32.circle.fill.hi`
@@ -2480,6 +2574,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `33_circle_hi` = SFSymbol(identifier: "33.circle.hi")
 
 	/// 􂗋 `33.circle.fill.hi`
@@ -2506,6 +2601,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `34_circle_hi` = SFSymbol(identifier: "34.circle.hi")
 
 	/// 􂗏 `34.circle.fill.hi`
@@ -2532,6 +2628,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `35_circle_hi` = SFSymbol(identifier: "35.circle.hi")
 
 	/// 􂗓 `35.circle.fill.hi`
@@ -2558,6 +2655,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `36_circle_hi` = SFSymbol(identifier: "36.circle.hi")
 
 	/// 􂗗 `36.circle.fill.hi`
@@ -2584,6 +2682,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `37_circle_hi` = SFSymbol(identifier: "37.circle.hi")
 
 	/// 􂗛 `37.circle.fill.hi`
@@ -2610,6 +2709,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `38_circle_hi` = SFSymbol(identifier: "38.circle.hi")
 
 	/// 􂗟 `38.circle.fill.hi`
@@ -2636,6 +2736,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `39_circle_hi` = SFSymbol(identifier: "39.circle.hi")
 
 	/// 􂗣 `39.circle.fill.hi`
@@ -2662,6 +2763,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `40_circle_hi` = SFSymbol(identifier: "40.circle.hi")
 
 	/// 􂗧 `40.circle.fill.hi`
@@ -2688,6 +2790,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `41_circle_hi` = SFSymbol(identifier: "41.circle.hi")
 
 	/// 􂗫 `41.circle.fill.hi`
@@ -2714,6 +2817,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `42_circle_hi` = SFSymbol(identifier: "42.circle.hi")
 
 	/// 􂗯 `42.circle.fill.hi`
@@ -2740,6 +2844,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `43_circle_hi` = SFSymbol(identifier: "43.circle.hi")
 
 	/// 􂗳 `43.circle.fill.hi`
@@ -2766,6 +2871,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `44_circle_hi` = SFSymbol(identifier: "44.circle.hi")
 
 	/// 􂗷 `44.circle.fill.hi`
@@ -2792,6 +2898,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `45_circle_hi` = SFSymbol(identifier: "45.circle.hi")
 
 	/// 􂗻 `45.circle.fill.hi`
@@ -2818,6 +2925,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `46_circle_hi` = SFSymbol(identifier: "46.circle.hi")
 
 	/// 􂗿 `46.circle.fill.hi`
@@ -2844,6 +2952,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `47_circle_hi` = SFSymbol(identifier: "47.circle.hi")
 
 	/// 􂘃 `47.circle.fill.hi`
@@ -2870,6 +2979,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `48_circle_hi` = SFSymbol(identifier: "48.circle.hi")
 
 	/// 􂘇 `48.circle.fill.hi`
@@ -2896,6 +3006,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `49_circle_hi` = SFSymbol(identifier: "49.circle.hi")
 
 	/// 􂘋 `49.circle.fill.hi`
@@ -2922,6 +3033,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `50_circle_hi` = SFSymbol(identifier: "50.circle.hi")
 
 	/// 􂘏 `50.circle.fill.hi`

@@ -12,6 +12,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `camping`
@@ -55,6 +56,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -216,17 +218,26 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `media`
+	///   - `multicolor`
 	static public let play_square_stack_fill = SFSymbol(identifier: "play.square.stack.fill")
 
 	/// 􀜥 `sos`
+	///
+	/// - categories:
+	///   - `connectivity`
 	static public let sos = SFSymbol(identifier: "sos")
 
 	/// 􁞪 `sos.circle`
+	///
+	/// - categories:
+	///   - `connectivity`
+	///   - `variable`
 	static public let sos_circle = SFSymbol(identifier: "sos.circle")
 
 	/// 􁞫 `sos.circle.fill`
 	///
 	/// - categories:
+	///   - `connectivity`
 	///   - `multicolor`
 	static public let sos_circle_fill = SFSymbol(identifier: "sos.circle.fill")
 
@@ -271,6 +282,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `health`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `first aid`
@@ -318,6 +330,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `home`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -340,6 +353,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -381,6 +395,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -422,6 +437,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -465,6 +481,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -488,6 +505,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -511,6 +529,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -558,6 +577,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -608,6 +628,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -655,6 +676,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `nature`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -692,7 +714,7 @@ extension SFSymbol {
 	///   - `automotive`
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `security`
@@ -704,7 +726,7 @@ extension SFSymbol {
 	///   - `automotive`
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `security`
@@ -771,6 +793,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	static public let iphone_gen1_circle = SFSymbol(identifier: "iphone.gen1.circle")
 
 	/// 􁄦 `iphone.gen1.circle.fill`
@@ -790,14 +813,14 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_gen1_radiowaves_left_and_right = SFSymbol(identifier: "iphone.gen1.radiowaves.left.and.right")
 
 	/// 􁅚 `iphone.gen1.radiowaves.left.and.right.circle`
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_gen1_radiowaves_left_and_right_circle = SFSymbol(identifier: "iphone.gen1.radiowaves.left.and.right.circle")
 
 	/// 􁅛 `iphone.gen1.radiowaves.left.and.right.circle.fill`
@@ -805,7 +828,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_gen1_radiowaves_left_and_right_circle_fill = SFSymbol(identifier: "iphone.gen1.radiowaves.left.and.right.circle.fill")
 
 	/// 􀨴 `iphone.gen1.slash`
@@ -821,6 +844,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `remove`
@@ -853,6 +877,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	static public let iphone_gen2_circle = SFSymbol(identifier: "iphone.gen2.circle")
 
 	/// 􁟞 `iphone.gen2.circle.fill`
@@ -872,14 +897,14 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_gen2_radiowaves_left_and_right = SFSymbol(identifier: "iphone.gen2.radiowaves.left.and.right")
 
 	/// 􁟡 `iphone.gen2.radiowaves.left.and.right.circle`
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_gen2_radiowaves_left_and_right_circle = SFSymbol(identifier: "iphone.gen2.radiowaves.left.and.right.circle")
 
 	/// 􁟢 `iphone.gen2.radiowaves.left.and.right.circle.fill`
@@ -887,7 +912,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_gen2_radiowaves_left_and_right_circle_fill = SFSymbol(identifier: "iphone.gen2.radiowaves.left.and.right.circle.fill")
 
 	/// 􁟣 `iphone.gen2.slash`
@@ -903,6 +928,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `remove`
@@ -935,6 +961,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	static public let iphone_gen3_circle = SFSymbol(identifier: "iphone.gen3.circle")
 
 	/// 􁊰 `iphone.gen3.circle.fill`
@@ -954,14 +981,14 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_gen3_radiowaves_left_and_right = SFSymbol(identifier: "iphone.gen3.radiowaves.left.and.right")
 
 	/// 􁊳 `iphone.gen3.radiowaves.left.and.right.circle`
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_gen3_radiowaves_left_and_right_circle = SFSymbol(identifier: "iphone.gen3.radiowaves.left.and.right.circle")
 
 	/// 􁊴 `iphone.gen3.radiowaves.left.and.right.circle.fill`
@@ -969,7 +996,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_gen3_radiowaves_left_and_right_circle_fill = SFSymbol(identifier: "iphone.gen3.radiowaves.left.and.right.circle.fill")
 
 	/// 􁊵 `iphone.gen3.slash`
@@ -985,6 +1012,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `remove`
@@ -1065,7 +1093,7 @@ extension SFSymbol {
 	///   - `automotive`
 	///   - `devices`
 	///   - `transportation`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_front_waves_up = SFSymbol(identifier: "car.front.waves.up")
 
 	/// 􁢲 `car.front.waves.up.fill`
@@ -1074,7 +1102,7 @@ extension SFSymbol {
 	///   - `automotive`
 	///   - `devices`
 	///   - `transportation`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_front_waves_up_fill = SFSymbol(identifier: "car.front.waves.up.fill")
 
 	/// 􀽛 `car.rear`
@@ -1097,14 +1125,14 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_waves_up = SFSymbol(identifier: "car.rear.waves.up")
 
 	/// 􁖞 `car.rear.waves.up.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_rear_waves_up_fill = SFSymbol(identifier: "car.rear.waves.up.fill")
 
 	/// 􀿈 `car.rear.and.tire.marks`
@@ -1130,6 +1158,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `objectsandtools`
 	///   - `transportation`
+	///   - `variable`
 	static public let sailboat_circle = SFSymbol(identifier: "sailboat.circle")
 
 	/// 􁞙 `sailboat.circle.fill`
@@ -1548,12 +1577,6 @@ extension SFSymbol {
 	///   - `automotive`
 	static public let steeringwheel_and_key = SFSymbol(identifier: "steeringwheel.and.key")
 
-	/// 􁟀 `steeringwheel.and.lock`
-	///
-	/// - categories:
-	///   - `automotive`
-	static public let steeringwheel_and_lock = SFSymbol(identifier: "steeringwheel.and.lock")
-
 	/// 􁎷 `car.side`
 	///
 	/// - categories:
@@ -1604,6 +1627,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
+	///   - `multicolor`
 	static public let car_side_air_circulate_fill = SFSymbol(identifier: "car.side.air.circulate.fill")
 
 	/// 􁉮 `car.side.air.fresh`
@@ -2012,70 +2036,70 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_right = SFSymbol(identifier: "car.top.radiowaves.rear.right")
 
 	/// 􁖷 `car.top.radiowaves.rear.right.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_right_fill = SFSymbol(identifier: "car.top.radiowaves.rear.right.fill")
 
 	/// 􁖴 `car.top.radiowaves.rear.left`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_left = SFSymbol(identifier: "car.top.radiowaves.rear.left")
 
 	/// 􁖸 `car.top.radiowaves.rear.left.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_left_fill = SFSymbol(identifier: "car.top.radiowaves.rear.left.fill")
 
 	/// 􁖵 `car.top.radiowaves.front`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_front = SFSymbol(identifier: "car.top.radiowaves.front")
 
 	/// 􁖹 `car.top.radiowaves.front.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_front_fill = SFSymbol(identifier: "car.top.radiowaves.front.fill")
 
 	/// 􁖶 `car.top.radiowaves.rear`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear = SFSymbol(identifier: "car.top.radiowaves.rear")
 
 	/// 􁖺 `car.top.radiowaves.rear.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_fill = SFSymbol(identifier: "car.top.radiowaves.rear.fill")
 
 	/// 􁢠 `car.top.radiowaves.rear.left.and.rear.right`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_left_and_rear_right = SFSymbol(identifier: "car.top.radiowaves.rear.left.and.rear.right")
 
 	/// 􁢡 `car.top.radiowaves.rear.left.and.rear.right.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let car_top_radiowaves_rear_left_and_rear_right_fill = SFSymbol(identifier: "car.top.radiowaves.rear.left.and.rear.right.fill")
 
 	/// 􁢯 `car.top.lane.dashed.departure.left`
@@ -2305,6 +2329,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `automotive`
 	///   - `multicolor`
+	///   - `variable`
 	static public let abs_circle = SFSymbol(identifier: "abs.circle")
 
 	/// 􁢹 `abs.circle.fill`
@@ -2324,6 +2349,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
+	///   - `variable`
 	static public let mph_circle = SFSymbol(identifier: "mph.circle")
 
 	/// 􁢼 `mph.circle.fill`
@@ -2343,6 +2369,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
+	///   - `variable`
 	static public let kph_circle = SFSymbol(identifier: "kph.circle")
 
 	/// 􁢿 `kph.circle.fill`
@@ -2356,6 +2383,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `nature`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `animals`
@@ -2401,6 +2429,7 @@ extension SFSymbol {
 	///   - `multicolor`
 	///   - `nature`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `campground`
@@ -2423,7 +2452,6 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `multicolor`
 	///   - `privacyandsecurity`
 	///
 	/// - search keywords:
@@ -2444,7 +2472,7 @@ extension SFSymbol {
 	/// 􁢏 `ellipsis.viewfinder`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let ellipsis_viewfinder = SFSymbol(identifier: "ellipsis.viewfinder")
 
 	/// 􁞴 `mug`
@@ -2472,13 +2500,14 @@ extension SFSymbol {
 	/// 􁣃 `chart.dots.scatter`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chart_dots_scatter = SFSymbol(identifier: "chart.dots.scatter")
 
 	/// 􁡧 `0.circle.ar`
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `0_circle_ar` = SFSymbol(identifier: "0.circle.ar")
 
 	/// 􁡨 `0.circle.fill.ar`
@@ -2505,6 +2534,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `1_circle_ar` = SFSymbol(identifier: "1.circle.ar")
 
 	/// 􁡬 `1.circle.fill.ar`
@@ -2531,6 +2561,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `2_circle_ar` = SFSymbol(identifier: "2.circle.ar")
 
 	/// 􁡰 `2.circle.fill.ar`
@@ -2557,6 +2588,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `3_circle_ar` = SFSymbol(identifier: "3.circle.ar")
 
 	/// 􁡴 `3.circle.fill.ar`
@@ -2583,6 +2615,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `4_circle_ar` = SFSymbol(identifier: "4.circle.ar")
 
 	/// 􁡸 `4.circle.fill.ar`
@@ -2609,6 +2642,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `5_circle_ar` = SFSymbol(identifier: "5.circle.ar")
 
 	/// 􁡼 `5.circle.fill.ar`
@@ -2635,6 +2669,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `6_circle_ar` = SFSymbol(identifier: "6.circle.ar")
 
 	/// 􁢀 `6.circle.fill.ar`
@@ -2661,6 +2696,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `7_circle_ar` = SFSymbol(identifier: "7.circle.ar")
 
 	/// 􁢄 `7.circle.fill.ar`
@@ -2687,6 +2723,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `8_circle_ar` = SFSymbol(identifier: "8.circle.ar")
 
 	/// 􁢈 `8.circle.fill.ar`
@@ -2713,6 +2750,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `indices`
+	///   - `variable`
 	static public let `9_circle_ar` = SFSymbol(identifier: "9.circle.ar")
 
 	/// 􁢌 `9.circle.fill.ar`

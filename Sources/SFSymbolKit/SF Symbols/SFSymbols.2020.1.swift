@@ -158,7 +158,7 @@ extension SFSymbol {
 	/// 􀴾 `aqi.low`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	///   - `weather`
 	///
 	/// - search keywords:
@@ -168,7 +168,7 @@ extension SFSymbol {
 	/// 􀴿 `aqi.medium`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	///   - `weather`
 	///
 	/// - search keywords:
@@ -179,7 +179,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///   - `weather`
 	///
 	/// - search keywords:
@@ -191,7 +191,9 @@ extension SFSymbol {
 	/// 􀵉 `shuffle.circle`
 	///
 	/// - categories:
+	///   - `arrows`
 	///   - `media`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `arrow`
@@ -202,6 +204,7 @@ extension SFSymbol {
 	/// 􀵊 `shuffle.circle.fill`
 	///
 	/// - categories:
+	///   - `arrows`
 	///   - `media`
 	///   - `multicolor`
 	///
@@ -214,7 +217,9 @@ extension SFSymbol {
 	/// 􀵋 `repeat.circle`
 	///
 	/// - categories:
+	///   - `arrows`
 	///   - `media`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `arrow`
@@ -225,6 +230,7 @@ extension SFSymbol {
 	/// 􀵌 `repeat.circle.fill`
 	///
 	/// - categories:
+	///   - `arrows`
 	///   - `media`
 	///   - `multicolor`
 	///
@@ -237,7 +243,9 @@ extension SFSymbol {
 	/// 􀵍 `repeat.1.circle`
 	///
 	/// - categories:
+	///   - `arrows`
 	///   - `media`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `arrow`
@@ -248,6 +256,7 @@ extension SFSymbol {
 	/// 􀵎 `repeat.1.circle.fill`
 	///
 	/// - categories:
+	///   - `arrows`
 	///   - `media`
 	///   - `multicolor`
 	///
@@ -261,6 +270,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `media`
+	///   - `variable`
 	static public let infinity_circle = SFSymbol(identifier: "infinity.circle")
 
 	/// 􀵐 `infinity.circle.fill`
@@ -275,6 +285,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `objectsandtools`
+	///   - `variable`
 	static public let cart_circle = SFSymbol(identifier: "cart.circle")
 
 	/// 􀒮 `cart.circle.fill`
@@ -720,6 +731,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `commerce`
 	///   - `indices`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `currencies`

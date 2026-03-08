@@ -8,6 +8,12 @@
 @_documentation(visibility: internal)
 @available(iOS 18.5, macOS 15.5, tvOS 18.5, visionOS 2.5, watchOS 11.5, *)
 extension SFSymbol {
+	/// 􃀫 `apple.intelligence.badge.xmark`
+	///
+	/// - categories:
+	///   - `multicolor`
+	static public let apple_intelligence_badge_xmark = SFSymbol(identifier: "apple.intelligence.badge.xmark")
+
 	/// 􂞞 `beats.powerbeats.pro.2`
 	///
 	/// - categories:
@@ -58,10 +64,4 @@ extension SFSymbol {
 	/// - search keywords:
 	///   - `audio`
 	static public let beats_powerbeats_pro_2_chargingcase_fill = SFSymbol(identifier: "beats.powerbeats.pro.2.chargingcase.fill")
-
-	/// 􃀫 `apple.intelligence.badge.xmark`
-	///
-	/// - categories:
-	///   - `multicolor`
-	static public let apple_intelligence_badge_xmark = SFSymbol(identifier: "apple.intelligence.badge.xmark")
 }

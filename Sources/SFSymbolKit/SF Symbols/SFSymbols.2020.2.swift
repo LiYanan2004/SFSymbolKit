@@ -21,6 +21,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
+	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `a`
@@ -36,6 +37,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
+	///   - `multicolor`
 	static public let character_bubble_fill_ar = SFSymbol(identifier: "character.bubble.fill.ar")
 
 	/// 􀮾 `character.bubble.he`
@@ -48,6 +50,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
+	///   - `multicolor`
 	static public let character_bubble_fill_he = SFSymbol(identifier: "character.bubble.fill.he")
 
 	/// 􀸎 `applewatch.side.right`

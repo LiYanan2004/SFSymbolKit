@@ -90,22 +90,15 @@ extension SFSymbol {
 	///   - `user`
 	static public let person_fill_checkmark_and_xmark_rtl = SFSymbol(identifier: "person.fill.checkmark.and.xmark.rtl")
 
-	/// 􀫌 `cursorarrow.resize.north.east.south.east`
-	static public let cursorarrow_resize_north_east_south_east = SFSymbol(identifier: "cursorarrow.resize.north.east.south.east")
-
 	/// 􂺂 `memories.slash`
+	///
+	/// - categories:
+	///   - `arrows`
 	///
 	/// - search keywords:
 	///   - `arrow`
 	///   - `play`
 	static public let memories_slash = SFSymbol(identifier: "memories.slash")
-
-	/// 􂻛 `repeat.badge.xmark.circle.fill`
-	///
-	/// - categories:
-	///   - `media`
-	///   - `multicolor`
-	static public let repeat_badge_xmark_circle_fill = SFSymbol(identifier: "repeat.badge.xmark.circle.fill")
 
 	/// 􂻥 `plus.minus.capsule`
 	static public let plus_minus_capsule = SFSymbol(identifier: "plus.minus.capsule")
@@ -147,6 +140,12 @@ extension SFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `privacyandsecurity`
+	///
+	/// - search keywords:
+	///   - `block`
+	///   - `crossed out`
+	///   - `restricted`
+	///   - `slash`
 	static public let nosign_badge_clock = SFSymbol(identifier: "nosign.badge.clock")
 
 	/// 􂼱 `robotic.vacuum.and.ellipsis`
@@ -154,7 +153,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `home`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let robotic_vacuum_and_ellipsis = SFSymbol(identifier: "robotic.vacuum.and.ellipsis")
 
 	/// 􂼲 `robotic.vacuum.and.ellipsis.fill`
@@ -162,7 +161,7 @@ extension SFSymbol {
 	/// - categories:
 	///   - `home`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let robotic_vacuum_and_ellipsis_fill = SFSymbol(identifier: "robotic.vacuum.and.ellipsis.fill")
 
 	/// 􂼳 `robotic.vacuum.and.arrowtriangle.up`
@@ -517,6 +516,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
+	///   - `variable`
 	static public let hydrogen_circle = SFSymbol(identifier: "hydrogen.circle")
 
 	/// 􂼇 `hydrogen.circle.fill`
@@ -1336,7 +1336,6 @@ extension SFSymbol {
 	/// 􂿏 `character.textbox.badge.sparkles.ml`
 	///
 	/// - categories:
-	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_textbox_badge_sparkles_ml = SFSymbol(identifier: "character.textbox.badge.sparkles.ml")
 
@@ -1470,6 +1469,7 @@ extension SFSymbol {
 	///
 	/// - categories:
 	///   - `math`
+	///   - `variable`
 	static public let pi_circle = SFSymbol(identifier: "pi.circle")
 
 	/// 􂹱 `pi.circle.fill`
