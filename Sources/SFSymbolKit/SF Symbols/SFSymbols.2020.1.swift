@@ -8,7 +8,7 @@
 @_documentation(visibility: internal)
 @available(iOS 14.2, macOS 11.0, tvOS 14.2, visionOS 1.0, watchOS 7.1, *)
 extension SFSymbol {
-	/// `character.book.closed`
+	/// 􀫕 `character.book.closed`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -17,7 +17,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed = SFSymbol(identifier: "character.book.closed")
 
-	/// `character.book.closed.fill`
+	/// 􀫖 `character.book.closed.fill`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -26,7 +26,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_fill = SFSymbol(identifier: "character.book.closed.fill")
 
-	/// `character.book.closed.ar`
+	/// 􀧂 `character.book.closed.ar`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -35,7 +35,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_ar = SFSymbol(identifier: "character.book.closed.ar")
 
-	/// `character.book.closed.fill.ar`
+	/// 􀧃 `character.book.closed.fill.ar`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -44,7 +44,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_fill_ar = SFSymbol(identifier: "character.book.closed.fill.ar")
 
-	/// `character.book.closed.he`
+	/// 􀧄 `character.book.closed.he`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -53,7 +53,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_he = SFSymbol(identifier: "character.book.closed.he")
 
-	/// `character.book.closed.fill.he`
+	/// 􀧅 `character.book.closed.fill.he`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -62,7 +62,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_fill_he = SFSymbol(identifier: "character.book.closed.fill.he")
 
-	/// `character.book.closed.th`
+	/// 􀲀 `character.book.closed.th`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -71,7 +71,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_th = SFSymbol(identifier: "character.book.closed.th")
 
-	/// `character.book.closed.fill.th`
+	/// 􀲁 `character.book.closed.fill.th`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -80,7 +80,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_fill_th = SFSymbol(identifier: "character.book.closed.fill.th")
 
-	/// `character.book.closed.zh`
+	/// 􀲂 `character.book.closed.zh`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -89,7 +89,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_zh = SFSymbol(identifier: "character.book.closed.zh")
 
-	/// `character.book.closed.fill.zh`
+	/// 􀲃 `character.book.closed.fill.zh`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -98,7 +98,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_fill_zh = SFSymbol(identifier: "character.book.closed.fill.zh")
 
-	/// `character.book.closed.ja`
+	/// 􀲄 `character.book.closed.ja`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -107,7 +107,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_ja = SFSymbol(identifier: "character.book.closed.ja")
 
-	/// `character.book.closed.fill.ja`
+	/// 􀲅 `character.book.closed.fill.ja`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -116,7 +116,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_fill_ja = SFSymbol(identifier: "character.book.closed.fill.ja")
 
-	/// `character.book.closed.ko`
+	/// 􀲆 `character.book.closed.ko`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -125,7 +125,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_ko = SFSymbol(identifier: "character.book.closed.ko")
 
-	/// `character.book.closed.fill.ko`
+	/// 􀲇 `character.book.closed.fill.ko`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -134,7 +134,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_fill_ko = SFSymbol(identifier: "character.book.closed.fill.ko")
 
-	/// `character.book.closed.hi`
+	/// 􀲈 `character.book.closed.hi`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -143,7 +143,7 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_hi = SFSymbol(identifier: "character.book.closed.hi")
 
-	/// `character.book.closed.fill.hi`
+	/// 􀲉 `character.book.closed.fill.hi`
 	///
 	/// - categories:
 	///   - `objectsandtools`
@@ -152,34 +152,34 @@ extension SFSymbol {
 	///   - `dictionary`
 	static public let character_book_closed_fill_hi = SFSymbol(identifier: "character.book.closed.fill.hi")
 
-	/// `directcurrent`
+	/// 􀯝 `directcurrent`
 	static public let directcurrent = SFSymbol(identifier: "directcurrent")
 
-	/// `aqi.low`
+	/// 􀴾 `aqi.low`
 	///
 	/// - categories:
-	///   - `variable`
+	///   - `variablecolor`
 	///   - `weather`
 	///
 	/// - search keywords:
 	///   - `weather`
 	static public let aqi_low = SFSymbol(identifier: "aqi.low")
 
-	/// `aqi.medium`
+	/// 􀴿 `aqi.medium`
 	///
 	/// - categories:
-	///   - `variable`
+	///   - `variablecolor`
 	///   - `weather`
 	///
 	/// - search keywords:
 	///   - `weather`
 	static public let aqi_medium = SFSymbol(identifier: "aqi.medium")
 
-	/// `aqi.high`
+	/// 􀵀 `aqi.high`
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variable`
+	///   - `variablecolor`
 	///   - `weather`
 	///
 	/// - search keywords:
@@ -188,12 +188,10 @@ extension SFSymbol {
 	///   - `weather`
 	static public let aqi_high = SFSymbol(identifier: "aqi.high")
 
-	/// `shuffle.circle`
+	/// 􀵉 `shuffle.circle`
 	///
 	/// - categories:
-	///   - `arrows`
 	///   - `media`
-	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `arrow`
@@ -201,10 +199,9 @@ extension SFSymbol {
 	///   - `trianglehead`
 	static public let shuffle_circle = SFSymbol(identifier: "shuffle.circle")
 
-	/// `shuffle.circle.fill`
+	/// 􀵊 `shuffle.circle.fill`
 	///
 	/// - categories:
-	///   - `arrows`
 	///   - `media`
 	///   - `multicolor`
 	///
@@ -214,12 +211,10 @@ extension SFSymbol {
 	///   - `trianglehead`
 	static public let shuffle_circle_fill = SFSymbol(identifier: "shuffle.circle.fill")
 
-	/// `repeat.circle`
+	/// 􀵋 `repeat.circle`
 	///
 	/// - categories:
-	///   - `arrows`
 	///   - `media`
-	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `arrow`
@@ -227,10 +222,9 @@ extension SFSymbol {
 	///   - `trianglehead`
 	static public let repeat_circle = SFSymbol(identifier: "repeat.circle")
 
-	/// `repeat.circle.fill`
+	/// 􀵌 `repeat.circle.fill`
 	///
 	/// - categories:
-	///   - `arrows`
 	///   - `media`
 	///   - `multicolor`
 	///
@@ -240,12 +234,10 @@ extension SFSymbol {
 	///   - `trianglehead`
 	static public let repeat_circle_fill = SFSymbol(identifier: "repeat.circle.fill")
 
-	/// `repeat.1.circle`
+	/// 􀵍 `repeat.1.circle`
 	///
 	/// - categories:
-	///   - `arrows`
 	///   - `media`
-	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `arrow`
@@ -253,10 +245,9 @@ extension SFSymbol {
 	///   - `trianglehead`
 	static public let repeat_1_circle = SFSymbol(identifier: "repeat.1.circle")
 
-	/// `repeat.1.circle.fill`
+	/// 􀵎 `repeat.1.circle.fill`
 	///
 	/// - categories:
-	///   - `arrows`
 	///   - `media`
 	///   - `multicolor`
 	///
@@ -266,29 +257,27 @@ extension SFSymbol {
 	///   - `trianglehead`
 	static public let repeat_1_circle_fill = SFSymbol(identifier: "repeat.1.circle.fill")
 
-	/// `infinity.circle`
+	/// 􀵏 `infinity.circle`
 	///
 	/// - categories:
 	///   - `media`
-	///   - `variable`
 	static public let infinity_circle = SFSymbol(identifier: "infinity.circle")
 
-	/// `infinity.circle.fill`
+	/// 􀵐 `infinity.circle.fill`
 	///
 	/// - categories:
 	///   - `media`
 	///   - `multicolor`
 	static public let infinity_circle_fill = SFSymbol(identifier: "infinity.circle.fill")
 
-	/// `cart.circle`
+	/// 􀒭 `cart.circle`
 	///
 	/// - categories:
 	///   - `commerce`
 	///   - `objectsandtools`
-	///   - `variable`
 	static public let cart_circle = SFSymbol(identifier: "cart.circle")
 
-	/// `cart.circle.fill`
+	/// 􀒮 `cart.circle.fill`
 	///
 	/// - categories:
 	///   - `commerce`
@@ -296,37 +285,37 @@ extension SFSymbol {
 	///   - `objectsandtools`
 	static public let cart_circle_fill = SFSymbol(identifier: "cart.circle.fill")
 
-	/// `torus`
+	/// 􀴌 `torus`
 	static public let torus = SFSymbol(identifier: "torus")
 
-	/// `iphone.landscape`
+	/// 􀴏 `iphone.landscape`
 	///
 	/// - categories:
 	///   - `devices`
 	static public let iphone_landscape = SFSymbol(identifier: "iphone.landscape")
 
-	/// `iphone.badge.play`
+	/// 􀴑 `iphone.badge.play`
 	///
 	/// - categories:
 	///   - `devices`
 	///   - `multicolor`
 	static public let iphone_badge_play = SFSymbol(identifier: "iphone.badge.play")
 
-	/// `ipad.badge.play`
+	/// 􀴓 `ipad.badge.play`
 	///
 	/// - categories:
 	///   - `devices`
 	///   - `multicolor`
 	static public let ipad_badge_play = SFSymbol(identifier: "ipad.badge.play")
 
-	/// `ipad.landscape.badge.play`
+	/// 􀵒 `ipad.landscape.badge.play`
 	///
 	/// - categories:
 	///   - `devices`
 	///   - `multicolor`
 	static public let ipad_landscape_badge_play = SFSymbol(identifier: "ipad.landscape.badge.play")
 
-	/// `exclamationmark.applewatch`
+	/// 􀵄 `exclamationmark.applewatch`
 	///
 	/// - categories:
 	///   - `devices`
@@ -335,7 +324,7 @@ extension SFSymbol {
 	///   - `warning`
 	static public let exclamationmark_applewatch = SFSymbol(identifier: "exclamationmark.applewatch")
 
-	/// `lock.applewatch`
+	/// 􀵅 `lock.applewatch`
 	///
 	/// - categories:
 	///   - `devices`
@@ -347,19 +336,19 @@ extension SFSymbol {
 	///   - `security`
 	static public let lock_applewatch = SFSymbol(identifier: "lock.applewatch")
 
-	/// `play.tv`
+	/// 􀵨 `play.tv`
 	///
 	/// - categories:
 	///   - `devices`
 	static public let play_tv = SFSymbol(identifier: "play.tv")
 
-	/// `play.tv.fill`
+	/// 􀵩 `play.tv.fill`
 	///
 	/// - categories:
 	///   - `devices`
 	static public let play_tv_fill = SFSymbol(identifier: "play.tv.fill")
 
-	/// `photo.tv`
+	/// 􀵪 `photo.tv`
 	///
 	/// - categories:
 	///   - `devices`
@@ -374,13 +363,13 @@ extension SFSymbol {
 	///   - `sun`
 	static public let photo_tv = SFSymbol(identifier: "photo.tv")
 
-	/// `tv.and.mediabox`
+	/// 􀲰 `tv.and.mediabox`
 	///
 	/// - categories:
 	///   - `devices`
 	static public let tv_and_mediabox = SFSymbol(identifier: "tv.and.mediabox")
 
-	/// `text.below.photo.rtl`
+	/// 􀴈 `text.below.photo.rtl`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
@@ -395,7 +384,7 @@ extension SFSymbol {
 	///   - `sun`
 	static public let text_below_photo_rtl = SFSymbol(identifier: "text.below.photo.rtl")
 
-	/// `text.below.photo.fill.rtl`
+	/// 􀴉 `text.below.photo.fill.rtl`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
@@ -410,7 +399,7 @@ extension SFSymbol {
 	///   - `sun`
 	static public let text_below_photo_fill_rtl = SFSymbol(identifier: "text.below.photo.fill.rtl")
 
-	/// `rectangle.badge.person.crop`
+	/// 􀵚 `rectangle.badge.person.crop`
 	///
 	/// - categories:
 	///   - `human`
@@ -420,7 +409,7 @@ extension SFSymbol {
 	///   - `people`
 	static public let rectangle_badge_person_crop = SFSymbol(identifier: "rectangle.badge.person.crop")
 
-	/// `rectangle.fill.badge.person.crop`
+	/// 􀵛 `rectangle.fill.badge.person.crop`
 	///
 	/// - categories:
 	///   - `human`
@@ -430,7 +419,7 @@ extension SFSymbol {
 	///   - `people`
 	static public let rectangle_fill_badge_person_crop = SFSymbol(identifier: "rectangle.fill.badge.person.crop")
 
-	/// `character`
+	/// 􀅏 `character`
 	///
 	/// - categories:
 	///   - `textformatting`
@@ -439,306 +428,305 @@ extension SFSymbol {
 	///   - `a`
 	static public let character = SFSymbol(identifier: "character")
 
-	/// `character.ar`
+	/// 􀲻 `character.ar`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_ar = SFSymbol(identifier: "character.ar")
 
-	/// `character.he`
+	/// 􀲼 `character.he`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_he = SFSymbol(identifier: "character.he")
 
-	/// `character.th`
+	/// 􀲽 `character.th`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_th = SFSymbol(identifier: "character.th")
 
-	/// `character.zh`
+	/// 􀲿 `character.zh`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_zh = SFSymbol(identifier: "character.zh")
 
-	/// `character.ja`
+	/// 􀳀 `character.ja`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_ja = SFSymbol(identifier: "character.ja")
 
-	/// `character.ko`
+	/// 􀳁 `character.ko`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_ko = SFSymbol(identifier: "character.ko")
 
-	/// `character.hi`
+	/// 􀳂 `character.hi`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_hi = SFSymbol(identifier: "character.hi")
 
-	/// `textformat.size.smaller`
+	/// 􀵷 `textformat.size.smaller`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_smaller = SFSymbol(identifier: "textformat.size.smaller")
 
-	/// `textformat.size.smaller.ar`
+	/// 􀵸 `textformat.size.smaller.ar`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_smaller_ar = SFSymbol(identifier: "textformat.size.smaller.ar")
 
-	/// `textformat.size.smaller.he`
+	/// 􀵹 `textformat.size.smaller.he`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_smaller_he = SFSymbol(identifier: "textformat.size.smaller.he")
 
-	/// `textformat.size.smaller.th`
+	/// 􀵺 `textformat.size.smaller.th`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_smaller_th = SFSymbol(identifier: "textformat.size.smaller.th")
 
-	/// `textformat.size.smaller.zh`
+	/// 􀵻 `textformat.size.smaller.zh`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_smaller_zh = SFSymbol(identifier: "textformat.size.smaller.zh")
 
-	/// `textformat.size.smaller.ja`
+	/// 􀵼 `textformat.size.smaller.ja`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_smaller_ja = SFSymbol(identifier: "textformat.size.smaller.ja")
 
-	/// `textformat.size.smaller.ko`
+	/// 􀵽 `textformat.size.smaller.ko`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_smaller_ko = SFSymbol(identifier: "textformat.size.smaller.ko")
 
-	/// `textformat.size.smaller.hi`
+	/// 􀵾 `textformat.size.smaller.hi`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_smaller_hi = SFSymbol(identifier: "textformat.size.smaller.hi")
 
-	/// `textformat.size.larger`
+	/// 􀵿 `textformat.size.larger`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_larger = SFSymbol(identifier: "textformat.size.larger")
 
-	/// `textformat.size.larger.ar`
+	/// 􀶀 `textformat.size.larger.ar`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_larger_ar = SFSymbol(identifier: "textformat.size.larger.ar")
 
-	/// `textformat.size.larger.he`
+	/// 􀶁 `textformat.size.larger.he`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_larger_he = SFSymbol(identifier: "textformat.size.larger.he")
 
-	/// `textformat.size.larger.th`
+	/// 􀶂 `textformat.size.larger.th`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_larger_th = SFSymbol(identifier: "textformat.size.larger.th")
 
-	/// `textformat.size.larger.zh`
+	/// 􀶃 `textformat.size.larger.zh`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_larger_zh = SFSymbol(identifier: "textformat.size.larger.zh")
 
-	/// `textformat.size.larger.ja`
+	/// 􀶄 `textformat.size.larger.ja`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_larger_ja = SFSymbol(identifier: "textformat.size.larger.ja")
 
-	/// `textformat.size.larger.ko`
+	/// 􀶅 `textformat.size.larger.ko`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_larger_ko = SFSymbol(identifier: "textformat.size.larger.ko")
 
-	/// `textformat.size.larger.hi`
+	/// 􀶆 `textformat.size.larger.hi`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_larger_hi = SFSymbol(identifier: "textformat.size.larger.hi")
 
-	/// `textformat.size.ar`
+	/// 􀳓 `textformat.size.ar`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_ar = SFSymbol(identifier: "textformat.size.ar")
 
-	/// `textformat.size.he`
+	/// 􀳔 `textformat.size.he`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_he = SFSymbol(identifier: "textformat.size.he")
 
-	/// `textformat.size.th`
+	/// 􀳕 `textformat.size.th`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_th = SFSymbol(identifier: "textformat.size.th")
 
-	/// `textformat.size.zh`
+	/// 􀳖 `textformat.size.zh`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_zh = SFSymbol(identifier: "textformat.size.zh")
 
-	/// `textformat.size.ja`
+	/// 􀳗 `textformat.size.ja`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_ja = SFSymbol(identifier: "textformat.size.ja")
 
-	/// `textformat.size.ko`
+	/// 􀳘 `textformat.size.ko`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_ko = SFSymbol(identifier: "textformat.size.ko")
 
-	/// `textformat.size.hi`
+	/// 􀳩 `textformat.size.hi`
 	///
 	/// - categories:
 	///   - `accessibility`
 	///   - `textformatting`
 	static public let textformat_size_hi = SFSymbol(identifier: "textformat.size.hi")
 
-	/// `textformat.superscript.ar`
+	/// 􀳙 `textformat.superscript.ar`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_superscript_ar = SFSymbol(identifier: "textformat.superscript.ar")
 
-	/// `textformat.superscript.he`
+	/// 􀳚 `textformat.superscript.he`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_superscript_he = SFSymbol(identifier: "textformat.superscript.he")
 
-	/// `textformat.superscript.th`
+	/// 􀳛 `textformat.superscript.th`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_superscript_th = SFSymbol(identifier: "textformat.superscript.th")
 
-	/// `textformat.superscript.zh`
+	/// 􀳜 `textformat.superscript.zh`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_superscript_zh = SFSymbol(identifier: "textformat.superscript.zh")
 
-	/// `textformat.superscript.ja`
+	/// 􀳝 `textformat.superscript.ja`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_superscript_ja = SFSymbol(identifier: "textformat.superscript.ja")
 
-	/// `textformat.superscript.ko`
+	/// 􀳬 `textformat.superscript.ko`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_superscript_ko = SFSymbol(identifier: "textformat.superscript.ko")
 
-	/// `textformat.superscript.hi`
+	/// 􀳭 `textformat.superscript.hi`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_superscript_hi = SFSymbol(identifier: "textformat.superscript.hi")
 
-	/// `textformat.subscript.ar`
+	/// 􀳞 `textformat.subscript.ar`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_subscript_ar = SFSymbol(identifier: "textformat.subscript.ar")
 
-	/// `textformat.subscript.he`
+	/// 􀳟 `textformat.subscript.he`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_subscript_he = SFSymbol(identifier: "textformat.subscript.he")
 
-	/// `textformat.subscript.th`
+	/// 􀳠 `textformat.subscript.th`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_subscript_th = SFSymbol(identifier: "textformat.subscript.th")
 
-	/// `textformat.subscript.zh`
+	/// 􀳡 `textformat.subscript.zh`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_subscript_zh = SFSymbol(identifier: "textformat.subscript.zh")
 
-	/// `textformat.subscript.ja`
+	/// 􀳢 `textformat.subscript.ja`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_subscript_ja = SFSymbol(identifier: "textformat.subscript.ja")
 
-	/// `textformat.subscript.ko`
+	/// 􀳮 `textformat.subscript.ko`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_subscript_ko = SFSymbol(identifier: "textformat.subscript.ko")
 
-	/// `textformat.subscript.hi`
+	/// 􀳯 `textformat.subscript.hi`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let textformat_subscript_hi = SFSymbol(identifier: "textformat.subscript.hi")
 
-	/// `brazilianrealsign.circle`
+	/// 􀮰 `brazilianrealsign.circle`
 	///
 	/// - categories:
 	///   - `commerce`
 	///   - `indices`
-	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `currencies`
 	///   - `currency`
 	static public let brazilianrealsign_circle = SFSymbol(identifier: "brazilianrealsign.circle")
 
-	/// `brazilianrealsign.circle.fill`
+	/// 􀮱 `brazilianrealsign.circle.fill`
 	///
 	/// - categories:
 	///   - `commerce`
@@ -750,7 +738,7 @@ extension SFSymbol {
 	///   - `currency`
 	static public let brazilianrealsign_circle_fill = SFSymbol(identifier: "brazilianrealsign.circle.fill")
 
-	/// `brazilianrealsign.square`
+	/// 􀮲 `brazilianrealsign.square`
 	///
 	/// - categories:
 	///   - `commerce`
@@ -761,7 +749,7 @@ extension SFSymbol {
 	///   - `currency`
 	static public let brazilianrealsign_square = SFSymbol(identifier: "brazilianrealsign.square")
 
-	/// `brazilianrealsign.square.fill`
+	/// 􀮳 `brazilianrealsign.square.fill`
 	///
 	/// - categories:
 	///   - `commerce`

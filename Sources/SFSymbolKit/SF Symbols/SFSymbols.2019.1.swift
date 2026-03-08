@@ -8,24 +8,24 @@
 @_documentation(visibility: internal)
 @available(iOS 13.1, macOS 10.15, tvOS 13.0, visionOS 1.0, watchOS 6.1, *)
 extension SFSymbol {
-	/// `studentdesk`
+	/// 􀑔 `studentdesk`
 	///
 	/// - categories:
 	///   - `objectsandtools`
 	static public let studentdesk = SFSymbol(identifier: "studentdesk")
 
-	/// `paperclip.circle`
+	/// 􀒔 `paperclip.circle`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
-	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `attach`
 	///   - `attachments`
 	static public let paperclip_circle = SFSymbol(identifier: "paperclip.circle")
 
-	/// `paperclip.circle.fill`
+	/// 􀒕 `paperclip.circle.fill`
 	///
 	/// - categories:
 	///   - `multicolor`
@@ -36,25 +36,25 @@ extension SFSymbol {
 	///   - `attachments`
 	static public let paperclip_circle_fill = SFSymbol(identifier: "paperclip.circle.fill")
 
-	/// `circle.grid.2x2`
+	/// 􀞾 `circle.grid.2x2`
 	static public let circle_grid_2x2 = SFSymbol(identifier: "circle.grid.2x2")
 
-	/// `circle.grid.2x2.fill`
+	/// 􀞿 `circle.grid.2x2.fill`
 	static public let circle_grid_2x2_fill = SFSymbol(identifier: "circle.grid.2x2.fill")
 
-	/// `flashlight.off.fill`
+	/// 􀝌 `flashlight.off.fill`
 	///
 	/// - categories:
 	///   - `objectsandtools`
 	static public let flashlight_off_fill = SFSymbol(identifier: "flashlight.off.fill")
 
-	/// `flashlight.on.fill`
+	/// 􀞋 `flashlight.on.fill`
 	///
 	/// - categories:
 	///   - `objectsandtools`
 	static public let flashlight_on_fill = SFSymbol(identifier: "flashlight.on.fill")
 
-	/// `scissors.badge.ellipsis`
+	/// 􀞷 `scissors.badge.ellipsis`
 	///
 	/// - categories:
 	///   - `editing`
@@ -70,18 +70,17 @@ extension SFSymbol {
 	///   - `…`
 	static public let scissors_badge_ellipsis = SFSymbol(identifier: "scissors.badge.ellipsis")
 
-	/// `pin.circle`
+	/// 􀒴 `pin.circle`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `objectsandtools`
-	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `pin`
 	static public let pin_circle = SFSymbol(identifier: "pin.circle")
 
-	/// `pin.circle.fill`
+	/// 􀒵 `pin.circle.fill`
 	///
 	/// - categories:
 	///   - `multicolor`
@@ -91,16 +90,15 @@ extension SFSymbol {
 	///   - `pin`
 	static public let pin_circle_fill = SFSymbol(identifier: "pin.circle.fill")
 
-	/// `mappin.circle`
+	/// 􀜇 `mappin.circle`
 	///
 	/// - categories:
 	///   - `maps`
 	///   - `multicolor`
 	///   - `objectsandtools`
-	///   - `variable`
 	static public let mappin_circle = SFSymbol(identifier: "mappin.circle")
 
-	/// `mappin.circle.fill`
+	/// 􀜈 `mappin.circle.fill`
 	///
 	/// - categories:
 	///   - `maps`
@@ -108,7 +106,7 @@ extension SFSymbol {
 	///   - `objectsandtools`
 	static public let mappin_circle_fill = SFSymbol(identifier: "mappin.circle.fill")
 
-	/// `car`
+	/// 􀙘 `car`
 	///
 	/// - categories:
 	///   - `automotive`
@@ -118,24 +116,23 @@ extension SFSymbol {
 	///   - `transportation`
 	static public let car = SFSymbol(identifier: "car")
 
-	/// `aspectratio`
+	/// 􀞖 `aspectratio`
 	///
 	/// - categories:
 	///   - `editing`
 	static public let aspectratio = SFSymbol(identifier: "aspectratio")
 
-	/// `aspectratio.fill`
+	/// 􀞏 `aspectratio.fill`
 	///
 	/// - categories:
 	///   - `editing`
 	static public let aspectratio_fill = SFSymbol(identifier: "aspectratio.fill")
 
-	/// `arrow.uturn.left.circle.badge.ellipsis`
+	/// 􀞸 `arrow.uturn.left.circle.badge.ellipsis`
 	///
 	/// - categories:
 	///   - `arrows`
 	///   - `multicolor`
-	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `action`

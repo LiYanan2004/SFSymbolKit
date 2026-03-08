@@ -12,11 +12,11 @@ import SwiftSyntaxBuilder
 internal struct SFSymbolDescriptor: Hashable, Sendable {
     var identifier: String
     var availability: String
-    
-    var privateScalar: UnicodeScalar?
+
     var availablePlatforms: [String]
     var categories: [String]?
     var searchKeywords: [String]?
+    var privateScalar: UnicodeScalar?
     
     private var hasMetadata: Bool {
         if let categories, !categories.isEmpty {
@@ -47,9 +47,14 @@ extension SFSymbolDescriptor {
     
     private var documentationBlockTrivia: Trivia {
         var documentationTrivia = Trivia.tab
-        let glyphPreviewScalar = privateScalar.map({ "\($0) " }) ?? ""
+        let docTitle: String
+        if let privateScalar {
+            docTitle = "/// \(privateScalar) `\(identifier)`"
+        } else {
+            docTitle = "/// `\(identifier)`"
+        }
         appendDocumentationLine(
-            content: "/// \(glyphPreviewScalar)`\(identifier)`",
+            content: docTitle,
             to: &documentationTrivia
         )
         if let categories, !categories.isEmpty {

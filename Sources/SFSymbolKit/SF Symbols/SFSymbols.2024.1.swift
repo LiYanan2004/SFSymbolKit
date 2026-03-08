@@ -8,7 +8,7 @@
 @_documentation(visibility: internal)
 @available(iOS 18.1, macOS 15.1, tvOS 18.1, visionOS 2.1, watchOS 11.1, *)
 extension SFSymbol {
-	/// `square.and.arrow.down.badge.checkmark`
+	/// 􂷡 `square.and.arrow.down.badge.checkmark`
 	///
 	/// - categories:
 	///   - `multicolor`
@@ -19,7 +19,7 @@ extension SFSymbol {
 	///   - `save`
 	static public let square_and_arrow_down_badge_checkmark = SFSymbol(identifier: "square.and.arrow.down.badge.checkmark")
 
-	/// `square.and.arrow.down.badge.checkmark.fill`
+	/// 􂷢 `square.and.arrow.down.badge.checkmark.fill`
 	///
 	/// - categories:
 	///   - `multicolor`
@@ -30,7 +30,7 @@ extension SFSymbol {
 	///   - `save`
 	static public let square_and_arrow_down_badge_checkmark_fill = SFSymbol(identifier: "square.and.arrow.down.badge.checkmark.fill")
 
-	/// `square.and.arrow.down.badge.xmark`
+	/// 􂷥 `square.and.arrow.down.badge.xmark`
 	///
 	/// - categories:
 	///   - `multicolor`
@@ -41,7 +41,7 @@ extension SFSymbol {
 	///   - `save`
 	static public let square_and_arrow_down_badge_xmark = SFSymbol(identifier: "square.and.arrow.down.badge.xmark")
 
-	/// `square.and.arrow.down.badge.xmark.fill`
+	/// 􂷦 `square.and.arrow.down.badge.xmark.fill`
 	///
 	/// - categories:
 	///   - `multicolor`
@@ -52,7 +52,7 @@ extension SFSymbol {
 	///   - `save`
 	static public let square_and_arrow_down_badge_xmark_fill = SFSymbol(identifier: "square.and.arrow.down.badge.xmark.fill")
 
-	/// `waveform.path.ecg.text.clipboard`
+	/// 􂵋 `waveform.path.ecg.text.clipboard`
 	///
 	/// - categories:
 	///   - `health`
@@ -62,7 +62,7 @@ extension SFSymbol {
 	///   - `notes`
 	static public let waveform_path_ecg_text_clipboard = SFSymbol(identifier: "waveform.path.ecg.text.clipboard")
 
-	/// `waveform.path.ecg.text.clipboard.fill`
+	/// 􂵌 `waveform.path.ecg.text.clipboard.fill`
 	///
 	/// - categories:
 	///   - `health`
@@ -72,7 +72,7 @@ extension SFSymbol {
 	///   - `notes`
 	static public let waveform_path_ecg_text_clipboard_fill = SFSymbol(identifier: "waveform.path.ecg.text.clipboard.fill")
 
-	/// `waveform.path.ecg.text.clipboard.rtl`
+	/// 􂵍 `waveform.path.ecg.text.clipboard.rtl`
 	///
 	/// - categories:
 	///   - `health`
@@ -82,7 +82,7 @@ extension SFSymbol {
 	///   - `notes`
 	static public let waveform_path_ecg_text_clipboard_rtl = SFSymbol(identifier: "waveform.path.ecg.text.clipboard.rtl")
 
-	/// `waveform.path.ecg.text.clipboard.fill.rtl`
+	/// 􂵎 `waveform.path.ecg.text.clipboard.fill.rtl`
 	///
 	/// - categories:
 	///   - `health`
@@ -92,77 +92,78 @@ extension SFSymbol {
 	///   - `notes`
 	static public let waveform_path_ecg_text_clipboard_fill_rtl = SFSymbol(identifier: "waveform.path.ecg.text.clipboard.fill.rtl")
 
-	/// `waveform.path.ecg.text`
+	/// 􂷚 `waveform.path.ecg.text`
 	static public let waveform_path_ecg_text = SFSymbol(identifier: "waveform.path.ecg.text")
 
-	/// `waveform.path.ecg.text.page`
-	static public let waveform_path_ecg_text_page = SFSymbol(identifier: "waveform.path.ecg.text.page")
-
-	/// `waveform.path.ecg.text.page.fill`
-	static public let waveform_path_ecg_text_page_fill = SFSymbol(identifier: "waveform.path.ecg.text.page.fill")
-
-	/// `waveform.path.ecg.text.rtl`
-	static public let waveform_path_ecg_text_rtl = SFSymbol(identifier: "waveform.path.ecg.text.rtl")
-
-	/// `waveform.path.ecg.text.page.rtl`
-	static public let waveform_path_ecg_text_page_rtl = SFSymbol(identifier: "waveform.path.ecg.text.page.rtl")
-
-	/// `waveform.path.ecg.text.page.fill.rtl`
-	static public let waveform_path_ecg_text_page_fill_rtl = SFSymbol(identifier: "waveform.path.ecg.text.page.fill.rtl")
-
-	/// `memories.badge.checkmark`
+	/// 􀳼 `waveform.path.ecg.text.page`
 	///
 	/// - categories:
-	///   - `arrows`
+	///   - `multicolor`
+	static public let waveform_path_ecg_text_page = SFSymbol(identifier: "waveform.path.ecg.text.page")
+
+	/// 􀳽 `waveform.path.ecg.text.page.fill`
+	static public let waveform_path_ecg_text_page_fill = SFSymbol(identifier: "waveform.path.ecg.text.page.fill")
+
+	/// 􂷛 `waveform.path.ecg.text.rtl`
+	static public let waveform_path_ecg_text_rtl = SFSymbol(identifier: "waveform.path.ecg.text.rtl")
+
+	/// 􀴆 `waveform.path.ecg.text.page.rtl`
+	///
+	/// - categories:
+	///   - `multicolor`
+	static public let waveform_path_ecg_text_page_rtl = SFSymbol(identifier: "waveform.path.ecg.text.page.rtl")
+
+	/// 􀴇 `waveform.path.ecg.text.page.fill.rtl`
+	static public let waveform_path_ecg_text_page_fill_rtl = SFSymbol(identifier: "waveform.path.ecg.text.page.fill.rtl")
+
+	/// 􂷃 `memories.badge.checkmark`
+	///
+	/// - categories:
 	///   - `multicolor`
 	static public let memories_badge_checkmark = SFSymbol(identifier: "memories.badge.checkmark")
 
-	/// `memories.badge.xmark`
+	/// 􂷁 `memories.badge.xmark`
 	///
 	/// - categories:
-	///   - `arrows`
 	///   - `multicolor`
 	static public let memories_badge_xmark = SFSymbol(identifier: "memories.badge.xmark")
 
-	/// `waveform.path.ecg.magnifyingglass`
-	///
-	/// - categories:
-	///   - `objectsandtools`
+	/// 􂵊 `waveform.path.ecg.magnifyingglass`
 	static public let waveform_path_ecg_magnifyingglass = SFSymbol(identifier: "waveform.path.ecg.magnifyingglass")
 
-	/// `rectangle.grid.3x1`
+	/// 􂶯 `rectangle.grid.3x1`
 	static public let rectangle_grid_3x1 = SFSymbol(identifier: "rectangle.grid.3x1")
 
-	/// `rectangle.grid.3x1.fill`
+	/// 􂶰 `rectangle.grid.3x1.fill`
 	static public let rectangle_grid_3x1_fill = SFSymbol(identifier: "rectangle.grid.3x1.fill")
 
-	/// `questionmark.message`
+	/// 􂷫 `questionmark.message`
 	///
 	/// - categories:
 	///   - `communication`
 	static public let questionmark_message = SFSymbol(identifier: "questionmark.message")
 
-	/// `questionmark.message.fill`
+	/// 􂷬 `questionmark.message.fill`
 	///
 	/// - categories:
 	///   - `communication`
 	///   - `multicolor`
 	static public let questionmark_message_fill = SFSymbol(identifier: "questionmark.message.fill")
 
-	/// `exclamationmark.message`
+	/// 􂷩 `exclamationmark.message`
 	///
 	/// - categories:
 	///   - `communication`
 	static public let exclamationmark_message = SFSymbol(identifier: "exclamationmark.message")
 
-	/// `exclamationmark.message.fill`
+	/// 􂷪 `exclamationmark.message.fill`
 	///
 	/// - categories:
 	///   - `communication`
 	///   - `multicolor`
 	static public let exclamationmark_message_fill = SFSymbol(identifier: "exclamationmark.message.fill")
 
-	/// `envelope.stack`
+	/// 􀛫 `envelope.stack`
 	///
 	/// - categories:
 	///   - `communication`
@@ -173,7 +174,7 @@ extension SFSymbol {
 	///   - `mail`
 	static public let envelope_stack = SFSymbol(identifier: "envelope.stack")
 
-	/// `envelope.stack.fill`
+	/// 􀛬 `envelope.stack.fill`
 	///
 	/// - categories:
 	///   - `communication`
@@ -184,14 +185,14 @@ extension SFSymbol {
 	///   - `mail`
 	static public let envelope_stack_fill = SFSymbol(identifier: "envelope.stack.fill")
 
-	/// `bolt.house`
+	/// 􂶠 `bolt.house`
 	///
 	/// - search keywords:
 	///   - `home`
 	///   - `house`
 	static public let bolt_house = SFSymbol(identifier: "bolt.house")
 
-	/// `bolt.house.fill`
+	/// 􂶡 `bolt.house.fill`
 	///
 	/// - categories:
 	///   - `multicolor`
@@ -201,82 +202,82 @@ extension SFSymbol {
 	///   - `house`
 	static public let bolt_house_fill = SFSymbol(identifier: "bolt.house.fill")
 
-	/// `cable.connector.video`
+	/// 􂷔 `cable.connector.video`
 	///
 	/// - categories:
 	///   - `devices`
 	static public let cable_connector_video = SFSymbol(identifier: "cable.connector.video")
 
-	/// `car.top.radiowaves.2.front.left.front.front.right`
+	/// 􂴾 `car.top.radiowaves.2.front.left.front.front.right`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variable`
+	///   - `variablecolor`
 	static public let car_top_radiowaves_2_front_left_front_front_right = SFSymbol(identifier: "car.top.radiowaves.2.front.left.front.front.right")
 
-	/// `car.top.radiowaves.2.front.left.front.front.right.fill`
+	/// 􂴿 `car.top.radiowaves.2.front.left.front.front.right.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variable`
+	///   - `variablecolor`
 	static public let car_top_radiowaves_2_front_left_front_front_right_fill = SFSymbol(identifier: "car.top.radiowaves.2.front.left.front.front.right.fill")
 
-	/// `car.top.radiowaves.2.rear.left.rear.rear.right`
+	/// 􂵂 `car.top.radiowaves.2.rear.left.rear.rear.right`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variable`
+	///   - `variablecolor`
 	static public let car_top_radiowaves_2_rear_left_rear_rear_right = SFSymbol(identifier: "car.top.radiowaves.2.rear.left.rear.rear.right")
 
-	/// `car.top.radiowaves.2.rear.left.rear.rear.right.fill`
+	/// 􂵃 `car.top.radiowaves.2.rear.left.rear.rear.right.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variable`
+	///   - `variablecolor`
 	static public let car_top_radiowaves_2_rear_left_rear_rear_right_fill = SFSymbol(identifier: "car.top.radiowaves.2.rear.left.rear.rear.right.fill")
 
-	/// `dot.car.top.radiowaves.2.rear.left.rear.rear.right`
+	/// 􂵆 `dot.car.top.radiowaves.2.rear.left.rear.rear.right`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variable`
+	///   - `variablecolor`
 	static public let dot_car_top_radiowaves_2_rear_left_rear_rear_right = SFSymbol(identifier: "dot.car.top.radiowaves.2.rear.left.rear.rear.right")
 
-	/// `dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill`
+	/// 􂵇 `dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variable`
+	///   - `variablecolor`
 	static public let dot_car_top_radiowaves_2_rear_left_rear_rear_right_fill = SFSymbol(identifier: "dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill")
 
-	/// `laurel.leading.laurel.trailing`
+	/// 􂶟 `laurel.leading.laurel.trailing`
 	static public let laurel_leading_laurel_trailing = SFSymbol(identifier: "laurel.leading.laurel.trailing")
 
-	/// `hand.thumbsup.slash`
+	/// 􂶥 `hand.thumbsup.slash`
 	///
 	/// - categories:
 	///   - `human`
 	static public let hand_thumbsup_slash = SFSymbol(identifier: "hand.thumbsup.slash")
 
-	/// `hand.thumbsup.slash.fill`
+	/// 􂶦 `hand.thumbsup.slash.fill`
 	///
 	/// - categories:
 	///   - `human`
 	static public let hand_thumbsup_slash_fill = SFSymbol(identifier: "hand.thumbsup.slash.fill")
 
-	/// `hand.thumbsdown.slash`
+	/// 􂶩 `hand.thumbsdown.slash`
 	///
 	/// - categories:
 	///   - `human`
 	static public let hand_thumbsdown_slash = SFSymbol(identifier: "hand.thumbsdown.slash")
 
-	/// `hand.thumbsdown.slash.fill`
+	/// 􂶪 `hand.thumbsdown.slash.fill`
 	///
 	/// - categories:
 	///   - `human`
 	static public let hand_thumbsdown_slash_fill = SFSymbol(identifier: "hand.thumbsdown.slash.fill")
 
-	/// `photo.badge.magnifyingglass`
+	/// 􂷐 `photo.badge.magnifyingglass`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
@@ -291,7 +292,7 @@ extension SFSymbol {
 	///   - `sun`
 	static public let photo_badge_magnifyingglass = SFSymbol(identifier: "photo.badge.magnifyingglass")
 
-	/// `photo.badge.magnifyingglass.fill`
+	/// 􂷑 `photo.badge.magnifyingglass.fill`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
@@ -306,340 +307,328 @@ extension SFSymbol {
 	///   - `sun`
 	static public let photo_badge_magnifyingglass_fill = SFSymbol(identifier: "photo.badge.magnifyingglass.fill")
 
-	/// `waveform.badge.checkmark`
+	/// 􂷝 `waveform.badge.checkmark`
 	///
 	/// - categories:
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variable`
+	///   - `variablecolor`
 	static public let waveform_badge_checkmark = SFSymbol(identifier: "waveform.badge.checkmark")
 
-	/// `waveform.badge.xmark`
+	/// 􂷞 `waveform.badge.xmark`
 	///
 	/// - categories:
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variable`
+	///   - `variablecolor`
 	static public let waveform_badge_xmark = SFSymbol(identifier: "waveform.badge.xmark")
 
-	/// `character.circle.bn`
+	/// 􂵩 `character.circle.bn`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_bn = SFSymbol(identifier: "character.circle.bn")
 
-	/// `character.circle.fill.bn`
+	/// 􂵪 `character.circle.fill.bn`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_bn = SFSymbol(identifier: "character.circle.fill.bn")
 
-	/// `character.square.bn`
+	/// 􂵫 `character.square.bn`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_bn = SFSymbol(identifier: "character.square.bn")
 
-	/// `character.square.fill.bn`
+	/// 􂵬 `character.square.fill.bn`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_bn = SFSymbol(identifier: "character.square.fill.bn")
 
-	/// `character.circle.mr`
+	/// 􂵭 `character.circle.mr`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_mr = SFSymbol(identifier: "character.circle.mr")
 
-	/// `character.circle.fill.mr`
+	/// 􂵮 `character.circle.fill.mr`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_mr = SFSymbol(identifier: "character.circle.fill.mr")
 
-	/// `character.square.mr`
+	/// 􂵯 `character.square.mr`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_mr = SFSymbol(identifier: "character.square.mr")
 
-	/// `character.square.fill.mr`
+	/// 􂵰 `character.square.fill.mr`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_mr = SFSymbol(identifier: "character.square.fill.mr")
 
-	/// `character.circle.gu`
+	/// 􂵱 `character.circle.gu`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_gu = SFSymbol(identifier: "character.circle.gu")
 
-	/// `character.circle.fill.gu`
+	/// 􂵲 `character.circle.fill.gu`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_gu = SFSymbol(identifier: "character.circle.fill.gu")
 
-	/// `character.square.gu`
+	/// 􂵳 `character.square.gu`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_gu = SFSymbol(identifier: "character.square.gu")
 
-	/// `character.square.fill.gu`
+	/// 􂵴 `character.square.fill.gu`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_gu = SFSymbol(identifier: "character.square.fill.gu")
 
-	/// `character.circle.pa`
+	/// 􂵵 `character.circle.pa`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_pa = SFSymbol(identifier: "character.circle.pa")
 
-	/// `character.circle.fill.pa`
+	/// 􂵶 `character.circle.fill.pa`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_pa = SFSymbol(identifier: "character.circle.fill.pa")
 
-	/// `character.square.pa`
+	/// 􂵷 `character.square.pa`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_pa = SFSymbol(identifier: "character.square.pa")
 
-	/// `character.square.fill.pa`
+	/// 􂵸 `character.square.fill.pa`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_pa = SFSymbol(identifier: "character.square.fill.pa")
 
-	/// `character.circle.kn`
+	/// 􂵹 `character.circle.kn`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_kn = SFSymbol(identifier: "character.circle.kn")
 
-	/// `character.circle.fill.kn`
+	/// 􂵺 `character.circle.fill.kn`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_kn = SFSymbol(identifier: "character.circle.fill.kn")
 
-	/// `character.square.kn`
+	/// 􂵻 `character.square.kn`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_kn = SFSymbol(identifier: "character.square.kn")
 
-	/// `character.square.fill.kn`
+	/// 􂵼 `character.square.fill.kn`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_kn = SFSymbol(identifier: "character.square.fill.kn")
 
-	/// `character.circle.ml`
+	/// 􂵽 `character.circle.ml`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_ml = SFSymbol(identifier: "character.circle.ml")
 
-	/// `character.circle.fill.ml`
+	/// 􂵾 `character.circle.fill.ml`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_ml = SFSymbol(identifier: "character.circle.fill.ml")
 
-	/// `character.square.ml`
+	/// 􂵿 `character.square.ml`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_ml = SFSymbol(identifier: "character.square.ml")
 
-	/// `character.square.fill.ml`
+	/// 􂶀 `character.square.fill.ml`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_ml = SFSymbol(identifier: "character.square.fill.ml")
 
-	/// `character.circle.mni`
+	/// 􂶁 `character.circle.mni`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_mni = SFSymbol(identifier: "character.circle.mni")
 
-	/// `character.circle.fill.mni`
+	/// 􂶂 `character.circle.fill.mni`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_mni = SFSymbol(identifier: "character.circle.fill.mni")
 
-	/// `character.square.mni`
+	/// 􂶃 `character.square.mni`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_mni = SFSymbol(identifier: "character.square.mni")
 
-	/// `character.square.fill.mni`
+	/// 􂶄 `character.square.fill.mni`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_mni = SFSymbol(identifier: "character.square.fill.mni")
 
-	/// `character.circle.or`
+	/// 􂶋 `character.circle.or`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_or = SFSymbol(identifier: "character.circle.or")
 
-	/// `character.circle.fill.or`
+	/// 􂶌 `character.circle.fill.or`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_or = SFSymbol(identifier: "character.circle.fill.or")
 
-	/// `character.square.or`
+	/// 􂶍 `character.square.or`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_or = SFSymbol(identifier: "character.square.or")
 
-	/// `character.square.fill.or`
+	/// 􂶎 `character.square.fill.or`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_or = SFSymbol(identifier: "character.square.fill.or")
 
-	/// `character.circle.sat`
+	/// 􂶏 `character.circle.sat`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_sat = SFSymbol(identifier: "character.circle.sat")
 
-	/// `character.circle.fill.sat`
+	/// 􂶐 `character.circle.fill.sat`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_sat = SFSymbol(identifier: "character.circle.fill.sat")
 
-	/// `character.square.sat`
+	/// 􂶑 `character.square.sat`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_sat = SFSymbol(identifier: "character.square.sat")
 
-	/// `character.square.fill.sat`
+	/// 􂶒 `character.square.fill.sat`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_sat = SFSymbol(identifier: "character.square.fill.sat")
 
-	/// `character.circle.si`
+	/// 􂶓 `character.circle.si`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_si = SFSymbol(identifier: "character.circle.si")
 
-	/// `character.circle.fill.si`
+	/// 􂶔 `character.circle.fill.si`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_si = SFSymbol(identifier: "character.circle.fill.si")
 
-	/// `character.square.si`
+	/// 􂶕 `character.square.si`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_si = SFSymbol(identifier: "character.square.si")
 
-	/// `character.square.fill.si`
+	/// 􂶖 `character.square.fill.si`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_si = SFSymbol(identifier: "character.square.fill.si")
 
-	/// `character.circle.ta`
+	/// 􂶗 `character.circle.ta`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_ta = SFSymbol(identifier: "character.circle.ta")
 
-	/// `character.circle.fill.ta`
+	/// 􂶘 `character.circle.fill.ta`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_ta = SFSymbol(identifier: "character.circle.fill.ta")
 
-	/// `character.square.ta`
+	/// 􂶙 `character.square.ta`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_ta = SFSymbol(identifier: "character.square.ta")
 
-	/// `character.square.fill.ta`
+	/// 􂶚 `character.square.fill.ta`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_square_fill_ta = SFSymbol(identifier: "character.square.fill.ta")
 
-	/// `character.circle.te`
+	/// 􂶛 `character.circle.te`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variable`
 	static public let character_circle_te = SFSymbol(identifier: "character.circle.te")
 
-	/// `character.circle.fill.te`
+	/// 􂶜 `character.circle.fill.te`
 	///
 	/// - categories:
 	///   - `multicolor`
 	///   - `textformatting`
 	static public let character_circle_fill_te = SFSymbol(identifier: "character.circle.fill.te")
 
-	/// `character.square.te`
+	/// 􂶝 `character.square.te`
 	///
 	/// - categories:
 	///   - `textformatting`
 	static public let character_square_te = SFSymbol(identifier: "character.square.te")
 
-	/// `character.square.fill.te`
+	/// 􂶞 `character.square.fill.te`
 	///
 	/// - categories:
 	///   - `multicolor`

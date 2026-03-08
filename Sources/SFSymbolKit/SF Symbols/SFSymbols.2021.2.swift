@@ -8,13 +8,13 @@
 @_documentation(visibility: internal)
 @available(iOS 15.2, macOS 12.1, tvOS 15.2, visionOS 1.0, watchOS 8.3, *)
 extension SFSymbol {
-	/// `rectangle.leadinghalf.filled`
+	/// 􁋶 `rectangle.leadinghalf.filled`
 	static public let rectangle_leadinghalf_filled = SFSymbol(identifier: "rectangle.leadinghalf.filled")
 
-	/// `rectangle.trailinghalf.filled`
+	/// 􁋷 `rectangle.trailinghalf.filled`
 	static public let rectangle_trailinghalf_filled = SFSymbol(identifier: "rectangle.trailinghalf.filled")
 
-	/// `airpods.gen3`
+	/// 􁄡 `airpods.gen3`
 	///
 	/// - categories:
 	///   - `devices`
@@ -25,7 +25,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let airpods_gen3 = SFSymbol(identifier: "airpods.gen3")
 
-	/// `airpod.gen3.right`
+	/// 􁄢 `airpod.gen3.right`
 	///
 	/// - categories:
 	///   - `devices`
@@ -36,7 +36,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let airpod_gen3_right = SFSymbol(identifier: "airpod.gen3.right")
 
-	/// `airpod.gen3.left`
+	/// 􁄣 `airpod.gen3.left`
 	///
 	/// - categories:
 	///   - `devices`
@@ -47,7 +47,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let airpod_gen3_left = SFSymbol(identifier: "airpod.gen3.left")
 
-	/// `airpods.gen3.chargingcase.wireless`
+	/// 􁅐 `airpods.gen3.chargingcase.wireless`
 	///
 	/// - categories:
 	///   - `devices`
@@ -56,7 +56,7 @@ extension SFSymbol {
 	///   - `audio`
 	static public let airpods_gen3_chargingcase_wireless = SFSymbol(identifier: "airpods.gen3.chargingcase.wireless")
 
-	/// `airpods.gen3.chargingcase.wireless.fill`
+	/// 􁅑 `airpods.gen3.chargingcase.wireless.fill`
 	///
 	/// - categories:
 	///   - `devices`
@@ -65,13 +65,13 @@ extension SFSymbol {
 	///   - `audio`
 	static public let airpods_gen3_chargingcase_wireless_fill = SFSymbol(identifier: "airpods.gen3.chargingcase.wireless.fill")
 
-	/// `square.3.layers.3d.down.right.slash`
+	/// 􁋼 `square.3.layers.3d.down.right.slash`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
 	static public let square_3_layers_3d_down_right_slash = SFSymbol(identifier: "square.3.layers.3d.down.right.slash")
 
-	/// `square.3.layers.3d.down.left.slash`
+	/// 􁋽 `square.3.layers.3d.down.left.slash`
 	///
 	/// - categories:
 	///   - `cameraandphotos`

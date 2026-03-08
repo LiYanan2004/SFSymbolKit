@@ -18,32 +18,9 @@ let package = Package(
             targets: ["SFSymbolKit"]
         ),
     ],
-    dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.6.2"),
-        .package(url: "https://github.com/swiftlang/swift-syntax.git", from: "602.0.0-latest"),
-    ],
     targets: [
         .target(
             name: "SFSymbolKit"
         ),
-        .target(
-            name: "SFSymbolMemberGen",
-            dependencies: [
-                "SFSymbols",
-                .product(name: "SwiftSyntax", package: "swift-syntax"),
-                .product(name: "SwiftSyntaxBuilder", package: "swift-syntax"),
-            ]
-        ),
-        .executableTarget(
-            name: "SFSymbolMemberGenTool",
-            dependencies: [
-                "SFSymbolMemberGen",
-                .product(name: "ArgumentParser", package: "swift-argument-parser"),
-            ]
-        ),
-        .binaryTarget(
-            name: "SFSymbols",
-            path: "./DarwinPrivateFrameworks/SFSymbols.xcframework.zip"
-        )
     ]
 )
