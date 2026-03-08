@@ -8,31 +8,31 @@
 @_documentation(visibility: internal)
 @available(iOS 18.2, macOS 15.2, tvOS 18.2, visionOS 2.2, watchOS 11.2, *)
 extension SFSymbol {
-	/// `receipt`
+	/// 􂷼 `receipt`
 	///
 	/// - categories:
 	///   - `objectsandtools`
 	static public let receipt = SFSymbol(identifier: "receipt")
 
-	/// `receipt.fill`
+	/// 􂷽 `receipt.fill`
 	///
 	/// - categories:
 	///   - `objectsandtools`
 	static public let receipt_fill = SFSymbol(identifier: "receipt.fill")
 
-	/// `exclamationmark.triangle.text.page`
+	/// 􂹞 `exclamationmark.triangle.text.page`
 	static public let exclamationmark_triangle_text_page = SFSymbol(identifier: "exclamationmark.triangle.text.page")
 
-	/// `exclamationmark.triangle.text.page.fill`
+	/// 􂹟 `exclamationmark.triangle.text.page.fill`
 	static public let exclamationmark_triangle_text_page_fill = SFSymbol(identifier: "exclamationmark.triangle.text.page.fill")
 
-	/// `exclamationmark.triangle.text.page.rtl`
+	/// 􂹠 `exclamationmark.triangle.text.page.rtl`
 	static public let exclamationmark_triangle_text_page_rtl = SFSymbol(identifier: "exclamationmark.triangle.text.page.rtl")
 
-	/// `exclamationmark.triangle.text.page.fill.rtl`
+	/// 􂹡 `exclamationmark.triangle.text.page.fill.rtl`
 	static public let exclamationmark_triangle_text_page_fill_rtl = SFSymbol(identifier: "exclamationmark.triangle.text.page.fill.rtl")
 
-	/// `inset.filled.rectangle.and.person.filled.circle`
+	/// 􂸆 `inset.filled.rectangle.and.person.filled.circle`
 	///
 	/// - categories:
 	///   - `human`
@@ -43,7 +43,7 @@ extension SFSymbol {
 	///   - `screen sharing`
 	static public let inset_filled_rectangle_and_person_filled_circle = SFSymbol(identifier: "inset.filled.rectangle.and.person.filled.circle")
 
-	/// `inset.filled.rectangle.and.person.filled.circle.fill`
+	/// 􂸇 `inset.filled.rectangle.and.person.filled.circle.fill`
 	///
 	/// - categories:
 	///   - `human`
@@ -54,49 +54,49 @@ extension SFSymbol {
 	///   - `screen sharing`
 	static public let inset_filled_rectangle_and_person_filled_circle_fill = SFSymbol(identifier: "inset.filled.rectangle.and.person.filled.circle.fill")
 
-	/// `info.triangle`
+	/// 􂹩 `info.triangle`
 	static public let info_triangle = SFSymbol(identifier: "info.triangle")
 
-	/// `info.triangle.fill`
+	/// 􂹪 `info.triangle.fill`
 	///
 	/// - categories:
 	///   - `multicolor`
 	static public let info_triangle_fill = SFSymbol(identifier: "info.triangle.fill")
 
-	/// `questionmark.message.ar`
+	/// 􂷶 `questionmark.message.ar`
 	///
 	/// - categories:
 	///   - `communication`
 	static public let questionmark_message_ar = SFSymbol(identifier: "questionmark.message.ar")
 
-	/// `questionmark.message.fill.ar`
+	/// 􂷷 `questionmark.message.fill.ar`
 	///
 	/// - categories:
 	///   - `communication`
 	///   - `multicolor`
 	static public let questionmark_message_fill_ar = SFSymbol(identifier: "questionmark.message.fill.ar")
 
-	/// `apple.writing.tools`
+	/// 􂷴 `apple.writing.tools`
 	///
 	/// - categories:
 	///   - `multicolor`
 	static public let apple_writing_tools = SFSymbol(identifier: "apple.writing.tools")
 
-	/// `wand.and.outline`
+	/// 􂸊 `wand.and.outline`
 	///
 	/// - categories:
 	///   - `editing`
 	///   - `objectsandtools`
 	static public let wand_and_outline = SFSymbol(identifier: "wand.and.outline")
 
-	/// `wand.and.outline.inverse`
+	/// 􂸋 `wand.and.outline.inverse`
 	///
 	/// - categories:
 	///   - `editing`
 	///   - `objectsandtools`
 	static public let wand_and_outline_inverse = SFSymbol(identifier: "wand.and.outline.inverse")
 
-	/// `headphones.dots`
+	/// 􂸔 `headphones.dots`
 	///
 	/// - categories:
 	///   - `devices`
@@ -109,7 +109,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let headphones_dots = SFSymbol(identifier: "headphones.dots")
 
-	/// `airpods.gen4`
+	/// 􂭃 `airpods.gen4`
 	///
 	/// - categories:
 	///   - `devices`
@@ -118,7 +118,7 @@ extension SFSymbol {
 	///   - `audio`
 	static public let airpods_gen4 = SFSymbol(identifier: "airpods.gen4")
 
-	/// `airpods.gen4.right`
+	/// 􂭄 `airpods.gen4.right`
 	///
 	/// - categories:
 	///   - `devices`
@@ -127,7 +127,7 @@ extension SFSymbol {
 	///   - `audio`
 	static public let airpods_gen4_right = SFSymbol(identifier: "airpods.gen4.right")
 
-	/// `airpods.gen4.left`
+	/// 􂭅 `airpods.gen4.left`
 	///
 	/// - categories:
 	///   - `devices`
@@ -136,7 +136,7 @@ extension SFSymbol {
 	///   - `audio`
 	static public let airpods_gen4_left = SFSymbol(identifier: "airpods.gen4.left")
 
-	/// `airpods.gen4.chargingcase.wireless`
+	/// 􂭆 `airpods.gen4.chargingcase.wireless`
 	///
 	/// - categories:
 	///   - `devices`
@@ -145,7 +145,7 @@ extension SFSymbol {
 	///   - `audio`
 	static public let airpods_gen4_chargingcase_wireless = SFSymbol(identifier: "airpods.gen4.chargingcase.wireless")
 
-	/// `airpods.gen4.chargingcase.wireless.fill`
+	/// 􂭇 `airpods.gen4.chargingcase.wireless.fill`
 	///
 	/// - categories:
 	///   - `devices`
@@ -154,7 +154,7 @@ extension SFSymbol {
 	///   - `audio`
 	static public let airpods_gen4_chargingcase_wireless_fill = SFSymbol(identifier: "airpods.gen4.chargingcase.wireless.fill")
 
-	/// `figure.seated.side.left.air.distribution.upper.and.middle.and.lower`
+	/// 􂸞 `figure.seated.side.left.air.distribution.upper.and.middle.and.lower`
 	///
 	/// - categories:
 	///   - `automotive`
@@ -166,7 +166,7 @@ extension SFSymbol {
 	///   - `person`
 	static public let figure_seated_side_left_air_distribution_upper_and_middle_and_lower = SFSymbol(identifier: "figure.seated.side.left.air.distribution.upper.and.middle.and.lower")
 
-	/// `figure.seated.side.right.air.distribution.upper.and.middle.and.lower`
+	/// 􂸟 `figure.seated.side.right.air.distribution.upper.and.middle.and.lower`
 	///
 	/// - categories:
 	///   - `automotive`

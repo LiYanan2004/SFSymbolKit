@@ -8,7 +8,7 @@
 @_documentation(visibility: internal)
 @available(iOS 17.6, macOS 14.6, tvOS 17.6, visionOS 1.3, watchOS 10.6, *)
 extension SFSymbol {
-	/// `beats.solobuds`
+	/// 􂟌 `beats.solobuds`
 	///
 	/// - categories:
 	///   - `devices`
@@ -19,7 +19,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_solobuds = SFSymbol(identifier: "beats.solobuds")
 
-	/// `beats.solobuds.right`
+	/// 􂟍 `beats.solobuds.right`
 	///
 	/// - categories:
 	///   - `devices`
@@ -30,7 +30,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_solobuds_right = SFSymbol(identifier: "beats.solobuds.right")
 
-	/// `beats.solobuds.left`
+	/// 􂟎 `beats.solobuds.left`
 	///
 	/// - categories:
 	///   - `devices`
@@ -41,7 +41,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_solobuds_left = SFSymbol(identifier: "beats.solobuds.left")
 
-	/// `beats.solobuds.chargingcase`
+	/// 􂟏 `beats.solobuds.chargingcase`
 	///
 	/// - categories:
 	///   - `devices`
@@ -52,7 +52,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_solobuds_chargingcase = SFSymbol(identifier: "beats.solobuds.chargingcase")
 
-	/// `beats.solobuds.chargingcase.fill`
+	/// 􂟐 `beats.solobuds.chargingcase.fill`
 	///
 	/// - categories:
 	///   - `devices`
@@ -63,7 +63,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_solobuds_chargingcase_fill = SFSymbol(identifier: "beats.solobuds.chargingcase.fill")
 
-	/// `beats.pill`
+	/// 􂟊 `beats.pill`
 	///
 	/// - categories:
 	///   - `devices`
@@ -74,7 +74,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_pill = SFSymbol(identifier: "beats.pill")
 
-	/// `beats.pill.fill`
+	/// 􂟋 `beats.pill.fill`
 	///
 	/// - categories:
 	///   - `devices`

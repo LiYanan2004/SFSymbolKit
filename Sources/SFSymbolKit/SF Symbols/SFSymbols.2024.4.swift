@@ -8,13 +8,13 @@
 @_documentation(visibility: internal)
 @available(iOS 18.5, macOS 15.5, tvOS 18.5, visionOS 2.5, watchOS 11.5, *)
 extension SFSymbol {
-	/// `apple.intelligence.badge.xmark`
+	/// 􃀫 `apple.intelligence.badge.xmark`
 	///
 	/// - categories:
 	///   - `multicolor`
 	static public let apple_intelligence_badge_xmark = SFSymbol(identifier: "apple.intelligence.badge.xmark")
 
-	/// `beats.powerbeats.pro.2`
+	/// 􂞞 `beats.powerbeats.pro.2`
 	///
 	/// - categories:
 	///   - `devices`
@@ -25,7 +25,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_powerbeats_pro_2 = SFSymbol(identifier: "beats.powerbeats.pro.2")
 
-	/// `beats.powerbeats.pro.2.right`
+	/// 􂞟 `beats.powerbeats.pro.2.right`
 	///
 	/// - categories:
 	///   - `devices`
@@ -36,7 +36,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_powerbeats_pro_2_right = SFSymbol(identifier: "beats.powerbeats.pro.2.right")
 
-	/// `beats.powerbeats.pro.2.left`
+	/// 􂞠 `beats.powerbeats.pro.2.left`
 	///
 	/// - categories:
 	///   - `devices`
@@ -47,7 +47,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_powerbeats_pro_2_left = SFSymbol(identifier: "beats.powerbeats.pro.2.left")
 
-	/// `beats.powerbeats.pro.2.chargingcase`
+	/// 􂞡 `beats.powerbeats.pro.2.chargingcase`
 	///
 	/// - categories:
 	///   - `devices`
@@ -56,7 +56,7 @@ extension SFSymbol {
 	///   - `audio`
 	static public let beats_powerbeats_pro_2_chargingcase = SFSymbol(identifier: "beats.powerbeats.pro.2.chargingcase")
 
-	/// `beats.powerbeats.pro.2.chargingcase.fill`
+	/// 􂞢 `beats.powerbeats.pro.2.chargingcase.fill`
 	///
 	/// - categories:
 	///   - `devices`

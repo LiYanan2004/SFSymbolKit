@@ -8,7 +8,7 @@
 @_documentation(visibility: internal)
 @available(iOS 16.4, macOS 13.3, tvOS 16.4, visionOS 1.0, watchOS 9.4, *)
 extension SFSymbol {
-	/// `1.lane.ar`
+	/// 􁢐 `1.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -18,7 +18,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `1_lane_ar` = SFSymbol(identifier: "1.lane.ar")
 
-	/// `2.lane.ar`
+	/// 􁢑 `2.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -28,7 +28,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `2_lane_ar` = SFSymbol(identifier: "2.lane.ar")
 
-	/// `3.lane.ar`
+	/// 􁢒 `3.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -38,7 +38,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `3_lane_ar` = SFSymbol(identifier: "3.lane.ar")
 
-	/// `4.lane.ar`
+	/// 􁢓 `4.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -48,7 +48,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `4_lane_ar` = SFSymbol(identifier: "4.lane.ar")
 
-	/// `5.lane.ar`
+	/// 􁢔 `5.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -58,7 +58,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `5_lane_ar` = SFSymbol(identifier: "5.lane.ar")
 
-	/// `6.lane.ar`
+	/// 􁢕 `6.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -68,7 +68,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `6_lane_ar` = SFSymbol(identifier: "6.lane.ar")
 
-	/// `7.lane.ar`
+	/// 􁢖 `7.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -78,7 +78,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `7_lane_ar` = SFSymbol(identifier: "7.lane.ar")
 
-	/// `8.lane.ar`
+	/// 􁢗 `8.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -88,7 +88,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `8_lane_ar` = SFSymbol(identifier: "8.lane.ar")
 
-	/// `9.lane.ar`
+	/// 􁢘 `9.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -98,7 +98,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `9_lane_ar` = SFSymbol(identifier: "9.lane.ar")
 
-	/// `10.lane.ar`
+	/// 􁱉 `10.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -108,7 +108,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `10_lane_ar` = SFSymbol(identifier: "10.lane.ar")
 
-	/// `11.lane.ar`
+	/// 􁱊 `11.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -118,7 +118,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `11_lane_ar` = SFSymbol(identifier: "11.lane.ar")
 
-	/// `12.lane.ar`
+	/// 􁱋 `12.lane.ar`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -128,7 +128,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `12_lane_ar` = SFSymbol(identifier: "12.lane.ar")
 
-	/// `1.lane.hi`
+	/// 􁱌 `1.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -138,7 +138,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `1_lane_hi` = SFSymbol(identifier: "1.lane.hi")
 
-	/// `2.lane.hi`
+	/// 􁱍 `2.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -148,7 +148,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `2_lane_hi` = SFSymbol(identifier: "2.lane.hi")
 
-	/// `3.lane.hi`
+	/// 􁱎 `3.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -158,7 +158,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `3_lane_hi` = SFSymbol(identifier: "3.lane.hi")
 
-	/// `4.lane.hi`
+	/// 􁱏 `4.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -168,7 +168,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `4_lane_hi` = SFSymbol(identifier: "4.lane.hi")
 
-	/// `5.lane.hi`
+	/// 􁱐 `5.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -178,7 +178,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `5_lane_hi` = SFSymbol(identifier: "5.lane.hi")
 
-	/// `6.lane.hi`
+	/// 􁱑 `6.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -188,7 +188,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `6_lane_hi` = SFSymbol(identifier: "6.lane.hi")
 
-	/// `7.lane.hi`
+	/// 􁱒 `7.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -198,7 +198,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `7_lane_hi` = SFSymbol(identifier: "7.lane.hi")
 
-	/// `8.lane.hi`
+	/// 􁱓 `8.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -208,7 +208,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `8_lane_hi` = SFSymbol(identifier: "8.lane.hi")
 
-	/// `9.lane.hi`
+	/// 􁱔 `9.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -218,7 +218,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `9_lane_hi` = SFSymbol(identifier: "9.lane.hi")
 
-	/// `10.lane.hi`
+	/// 􁱕 `10.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -228,7 +228,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `10_lane_hi` = SFSymbol(identifier: "10.lane.hi")
 
-	/// `11.lane.hi`
+	/// 􁱖 `11.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -238,7 +238,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `11_lane_hi` = SFSymbol(identifier: "11.lane.hi")
 
-	/// `12.lane.hi`
+	/// 􁱗 `12.lane.hi`
 	///
 	/// - categories:
 	///   - `fitness`
@@ -248,7 +248,7 @@ extension SFSymbol {
 	///   - `sports`
 	static public let `12_lane_hi` = SFSymbol(identifier: "12.lane.hi")
 
-	/// `beats.powerbeats.right`
+	/// 􀻕 `beats.powerbeats.right`
 	///
 	/// - categories:
 	///   - `devices`
@@ -259,7 +259,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_powerbeats_right = SFSymbol(identifier: "beats.powerbeats.right")
 
-	/// `beats.powerbeats.left`
+	/// 􁰼 `beats.powerbeats.left`
 	///
 	/// - categories:
 	///   - `devices`
@@ -270,7 +270,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_powerbeats_left = SFSymbol(identifier: "beats.powerbeats.left")
 
-	/// `beats.powerbeats3.right`
+	/// 􁰽 `beats.powerbeats3.right`
 	///
 	/// - categories:
 	///   - `devices`
@@ -281,7 +281,7 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_powerbeats3_right = SFSymbol(identifier: "beats.powerbeats3.right")
 
-	/// `beats.powerbeats3.left`
+	/// 􁰾 `beats.powerbeats3.left`
 	///
 	/// - categories:
 	///   - `devices`
@@ -292,25 +292,25 @@ extension SFSymbol {
 	///   - `speaker`
 	static public let beats_powerbeats3_left = SFSymbol(identifier: "beats.powerbeats3.left")
 
-	/// `axle.2`
+	/// 􁢚 `axle.2`
 	///
 	/// - categories:
 	///   - `automotive`
 	static public let axle_2 = SFSymbol(identifier: "axle.2")
 
-	/// `axle.2.front.engaged`
+	/// 􁠟 `axle.2.front.engaged`
 	///
 	/// - categories:
 	///   - `automotive`
 	static public let axle_2_front_engaged = SFSymbol(identifier: "axle.2.front.engaged")
 
-	/// `axle.2.rear.engaged`
+	/// 􁠠 `axle.2.rear.engaged`
 	///
 	/// - categories:
 	///   - `automotive`
 	static public let axle_2_rear_engaged = SFSymbol(identifier: "axle.2.rear.engaged")
 
-	/// `axle.2.front.and.rear.engaged`
+	/// 􁠡 `axle.2.front.and.rear.engaged`
 	///
 	/// - categories:
 	///   - `automotive`

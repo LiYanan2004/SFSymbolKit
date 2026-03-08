@@ -8,7 +8,7 @@
 @_documentation(visibility: internal)
 @available(iOS 15.4, macOS 12.3, tvOS 15.4, visionOS 1.0, watchOS 8.5, *)
 extension SFSymbol {
-	/// `person.badge.key`
+	/// 􁏺 `person.badge.key`
 	///
 	/// - categories:
 	///   - `human`
@@ -22,7 +22,7 @@ extension SFSymbol {
 	///   - `user`
 	static public let person_badge_key = SFSymbol(identifier: "person.badge.key")
 
-	/// `person.badge.key.fill`
+	/// 􁎨 `person.badge.key.fill`
 	///
 	/// - categories:
 	///   - `human`
@@ -36,7 +36,7 @@ extension SFSymbol {
 	///   - `user`
 	static public let person_badge_key_fill = SFSymbol(identifier: "person.badge.key.fill")
 
-	/// `camera.macro`
+	/// 􁂂 `camera.macro`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
@@ -46,7 +46,7 @@ extension SFSymbol {
 	///   - `macro`
 	static public let camera_macro = SFSymbol(identifier: "camera.macro")
 
-	/// `camera.macro.circle`
+	/// 􁂃 `camera.macro.circle`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
@@ -57,7 +57,7 @@ extension SFSymbol {
 	///   - `macro`
 	static public let camera_macro_circle = SFSymbol(identifier: "camera.macro.circle")
 
-	/// `camera.macro.circle.fill`
+	/// 􁂄 `camera.macro.circle.fill`
 	///
 	/// - categories:
 	///   - `cameraandphotos`
@@ -68,7 +68,7 @@ extension SFSymbol {
 	///   - `macro`
 	static public let camera_macro_circle_fill = SFSymbol(identifier: "camera.macro.circle.fill")
 
-	/// `key.viewfinder`
+	/// 􁎕 `key.viewfinder`
 	///
 	/// - categories:
 	///   - `objectsandtools`

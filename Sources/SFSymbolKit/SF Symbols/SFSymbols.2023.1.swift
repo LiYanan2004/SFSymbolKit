@@ -8,7 +8,7 @@
 @_documentation(visibility: internal)
 @available(iOS 17.1, macOS 14.1, tvOS 17.1, visionOS 1.0, watchOS 10.1, *)
 extension SFSymbol {
-	/// `person.crop.square.badge.camera`
+	/// 􂉚 `person.crop.square.badge.camera`
 	///
 	/// - categories:
 	///   - `human`
@@ -17,7 +17,7 @@ extension SFSymbol {
 	///   - `people`
 	static public let person_crop_square_badge_camera = SFSymbol(identifier: "person.crop.square.badge.camera")
 
-	/// `person.crop.square.badge.camera.fill`
+	/// 􂉛 `person.crop.square.badge.camera.fill`
 	///
 	/// - categories:
 	///   - `human`
@@ -26,7 +26,7 @@ extension SFSymbol {
 	///   - `people`
 	static public let person_crop_square_badge_camera_fill = SFSymbol(identifier: "person.crop.square.badge.camera.fill")
 
-	/// `person.crop.square.badge.video`
+	/// 􂉜 `person.crop.square.badge.video`
 	///
 	/// - categories:
 	///   - `human`
@@ -35,7 +35,7 @@ extension SFSymbol {
 	///   - `people`
 	static public let person_crop_square_badge_video = SFSymbol(identifier: "person.crop.square.badge.video")
 
-	/// `person.crop.square.badge.video.fill`
+	/// 􂉝 `person.crop.square.badge.video.fill`
 	///
 	/// - categories:
 	///   - `human`
@@ -44,13 +44,13 @@ extension SFSymbol {
 	///   - `people`
 	static public let person_crop_square_badge_video_fill = SFSymbol(identifier: "person.crop.square.badge.video.fill")
 
-	/// `chevron.compact.backward`
+	/// 􂉏 `chevron.compact.backward`
 	///
 	/// - categories:
 	///   - `arrows`
 	static public let chevron_compact_backward = SFSymbol(identifier: "chevron.compact.backward")
 
-	/// `chevron.compact.forward`
+	/// 􂉐 `chevron.compact.forward`
 	///
 	/// - categories:
 	///   - `arrows`

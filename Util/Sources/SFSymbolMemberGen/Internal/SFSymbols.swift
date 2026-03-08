@@ -8,15 +8,22 @@
 import Foundation
 import SFSymbols
 
-extension SymbolMetadataStore {
-    static internal let allSystemSymbolDescriptors: [SFSymbolDescriptor] = {
+internal enum SFSymbols_Private {
+    static internal let allSymbolDescriptors: [SFSymbolDescriptor] = {
         // find CoreGlyphs.bundle
         let coreGlyphsBundlePath = Bundle(url: sfSymbolsFrameworkURL)?
             .path(forResource: "CoreGlyphs", ofType: "bundle")
         guard let coreGlyphsBundlePath,
               let coreGlyphsBundle = Bundle(path: coreGlyphsBundlePath)
         else { return [] }
-        
+
+        // fetch ordered symbols
+        let symbolList = coreGlyphsBundle.path(forResource: "symbol_order", ofType: "plist")
+        guard let symbolList,
+              let symbols = NSArray(contentsOfFile: symbolList) as? [String] else {
+            return []
+        }
+
         // fetch symbol availabilities
         let availabilityList = coreGlyphsBundle.path(forResource: "name_availability", ofType: "plist")
         guard let availabilityList,
@@ -25,13 +32,13 @@ extension SymbolMetadataStore {
               let availabilityMap = plist["year_to_release"] as? [String : [String : String]] else {
             return []
         }
-        
+
         let availabilities = availabilityMap.mapValues({ availabilities in
             availabilities.map({
                 "\($0.key) \($0.value)" // e.g. iOS 26.0
             }).sorted(by: <)
         })
-        
+
         var symbolCategories: [String : [String]]?
         let symbolCategoriesPlistPath = coreGlyphsBundle
             .path(forResource: "symbol_categories", ofType: "plist")
@@ -43,7 +50,7 @@ extension SymbolMetadataStore {
                 categories.filter({ $0 != "whatsnew" }) // Already organized by year so no need to include this category.
             }
         }
-        
+
         var symbolSearch: [String : [String]]?
         let symbolSearchPlistPath = coreGlyphsBundle
             .path(forResource: "symbol_search", ofType: "plist")
@@ -52,14 +59,10 @@ extension SymbolMetadataStore {
                 contentsOfFile: symbolSearchPlistPath
             ) as? [String : [String]]
         }
-        
-        let store = SymbolMetadataStore.system
-        let csvRowsByName = Mirror(reflecting: store).descendant("csvRowsByName") as! [String : Any]
-        let privateScalarByName: [String : UnicodeScalar] = csvRowsByName.mapValues({ csvRow in
-            Mirror(reflecting: csvRow).descendant("privateScalar") as! UnicodeScalar
-        })
-        
-        return SFSymbols.symbol_order.compactMap { symbolName -> SFSymbolDescriptor? in
+
+        let scalars = privateScalarByName
+
+        return symbols.compactMap { symbolName -> SFSymbolDescriptor? in
             guard let availability = symbolAvailabilityDict[symbolName] else {
                 return nil
             }
@@ -69,14 +72,32 @@ extension SymbolMetadataStore {
             return SFSymbolDescriptor(
                 identifier: symbolName,
                 availability: availability,
-                privateScalar: privateScalarByName[symbolName],
                 availablePlatforms: availabilities,
                 categories: symbolCategories?[symbolName],
-                searchKeywords: symbolSearch?[symbolName]
+                searchKeywords: symbolSearch?[symbolName],
+                privateScalar: scalars[symbolName]
             )
         }
     }()
-    
+
+    static let privateScalarByName: [String: UnicodeScalar] = {
+        var result = [String: UnicodeScalar]()
+        let store = SymbolMetadataStore.system
+        let mirror = Mirror(reflecting: store)
+        for child in mirror.children {
+            if let rows = child.value as? [String: SystemSymbolCSVRow] {
+                for (name, row) in rows {
+                    result[name] = row.privateScalar
+                }
+            } else if let rows = child.value as? [SystemSymbolCSVRow] {
+                for row in rows {
+                    result[row.name] = row.privateScalar
+                }
+            }
+        }
+        return result
+    }()
+
     static let sfSymbolsFrameworkURL = URL(
         fileURLWithPath: "/System/Library/PrivateFrameworks/SFSymbols.framework/"
     )
