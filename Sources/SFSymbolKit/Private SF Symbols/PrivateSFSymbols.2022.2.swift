@@ -40,7 +40,6 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `address`

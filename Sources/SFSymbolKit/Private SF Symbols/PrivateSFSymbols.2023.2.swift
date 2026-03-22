@@ -24,7 +24,7 @@ extension PrivateSFSymbol {
 	///   - `multicolor`
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `authentication`
@@ -40,7 +40,7 @@ extension PrivateSFSymbol {
 	///   - `multicolor`
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `authentication`
@@ -87,25 +87,13 @@ extension PrivateSFSymbol {
 	/// 􂊏 `capture.slash`
 	static public let capture_slash = PrivateSFSymbol(identifier: "capture.slash")
 
-	/// 􂊑 `spatial.capture`
-	static public let spatial_capture = PrivateSFSymbol(identifier: "spatial.capture")
-
-	/// 􂊒 `spatial.capture.fill`
-	static public let spatial_capture_fill = PrivateSFSymbol(identifier: "spatial.capture.fill")
-
-	/// 􂊓 `spatial.capture.on.hexagon`
-	static public let spatial_capture_on_hexagon = PrivateSFSymbol(identifier: "spatial.capture.on.hexagon")
-
-	/// 􂊔 `spatial.capture.on.hexagon.fill`
-	static public let spatial_capture_on_hexagon_fill = PrivateSFSymbol(identifier: "spatial.capture.on.hexagon.fill")
-
 	/// 􂊃 `hand.raised.badge.touchid`
 	///
 	/// - categories:
 	///   - `human`
 	///   - `multicolor`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `fingerprint`
@@ -118,7 +106,7 @@ extension PrivateSFSymbol {
 	///   - `human`
 	///   - `multicolor`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `fingerprint`
@@ -190,6 +178,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `cameraandphotos`
+	///   - `variable`
 	static public let f_cursive_circle_slash = PrivateSFSymbol(identifier: "f.cursive.circle.slash")
 
 	/// 􂓢 `apple.journal`

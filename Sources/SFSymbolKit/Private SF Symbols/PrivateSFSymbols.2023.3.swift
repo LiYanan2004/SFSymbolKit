@@ -12,7 +12,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -23,7 +23,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -41,7 +41,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let lock_and_ring_2 = PrivateSFSymbol(identifier: "lock.and.ring.2")
 
 	/// 􂘿 `exclamationmark.magsafe.charger`

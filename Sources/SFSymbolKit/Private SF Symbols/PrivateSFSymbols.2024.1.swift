@@ -130,14 +130,14 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let ear_dots = PrivateSFSymbol(identifier: "ear.dots")
 
 	/// 􂴑 `ear.dots.fill`
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let ear_dots_fill = PrivateSFSymbol(identifier: "ear.dots.fill")
 
 	/// 􂴒 `ear.trianglebadge.exclamationmark.dots`
@@ -145,7 +145,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `human`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let ear_trianglebadge_exclamationmark_dots = PrivateSFSymbol(identifier: "ear.trianglebadge.exclamationmark.dots")
 
 	/// 􂴓 `ear.trianglebadge.exclamationmark.dots.fill`
@@ -153,7 +153,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `human`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let ear_trianglebadge_exclamationmark_dots_fill = PrivateSFSymbol(identifier: "ear.trianglebadge.exclamationmark.dots.fill")
 
 	/// 􂶳 `photo.and.video`
@@ -186,13 +186,89 @@ extension PrivateSFSymbol {
 	///   - `sun`
 	static public let photo_and_video_fill = PrivateSFSymbol(identifier: "photo.and.video.fill")
 
+	/// `gamecontroller.spatial`
+	///
+	/// - categories:
+	///   - `gaming`
+	static public let gamecontroller_spatial = PrivateSFSymbol(identifier: "gamecontroller.spatial")
+
+	/// `gamecontroller.spatial.fill`
+	///
+	/// - categories:
+	///   - `gaming`
+	static public let gamecontroller_spatial_fill = PrivateSFSymbol(identifier: "gamecontroller.spatial.fill")
+
+	/// `gamecontroller.spatial.circle`
+	///
+	/// - categories:
+	///   - `gaming`
+	///   - `variable`
+	static public let gamecontroller_spatial_circle = PrivateSFSymbol(identifier: "gamecontroller.spatial.circle")
+
+	/// `gamecontroller.spatial.circle.fill`
+	///
+	/// - categories:
+	///   - `gaming`
+	///   - `multicolor`
+	static public let gamecontroller_spatial_circle_fill = PrivateSFSymbol(identifier: "gamecontroller.spatial.circle.fill")
+
+	/// `gamecontroller.spatial.left`
+	///
+	/// - categories:
+	///   - `gaming`
+	static public let gamecontroller_spatial_left = PrivateSFSymbol(identifier: "gamecontroller.spatial.left")
+
+	/// `gamecontroller.spatial.left.fill`
+	///
+	/// - categories:
+	///   - `gaming`
+	static public let gamecontroller_spatial_left_fill = PrivateSFSymbol(identifier: "gamecontroller.spatial.left.fill")
+
+	/// `gamecontroller.spatial.left.circle`
+	///
+	/// - categories:
+	///   - `gaming`
+	///   - `variable`
+	static public let gamecontroller_spatial_left_circle = PrivateSFSymbol(identifier: "gamecontroller.spatial.left.circle")
+
+	/// `gamecontroller.spatial.left.circle.fill`
+	///
+	/// - categories:
+	///   - `gaming`
+	///   - `multicolor`
+	static public let gamecontroller_spatial_left_circle_fill = PrivateSFSymbol(identifier: "gamecontroller.spatial.left.circle.fill")
+
+	/// `gamecontroller.spatial.right`
+	///
+	/// - categories:
+	///   - `gaming`
+	static public let gamecontroller_spatial_right = PrivateSFSymbol(identifier: "gamecontroller.spatial.right")
+
+	/// `gamecontroller.spatial.right.fill`
+	///
+	/// - categories:
+	///   - `gaming`
+	static public let gamecontroller_spatial_right_fill = PrivateSFSymbol(identifier: "gamecontroller.spatial.right.fill")
+
+	/// `gamecontroller.spatial.right.circle`
+	///
+	/// - categories:
+	///   - `gaming`
+	///   - `variable`
+	static public let gamecontroller_spatial_right_circle = PrivateSFSymbol(identifier: "gamecontroller.spatial.right.circle")
+
+	/// `gamecontroller.spatial.right.circle.fill`
+	///
+	/// - categories:
+	///   - `gaming`
+	///   - `multicolor`
+	static public let gamecontroller_spatial_right_circle_fill = PrivateSFSymbol(identifier: "gamecontroller.spatial.right.circle.fill")
+
 	/// 􂲮 `apple.diagnostics`
 	///
 	/// - categories:
 	///   - `health`
-	///
-	/// - search keywords:
-	///   - `medical`
+	///   - `variable`
 	static public let apple_diagnostics = PrivateSFSymbol(identifier: "apple.diagnostics")
 
 	/// 􂶭 `battery.50percent.badge.exclamationmark`
@@ -299,83 +375,83 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_bn = PrivateSFSymbol(identifier: "character.and.ellipsis.bn")
 
 	/// 􂴧 `character.and.ellipsis.mr`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_mr = PrivateSFSymbol(identifier: "character.and.ellipsis.mr")
 
 	/// 􂴨 `character.and.ellipsis.gu`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_gu = PrivateSFSymbol(identifier: "character.and.ellipsis.gu")
 
 	/// 􂴩 `character.and.ellipsis.pa`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_pa = PrivateSFSymbol(identifier: "character.and.ellipsis.pa")
 
 	/// 􂴪 `character.and.ellipsis.kn`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_kn = PrivateSFSymbol(identifier: "character.and.ellipsis.kn")
 
 	/// 􂴫 `character.and.ellipsis.ml`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_ml = PrivateSFSymbol(identifier: "character.and.ellipsis.ml")
 
 	/// 􂴬 `character.and.ellipsis.mni`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_mni = PrivateSFSymbol(identifier: "character.and.ellipsis.mni")
 
 	/// 􂴭 `character.and.ellipsis.or`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_or = PrivateSFSymbol(identifier: "character.and.ellipsis.or")
 
 	/// 􂴮 `character.and.ellipsis.sat`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_sat = PrivateSFSymbol(identifier: "character.and.ellipsis.sat")
 
 	/// 􂴯 `character.and.ellipsis.si`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_si = PrivateSFSymbol(identifier: "character.and.ellipsis.si")
 
 	/// 􂴰 `character.and.ellipsis.ta`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_ta = PrivateSFSymbol(identifier: "character.and.ellipsis.ta")
 
 	/// 􂴱 `character.and.ellipsis.te`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_te = PrivateSFSymbol(identifier: "character.and.ellipsis.te")
 }

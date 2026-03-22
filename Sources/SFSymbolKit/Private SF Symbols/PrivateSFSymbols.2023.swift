@@ -48,7 +48,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -59,7 +59,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -118,7 +118,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `automatic mode`
@@ -150,7 +150,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `card`
@@ -162,7 +162,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `card`
@@ -221,12 +221,6 @@ extension PrivateSFSymbol {
 	///   - `sports`
 	static public let figure_run_motion_slash_rtl = PrivateSFSymbol(identifier: "figure.run.motion.slash.rtl")
 
-	/// 􁶹 `appearance.luminosity`
-	///
-	/// - search keywords:
-	///   - `match surroundings`
-	static public let appearance_luminosity = PrivateSFSymbol(identifier: "appearance.luminosity")
-
 	/// 􂃙 `contextmenu.and.selection`
 	///
 	/// - categories:
@@ -238,7 +232,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `keyboard`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let keyboard_badge_waveform = PrivateSFSymbol(identifier: "keyboard.badge.waveform")
 
 	/// 􁹍 `keyboard.badge.waveform.fill`
@@ -246,7 +240,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `keyboard`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let keyboard_badge_waveform_fill = PrivateSFSymbol(identifier: "keyboard.badge.waveform.fill")
 
 	/// 􀾫 `globe.badge.sparkles`
@@ -265,7 +259,7 @@ extension PrivateSFSymbol {
 	/// 􁤆 `carplay.radiowaves.left.and.right`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let carplay_radiowaves_left_and_right = PrivateSFSymbol(identifier: "carplay.radiowaves.left.and.right")
 
 	/// 􂇧 `fitness.stacks`
@@ -343,6 +337,9 @@ extension PrivateSFSymbol {
 	static public let music_badge_sparkles = PrivateSFSymbol(identifier: "music.badge.sparkles")
 
 	/// 􁱃 `music.on.film.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `media`
@@ -471,7 +468,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_bubble_rtl = PrivateSFSymbol(identifier: "waveform.bubble.rtl")
 
 	/// 􂆕 `waveform.bubble.fill.rtl`
@@ -479,7 +476,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_bubble_fill_rtl = PrivateSFSymbol(identifier: "waveform.bubble.fill.rtl")
 
 	/// 􂆖 `waveform.bubble.badge.pause.rtl`
@@ -488,7 +485,7 @@ extension PrivateSFSymbol {
 	///   - `accessibility`
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_bubble_badge_pause_rtl = PrivateSFSymbol(identifier: "waveform.bubble.badge.pause.rtl")
 
 	/// 􂆗 `waveform.bubble.badge.pause.fill.rtl`
@@ -497,7 +494,7 @@ extension PrivateSFSymbol {
 	///   - `accessibility`
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_bubble_badge_pause_fill_rtl = PrivateSFSymbol(identifier: "waveform.bubble.badge.pause.fill.rtl")
 
 	/// 􀬆 `arrowtriangles.up.right.down.left.bubble`
@@ -512,20 +509,21 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
+	///   - `multicolor`
 	static public let arrowtriangles_up_right_down_left_bubble_fill = PrivateSFSymbol(identifier: "arrowtriangles.up.right.down.left.bubble.fill")
 
 	/// 􁣑 `creditcard.and.nfc`
 	///
 	/// - categories:
 	///   - `commerce`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let creditcard_and_nfc = PrivateSFSymbol(identifier: "creditcard.and.nfc")
 
 	/// 􁣒 `creditcard.and.nfc.fill`
 	///
 	/// - categories:
 	///   - `commerce`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let creditcard_and_nfc_fill = PrivateSFSymbol(identifier: "creditcard.and.nfc.fill")
 
 	/// 􀜑 `wallet.badge.plus`
@@ -545,64 +543,14 @@ extension PrivateSFSymbol {
 	/// 􂀒 `chevron.3.up.perspective`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chevron_3_up_perspective = PrivateSFSymbol(identifier: "chevron.3.up.perspective")
 
 	/// 􂀓 `chevron.3.up.perspective.and.rectangle`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let chevron_3_up_perspective_and_rectangle = PrivateSFSymbol(identifier: "chevron.3.up.perspective.and.rectangle")
-
-	/// 􂀚 `environments`
-	///
-	/// - categories:
-	///   - `nature`
-	static public let environments = PrivateSFSymbol(identifier: "environments")
-
-	/// 􀬮 `environments.fill`
-	///
-	/// - categories:
-	///   - `nature`
-	static public let environments_fill = PrivateSFSymbol(identifier: "environments.fill")
-
-	/// 􂀜 `environments.circle`
-	///
-	/// - categories:
-	///   - `nature`
-	static public let environments_circle = PrivateSFSymbol(identifier: "environments.circle")
-
-	/// 􂀝 `environments.circle.fill`
-	///
-	/// - categories:
-	///   - `multicolor`
-	///   - `nature`
-	static public let environments_circle_fill = PrivateSFSymbol(identifier: "environments.circle.fill")
-
-	/// 􂁚 `environments.slash`
-	///
-	/// - categories:
-	///   - `nature`
-	static public let environments_slash = PrivateSFSymbol(identifier: "environments.slash")
-
-	/// 􁦅 `environments.slash.fill`
-	///
-	/// - categories:
-	///   - `nature`
-	static public let environments_slash_fill = PrivateSFSymbol(identifier: "environments.slash.fill")
-
-	/// 􂀞 `environments.slash.circle`
-	///
-	/// - categories:
-	///   - `nature`
-	static public let environments_slash_circle = PrivateSFSymbol(identifier: "environments.slash.circle")
-
-	/// 􂀟 `environments.slash.circle.fill`
-	///
-	/// - categories:
-	///   - `multicolor`
-	///   - `nature`
-	static public let environments_slash_circle_fill = PrivateSFSymbol(identifier: "environments.slash.circle.fill")
 
 	/// 􁊔 `lock.square.dotted`
 	///
@@ -675,7 +623,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let iphone_badge_dot_radiowaves_up_forward = PrivateSFSymbol(identifier: "iphone.badge.dot.radiowaves.up.forward")
 
 	/// 􂅻 `apps.iphone.badge.icloud`
@@ -830,7 +778,7 @@ extension PrivateSFSymbol {
 	/// 􁰊 `multispot.viewfinder.rectangular`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let multispot_viewfinder_rectangular = PrivateSFSymbol(identifier: "multispot.viewfinder.rectangular")
 
 	/// 􁰋 `multispot.viewfinder.rectangular.trianglebadge.exclamationmark`
@@ -899,6 +847,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	static public let smartstack_circle = PrivateSFSymbol(identifier: "smartstack.circle")
 
 	/// 􂃌 `smartstack.circle.fill`
@@ -919,20 +868,6 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `devices`
 	static public let applewatch_side_button_arrow_left = PrivateSFSymbol(identifier: "applewatch.side.button.arrow.left")
-
-	/// 􁰺 `appletv.badge.exclamationmark`
-	///
-	/// - categories:
-	///   - `devices`
-	///   - `multicolor`
-	static public let appletv_badge_exclamationmark = PrivateSFSymbol(identifier: "appletv.badge.exclamationmark")
-
-	/// 􁰻 `appletv.badge.exclamationmark.fill`
-	///
-	/// - categories:
-	///   - `devices`
-	///   - `multicolor`
-	static public let appletv_badge_exclamationmark_fill = PrivateSFSymbol(identifier: "appletv.badge.exclamationmark.fill")
 
 	/// 􀴂 `apple.tv.logo`
 	static public let apple_tv_logo = PrivateSFSymbol(identifier: "apple.tv.logo")
@@ -979,20 +914,26 @@ extension PrivateSFSymbol {
 	/// 􂀢 `nfc.circle`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let nfc_circle = PrivateSFSymbol(identifier: "nfc.circle")
 
 	/// 􂀣 `nfc.circle.fill`
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let nfc_circle_fill = PrivateSFSymbol(identifier: "nfc.circle.fill")
 
 	/// 􂀤 `nfc.slash`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let nfc_slash = PrivateSFSymbol(identifier: "nfc.slash")
 
 	/// 􂀥 `nfc.slash.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let nfc_slash_circle = PrivateSFSymbol(identifier: "nfc.slash.circle")
 
 	/// 􂀦 `nfc.slash.circle.fill`
@@ -1006,7 +947,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let airdrop_circle = PrivateSFSymbol(identifier: "airdrop.circle")
 
 	/// 􁷕 `airdrop.circle.fill`
@@ -1014,7 +955,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let airdrop_circle_fill = PrivateSFSymbol(identifier: "airdrop.circle.fill")
 
 	/// 􂄑 `airdrop.square`
@@ -1022,7 +963,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let airdrop_square = PrivateSFSymbol(identifier: "airdrop.square")
 
 	/// 􂄒 `airdrop.square.fill`
@@ -1030,7 +971,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let airdrop_square_fill = PrivateSFSymbol(identifier: "airdrop.square.fill")
 
 	/// 􂂻 `minus.plus.ring.closed`
@@ -1069,35 +1010,6 @@ extension PrivateSFSymbol {
 	///   - `automotive`
 	///   - `objectsandtools`
 	static public let shoe_front_lift_circle_brakesignal = PrivateSFSymbol(identifier: "shoe.front.lift.circle.brakesignal")
-
-	/// 􁣫 `shoe.front.lift`
-	///
-	/// - categories:
-	///   - `automotive`
-	///   - `objectsandtools`
-	static public let shoe_front_lift = PrivateSFSymbol(identifier: "shoe.front.lift")
-
-	/// 􁣮 `shoe.front.lift.fill`
-	///
-	/// - categories:
-	///   - `automotive`
-	///   - `objectsandtools`
-	static public let shoe_front_lift_fill = PrivateSFSymbol(identifier: "shoe.front.lift.fill")
-
-	/// 􁣬 `shoe.front.lift.circle`
-	///
-	/// - categories:
-	///   - `automotive`
-	///   - `objectsandtools`
-	static public let shoe_front_lift_circle = PrivateSFSymbol(identifier: "shoe.front.lift.circle")
-
-	/// 􁣭 `shoe.front.lift.circle.fill`
-	///
-	/// - categories:
-	///   - `automotive`
-	///   - `multicolor`
-	///   - `objectsandtools`
-	static public let shoe_front_lift_circle_fill = PrivateSFSymbol(identifier: "shoe.front.lift.circle.fill")
 
 	/// 􂇫 `hdradio.logo`
 	///
@@ -1197,7 +1109,7 @@ extension PrivateSFSymbol {
 	/// 􁻁 `weekly.summary`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `data`
@@ -1207,7 +1119,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_badge_record = PrivateSFSymbol(identifier: "waveform.badge.record")
 
 	/// 􁣎 `waveform.badge.magnifyingglass.circle`
@@ -1215,7 +1127,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `search`
@@ -1227,7 +1139,7 @@ extension PrivateSFSymbol {
 	///   - `accessibility`
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `search`
@@ -1237,7 +1149,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let slider_horizontal_below_waveform = PrivateSFSymbol(identifier: "slider.horizontal.below.waveform")
 
 	/// 􁵨 `text.square`
@@ -1250,7 +1162,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let text_square_badge_waveform = PrivateSFSymbol(identifier: "text.square.badge.waveform")
 
 	/// 􀜰 `apple.photos`
@@ -1565,6 +1477,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `multicolor`
+	///   - `privacyandsecurity`
 	static public let checkmark_circle_platter = PrivateSFSymbol(identifier: "checkmark.circle.platter")
 
 	/// 􁽙 `arrow.trianglehead.left`

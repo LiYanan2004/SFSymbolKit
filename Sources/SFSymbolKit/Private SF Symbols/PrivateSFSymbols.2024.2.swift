@@ -24,6 +24,9 @@ extension PrivateSFSymbol {
 
 	/// 􂹣 `globe.badge.magnifyingglass`
 	///
+	/// - categories:
+	///   - `keyboard`
+	///
 	/// - search keywords:
 	///   - `earth`
 	///   - `language`
@@ -48,17 +51,20 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `nature`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bolt_arrowtriangle_up_3 = PrivateSFSymbol(identifier: "bolt.arrowtriangle.up.3")
 
 	/// 􂸀 `bolt.arrowtriangle.up.3.fill`
 	///
 	/// - categories:
 	///   - `nature`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bolt_arrowtriangle_up_3_fill = PrivateSFSymbol(identifier: "bolt.arrowtriangle.up.3.fill")
 
 	/// 􂸁 `bolt.bottomhalf.filled.striped.horizontal.tophalf`
+	///
+	/// - categories:
+	///   - `connectivity`
 	static public let bolt_bottomhalf_filled_striped_horizontal_tophalf = PrivateSFSymbol(identifier: "bolt.bottomhalf.filled.striped.horizontal.tophalf")
 
 	/// 􂶤 `openai.logo`
@@ -71,7 +77,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let wave_3_forward_iphone = PrivateSFSymbol(identifier: "wave.3.forward.iphone")
 
 	/// 􂠃 `iphone.camera.button`
@@ -111,6 +117,6 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let arrowtriangle_right_3_battery_0percent = PrivateSFSymbol(identifier: "arrowtriangle.right.3.battery.0percent")
 }

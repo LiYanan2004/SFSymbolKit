@@ -12,7 +12,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -22,7 +22,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -37,10 +37,4 @@ extension PrivateSFSymbol {
 	///   - `running`
 	///   - `sports`
 	static public let athletic_track = PrivateSFSymbol(identifier: "athletic.track")
-
-	/// 􀚏 `icloud.dashed`
-	///
-	/// - categories:
-	///   - `connectivity`
-	static public let icloud_dashed = PrivateSFSymbol(identifier: "icloud.dashed")
 }

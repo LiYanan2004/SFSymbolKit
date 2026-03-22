@@ -17,6 +17,7 @@ extension PrivateSFSymbol {
 	/// 􀲚 `book.square.stack.fill`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	static public let book_square_stack_fill = PrivateSFSymbol(identifier: "book.square.stack.fill")
 
@@ -24,7 +25,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `noise cancellation`
@@ -36,7 +37,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -112,7 +113,7 @@ extension PrivateSFSymbol {
 	/// 􀫉 `quicktime.radiowaves.left.and.right`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let quicktime_radiowaves_left_and_right = PrivateSFSymbol(identifier: "quicktime.radiowaves.left.and.right")
 
 	/// 􀯊 `appstore.rectangle.portrait`
@@ -132,6 +133,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `remove`
@@ -165,10 +167,10 @@ extension PrivateSFSymbol {
 	///   - `search`
 	static public let magnifyingglass_and_chevron_down_rtl = PrivateSFSymbol(identifier: "magnifyingglass.and.chevron.down.rtl")
 
-	/// 􀨹 `preview`
-	static public let preview = PrivateSFSymbol(identifier: "preview")
-
 	/// 􀭩 `appclip.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let appclip_circle = PrivateSFSymbol(identifier: "appclip.circle")
 
 	/// 􀭪 `appclip.circle.fill`
@@ -206,20 +208,20 @@ extension PrivateSFSymbol {
 	/// 􀣢 `app.3.stack.3d`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let app_3_stack_3d = PrivateSFSymbol(identifier: "app.3.stack.3d")
 
 	/// 􀣣 `app.3.stack.3d.fill`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let app_3_stack_3d_fill = PrivateSFSymbol(identifier: "app.3.stack.3d.fill")
 
 	/// 􀠋 `wirelesscharging`
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `bolt`
@@ -285,9 +287,6 @@ extension PrivateSFSymbol {
 	///   - `objectsandtools`
 	static public let tips_fill = PrivateSFSymbol(identifier: "tips.fill")
 
-	/// 􀥯 `finder`
-	static public let finder = PrivateSFSymbol(identifier: "finder")
-
 	/// 􀲷 `gamecenter`
 	static public let gamecenter = PrivateSFSymbol(identifier: "gamecenter")
 
@@ -297,7 +296,7 @@ extension PrivateSFSymbol {
 	/// 􀲝 `nfc`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let nfc = PrivateSFSymbol(identifier: "nfc")
 
 	/// 􀥐 `radar`
@@ -356,7 +355,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `cameraandphotos`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let camera_lightcontrol = PrivateSFSymbol(identifier: "camera.lightcontrol")
 
 	/// 􀮚 `xsan`
@@ -404,6 +403,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
+	///   - `variable`
 	static public let usb_circle = PrivateSFSymbol(identifier: "usb.circle")
 
 	/// 􀮜 `usb.circle.fill`
@@ -430,6 +430,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
+	///   - `variable`
 	static public let ethernet_circle = PrivateSFSymbol(identifier: "ethernet.circle")
 
 	/// 􀢦 `ethernet.circle.fill`

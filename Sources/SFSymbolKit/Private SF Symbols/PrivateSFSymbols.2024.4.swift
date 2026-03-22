@@ -8,20 +8,29 @@
 @_documentation(visibility: internal)
 @available(iOS 18.5, macOS 15.5, tvOS 18.5, visionOS 2.5, watchOS 11.5, *)
 extension PrivateSFSymbol {
+	/// 􃂗 `microphone.badge.siri`
+	///
+	/// - categories:
+	///   - `communication`
+	static public let microphone_badge_siri = PrivateSFSymbol(identifier: "microphone.badge.siri")
+
+	/// 􃂘 `microphone.badge.siri.fill`
+	///
+	/// - categories:
+	///   - `communication`
+	static public let microphone_badge_siri_fill = PrivateSFSymbol(identifier: "microphone.badge.siri.fill")
+
 	/// 􂿧 `nosign.badge.shield.half.filled`
 	///
 	/// - categories:
 	///   - `privacyandsecurity`
 	///
 	/// - search keywords:
+	///   - `block`
+	///   - `crossed out`
 	///   - `restricted`
+	///   - `slash`
 	static public let nosign_badge_shield_half_filled = PrivateSFSymbol(identifier: "nosign.badge.shield.half.filled")
-
-	/// 􂹬 `face.baby.inverse`
-	static public let face_baby_inverse = PrivateSFSymbol(identifier: "face.baby.inverse")
-
-	/// 􂹭 `face.baby.bow.inverse`
-	static public let face_baby_bow_inverse = PrivateSFSymbol(identifier: "face.baby.bow.inverse")
 
 	/// 􂿼 `location.house`
 	///
@@ -40,25 +49,9 @@ extension PrivateSFSymbol {
 	///   - `house`
 	static public let location_house_fill = PrivateSFSymbol(identifier: "location.house.fill")
 
-	/// 􃂗 `microphone.badge.siri`
-	///
-	/// - categories:
-	///   - `communication`
-	static public let microphone_badge_siri = PrivateSFSymbol(identifier: "microphone.badge.siri")
+	/// 􂹬 `face.baby.inverse`
+	static public let face_baby_inverse = PrivateSFSymbol(identifier: "face.baby.inverse")
 
-	/// 􃂘 `microphone.badge.siri.fill`
-	///
-	/// - categories:
-	///   - `communication`
-	static public let microphone_badge_siri_fill = PrivateSFSymbol(identifier: "microphone.badge.siri.fill")
-
-	/// 􃀭 `text.line.2.summary.badge.xmark`
-	///
-	/// - categories:
-	///   - `multicolor`
-	///   - `textformatting`
-	///
-	/// - search keywords:
-	///   - `summarize`
-	static public let text_line_2_summary_badge_xmark = PrivateSFSymbol(identifier: "text.line.2.summary.badge.xmark")
+	/// 􂹭 `face.baby.bow.inverse`
+	static public let face_baby_bow_inverse = PrivateSFSymbol(identifier: "face.baby.bow.inverse")
 }

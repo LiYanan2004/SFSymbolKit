@@ -13,7 +13,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `editing`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `erase`
@@ -24,7 +24,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `editing`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `erase`
@@ -35,26 +35,6 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `editing`
 	static public let scribble_and_lasso = PrivateSFSymbol(identifier: "scribble.and.lasso")
-
-	/// 􁣊 `document.on.trash`
-	///
-	/// - categories:
-	///   - `objectsandtools`
-	///
-	/// - search keywords:
-	///   - `copy`
-	///   - `delete`
-	static public let document_on_trash = PrivateSFSymbol(identifier: "document.on.trash")
-
-	/// 􁣋 `document.on.trash.fill`
-	///
-	/// - categories:
-	///   - `objectsandtools`
-	///
-	/// - search keywords:
-	///   - `copy`
-	///   - `delete`
-	static public let document_on_trash_fill = PrivateSFSymbol(identifier: "document.on.trash.fill")
 
 	/// 􂯉 `text.below.rectangle`
 	static public let text_below_rectangle = PrivateSFSymbol(identifier: "text.below.rectangle")
@@ -111,6 +91,7 @@ extension PrivateSFSymbol {
 	/// 􂫶 `calendar.badge.ring.closed`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	///
 	/// - search keywords:
@@ -120,6 +101,7 @@ extension PrivateSFSymbol {
 	/// 􂫸 `calendar.badge.ring.closed.rtl`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
 	///
 	/// - search keywords:
@@ -129,8 +111,9 @@ extension PrivateSFSymbol {
 	/// 􂬄 `calendar.and.chart.bar`
 	///
 	/// - categories:
+	///   - `multicolor`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `date`
@@ -140,24 +123,36 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `multicolor`
+	///
+	/// - search keywords:
+	///   - `date`
 	static public let calendar_multiday_timeline_left = PrivateSFSymbol(identifier: "calendar.multiday.timeline.left")
 
 	/// 􂦡 `calendar.multiday.timeline.right`
 	///
 	/// - categories:
 	///   - `multicolor`
+	///
+	/// - search keywords:
+	///   - `date`
 	static public let calendar_multiday_timeline_right = PrivateSFSymbol(identifier: "calendar.multiday.timeline.right")
 
 	/// 􂦤 `calendar.multiday.timeline.leading`
 	///
 	/// - categories:
 	///   - `multicolor`
+	///
+	/// - search keywords:
+	///   - `date`
 	static public let calendar_multiday_timeline_leading = PrivateSFSymbol(identifier: "calendar.multiday.timeline.leading")
 
 	/// 􂦥 `calendar.multiday.timeline.trailing`
 	///
 	/// - categories:
 	///   - `multicolor`
+	///
+	/// - search keywords:
+	///   - `date`
 	static public let calendar_multiday_timeline_trailing = PrivateSFSymbol(identifier: "calendar.multiday.timeline.trailing")
 
 	/// 􂘫 `app.grid.2x2.topleft.filled`
@@ -310,7 +305,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `nature`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `ocean`
@@ -356,13 +351,15 @@ extension PrivateSFSymbol {
 	/// 􁞬 `sos.cellularbars.short`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `connectivity`
+	///   - `variable`
 	static public let sos_cellularbars_short = PrivateSFSymbol(identifier: "sos.cellularbars.short")
 
 	/// 􂫿 `sos.cellulardots`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `connectivity`
+	///   - `variable`
 	static public let sos_cellulardots = PrivateSFSymbol(identifier: "sos.cellulardots")
 
 	/// 􂭫 `megaphone.badge`
@@ -417,6 +414,9 @@ extension PrivateSFSymbol {
 	static public let apple_classical_square_stack_fill = PrivateSFSymbol(identifier: "apple.classical.square.stack.fill")
 
 	/// 􂲋 `music.note.and.sparkles`
+	///
+	/// - search keywords:
+	///   - `media`
 	static public let music_note_and_sparkles = PrivateSFSymbol(identifier: "music.note.and.sparkles")
 
 	/// 􂣈 `pencil.arrow.trianglehead.clockwise`
@@ -501,9 +501,15 @@ extension PrivateSFSymbol {
 	static public let arrow_forward_and_smalltarget = PrivateSFSymbol(identifier: "arrow.forward.and.smalltarget")
 
 	/// 􂘛 `circle.open`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let circle_open = PrivateSFSymbol(identifier: "circle.open")
 
 	/// 􂟶 `stop.circle.open`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let stop_circle_open = PrivateSFSymbol(identifier: "stop.circle.open")
 
 	/// 􂜢 `inset.circlebadge`
@@ -537,6 +543,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `health`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `medical`
@@ -555,13 +562,13 @@ extension PrivateSFSymbol {
 	/// 􂭰 `app.3.stack.3d.dashed`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let app_3_stack_3d_dashed = PrivateSFSymbol(identifier: "app.3.stack.3d.dashed")
 
 	/// 􂭱 `app.3.stack.3d.dashed.fill`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let app_3_stack_3d_dashed_fill = PrivateSFSymbol(identifier: "app.3.stack.3d.dashed.fill")
 
 	/// 􁞥 `inset.line.horizontal.top.rectangle`
@@ -655,7 +662,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bubble_wave_2 = PrivateSFSymbol(identifier: "bubble.wave.2")
 
 	/// 􂱂 `bubble.wave.2.fill`
@@ -663,7 +670,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let bubble_wave_2_fill = PrivateSFSymbol(identifier: "bubble.wave.2.fill")
 
 	/// 􂱃 `bubble.wave.2.slash`
@@ -725,6 +732,9 @@ extension PrivateSFSymbol {
 	static public let cart_badge_fill = PrivateSFSymbol(identifier: "cart.badge.fill")
 
 	/// 􂫽 `apple.logo.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let apple_logo_circle = PrivateSFSymbol(identifier: "apple.logo.circle")
 
 	/// 􂫾 `apple.logo.circle.fill`
@@ -765,7 +775,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `padlock`
@@ -779,7 +789,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `padlock`
@@ -793,7 +803,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `password`
@@ -805,7 +815,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `objectsandtools`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `password`
@@ -831,7 +841,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let ring_radiowaves_right = PrivateSFSymbol(identifier: "ring.radiowaves.right")
 
 	/// 􂯠 `ring.radiowaves.forward`
@@ -839,7 +849,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let ring_radiowaves_forward = PrivateSFSymbol(identifier: "ring.radiowaves.forward")
 
 	/// 􂱊 `apps.iphone.arrow.trianglehead.2.clockwise.rotate.90`
@@ -854,18 +864,6 @@ extension PrivateSFSymbol {
 	///   - `devices`
 	static public let apps_iphone_arrow_trianglehead_2_clockwise_rotate_90_rtl = PrivateSFSymbol(identifier: "apps.iphone.arrow.trianglehead.2.clockwise.rotate.90.rtl")
 
-	/// 􂤩 `apps.iphone.and.cursorarrow`
-	///
-	/// - categories:
-	///   - `devices`
-	static public let apps_iphone_and_cursorarrow = PrivateSFSymbol(identifier: "apps.iphone.and.cursorarrow")
-
-	/// 􂤫 `apps.iphone.and.cursorarrow.rtl`
-	///
-	/// - categories:
-	///   - `devices`
-	static public let apps_iphone_and_cursorarrow_rtl = PrivateSFSymbol(identifier: "apps.iphone.and.cursorarrow.rtl")
-
 	/// 􂥳 `apps.iphone.badge.paintbrush`
 	///
 	/// - categories:
@@ -879,12 +877,6 @@ extension PrivateSFSymbol {
 	///   - `devices`
 	///   - `objectsandtools`
 	static public let apps_iphone_badge_paintbrush_rtl = PrivateSFSymbol(identifier: "apps.iphone.badge.paintbrush.rtl")
-
-	/// 􂤨 `iphone.pattern.diagonalline`
-	///
-	/// - categories:
-	///   - `devices`
-	static public let iphone_pattern_diagonalline = PrivateSFSymbol(identifier: "iphone.pattern.diagonalline")
 
 	/// 􂂈 `iphone.action.button.arrow.right`
 	///
@@ -1006,12 +998,6 @@ extension PrivateSFSymbol {
 	///   - `devices`
 	static public let vision_pro_and_headband = PrivateSFSymbol(identifier: "vision.pro.and.headband")
 
-	/// 􂦮 `vision.pro.and.headband.arrow.trianglehead.forward.and.arrow.trianglehead.backward`
-	///
-	/// - categories:
-	///   - `devices`
-	static public let vision_pro_and_headband_arrow_trianglehead_forward_and_arrow_trianglehead_backward = PrivateSFSymbol(identifier: "vision.pro.and.headband.arrow.trianglehead.forward.and.arrow.trianglehead.backward")
-
 	/// 􁻫 `vision.pro.button.arrow.down`
 	///
 	/// - categories:
@@ -1070,15 +1056,6 @@ extension PrivateSFSymbol {
 	///   - `multicolor`
 	static public let vision_pro_battery_and_thermometer_high_fill = PrivateSFSymbol(identifier: "vision.pro.battery.and.thermometer.high.fill")
 
-	/// 􂪙 `spatial.capture.slash`
-	static public let spatial_capture_slash = PrivateSFSymbol(identifier: "spatial.capture.slash")
-
-	/// 􂪚 `spatial.capture.slash.fill`
-	static public let spatial_capture_slash_fill = PrivateSFSymbol(identifier: "spatial.capture.slash.fill")
-
-	/// 􂖡 `inset.filled.pano`
-	static public let inset_filled_pano = PrivateSFSymbol(identifier: "inset.filled.pano")
-
 	/// 􁻂 `inset.filled.half.circle.lefthalf.dotted`
 	///
 	/// - search keywords:
@@ -1107,6 +1084,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	static public let vision_pro_motion_circle = PrivateSFSymbol(identifier: "vision.pro.motion.circle")
 
 	/// 􂆣 `vision.pro.motion.circle.fill`
@@ -1271,6 +1249,9 @@ extension PrivateSFSymbol {
 	static public let dolby_logo = PrivateSFSymbol(identifier: "dolby.logo")
 
 	/// 􂓧 `dolby.logo.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let dolby_logo_circle = PrivateSFSymbol(identifier: "dolby.logo.circle")
 
 	/// 􂓨 `dolby.logo.circle.fill`
@@ -1283,6 +1264,9 @@ extension PrivateSFSymbol {
 	static public let apple_music_lossless = PrivateSFSymbol(identifier: "apple.music.lossless")
 
 	/// 􂓷 `apple.music.lossless.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let apple_music_lossless_circle = PrivateSFSymbol(identifier: "apple.music.lossless.circle")
 
 	/// 􂓸 `apple.music.lossless.circle.fill`
@@ -1295,6 +1279,9 @@ extension PrivateSFSymbol {
 	static public let apple_music_digital_masters = PrivateSFSymbol(identifier: "apple.music.digital.masters")
 
 	/// 􂓤 `apple.music.digital.masters.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let apple_music_digital_masters_circle = PrivateSFSymbol(identifier: "apple.music.digital.masters.circle")
 
 	/// 􂓥 `apple.music.digital.masters.circle.fill`
@@ -1322,6 +1309,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `objectsandtools`
+	///   - `variable`
 	static public let satellite_slash_circle = PrivateSFSymbol(identifier: "satellite.slash.circle")
 
 	/// 􂚸 `satellite.slash.circle.fill`
@@ -1337,7 +1325,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let satellite_wave_2 = PrivateSFSymbol(identifier: "satellite.wave.2")
 
 	/// 􂚲 `satellite.wave.2.fill`
@@ -1345,7 +1333,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let satellite_wave_2_fill = PrivateSFSymbol(identifier: "satellite.wave.2.fill")
 
 	/// 􂚳 `satellite.wave.2.circle`
@@ -1353,7 +1341,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let satellite_wave_2_circle = PrivateSFSymbol(identifier: "satellite.wave.2.circle")
 
 	/// 􂚴 `satellite.wave.2.circle.fill`
@@ -1362,15 +1350,17 @@ extension PrivateSFSymbol {
 	///   - `connectivity`
 	///   - `multicolor`
 	///   - `objectsandtools`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let satellite_wave_2_circle_fill = PrivateSFSymbol(identifier: "satellite.wave.2.circle.fill")
 
 	/// 􂝊 `activity.move.circle`
 	///
 	/// - categories:
 	///   - `fitness`
+	///   - `variable`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_move_circle = PrivateSFSymbol(identifier: "activity.move.circle")
 
@@ -1381,6 +1371,7 @@ extension PrivateSFSymbol {
 	///   - `multicolor`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_move_circle_fill = PrivateSFSymbol(identifier: "activity.move.circle.fill")
 
@@ -1388,8 +1379,10 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `fitness`
+	///   - `variable`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_exercise_circle = PrivateSFSymbol(identifier: "activity.exercise.circle")
 
@@ -1400,6 +1393,7 @@ extension PrivateSFSymbol {
 	///   - `multicolor`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_exercise_circle_fill = PrivateSFSymbol(identifier: "activity.exercise.circle.fill")
 
@@ -1407,8 +1401,10 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `fitness`
+	///   - `variable`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_stand_circle = PrivateSFSymbol(identifier: "activity.stand.circle")
 
@@ -1419,6 +1415,7 @@ extension PrivateSFSymbol {
 	///   - `multicolor`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_stand_circle_fill = PrivateSFSymbol(identifier: "activity.stand.circle.fill")
 
@@ -1426,8 +1423,10 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `fitness`
+	///   - `variable`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_roll_circle = PrivateSFSymbol(identifier: "activity.roll.circle")
 
@@ -1438,6 +1437,7 @@ extension PrivateSFSymbol {
 	///   - `multicolor`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_roll_circle_fill = PrivateSFSymbol(identifier: "activity.roll.circle.fill")
 
@@ -1535,56 +1535,56 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let traction_control_1_gauge_vertical = PrivateSFSymbol(identifier: "traction.control.1.gauge.vertical")
 
 	/// 􂏕 `traction.control.2.gauge.vertical`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let traction_control_2_gauge_vertical = PrivateSFSymbol(identifier: "traction.control.2.gauge.vertical")
 
 	/// 􂏖 `traction.control.3.gauge.vertical`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let traction_control_3_gauge_vertical = PrivateSFSymbol(identifier: "traction.control.3.gauge.vertical")
 
 	/// 􂏗 `traction.control.4.gauge.vertical`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let traction_control_4_gauge_vertical = PrivateSFSymbol(identifier: "traction.control.4.gauge.vertical")
 
 	/// 􂏘 `traction.control.5.gauge.vertical`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let traction_control_5_gauge_vertical = PrivateSFSymbol(identifier: "traction.control.5.gauge.vertical")
 
 	/// 􂏙 `traction.control.6.gauge.vertical`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let traction_control_6_gauge_vertical = PrivateSFSymbol(identifier: "traction.control.6.gauge.vertical")
 
 	/// 􂏚 `traction.control.7.gauge.vertical`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let traction_control_7_gauge_vertical = PrivateSFSymbol(identifier: "traction.control.7.gauge.vertical")
 
 	/// 􂏛 `traction.control.8.gauge.vertical`
 	///
 	/// - categories:
 	///   - `automotive`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let traction_control_8_gauge_vertical = PrivateSFSymbol(identifier: "traction.control.8.gauge.vertical")
 
 	/// 􂏓 `traction.control.off`
@@ -1628,6 +1628,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `health`
+	///   - `variable`
 	static public let apple_breathe_circle = PrivateSFSymbol(identifier: "apple.breathe.circle")
 
 	/// 􂛐 `apple.breathe.circle.fill`
@@ -1641,6 +1642,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `health`
+	///   - `variable`
 	static public let apple_reflect_circle = PrivateSFSymbol(identifier: "apple.reflect.circle")
 
 	/// 􂛔 `apple.reflect.circle.fill`
@@ -1654,6 +1656,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `health`
+	///   - `variable`
 	static public let apple_stateofmind_circle = PrivateSFSymbol(identifier: "apple.stateofmind.circle")
 
 	/// 􂛖 `apple.stateofmind.circle.fill`
@@ -1667,6 +1670,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `health`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `medical`
@@ -1730,6 +1734,9 @@ extension PrivateSFSymbol {
 	static public let eye_on_dotted_eye_fill = PrivateSFSymbol(identifier: "eye.on.dotted.eye.fill")
 
 	/// 􂮐 `eye.tracking`
+	///
+	/// - categories:
+	///   - `human`
 	static public let eye_tracking = PrivateSFSymbol(identifier: "eye.tracking")
 
 	/// 􂮋 `motion.cues`
@@ -1779,7 +1786,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `ear`
@@ -1800,7 +1807,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `human`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let ear_badge_checkmark_dots = PrivateSFSymbol(identifier: "ear.badge.checkmark.dots")
 
 	/// 􂱿 `ear.badge.checkmark.dots.fill`
@@ -1808,7 +1815,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `human`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let ear_badge_checkmark_dots_fill = PrivateSFSymbol(identifier: "ear.badge.checkmark.dots.fill")
 
 	/// 􂮩 `assistive.listening.devices`
@@ -1997,21 +2004,21 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_and_stereo = PrivateSFSymbol(identifier: "waveform.and.stereo")
 
 	/// 􂪩 `waveform.arrow.triangle.branch.right`
 	///
 	/// - categories:
 	///   - `accessibility`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_arrow_triangle_branch_right = PrivateSFSymbol(identifier: "waveform.arrow.triangle.branch.right")
 
 	/// 􂬀 `waveform.arrow.left.and.right`
 	///
 	/// - categories:
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_arrow_left_and_right = PrivateSFSymbol(identifier: "waveform.arrow.left.and.right")
 
 	/// 􂢧 `plus.badge.apple.journal`
@@ -2023,7 +2030,7 @@ extension PrivateSFSymbol {
 	/// 􂢫 `waveform.badge.apple.journal`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_badge_apple_journal = PrivateSFSymbol(identifier: "waveform.badge.apple.journal")
 
 	/// 􂢭 `camera.badge.apple.journal`
@@ -2051,7 +2058,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `commerce`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let apple_cash_tap = PrivateSFSymbol(identifier: "apple.cash.tap")
 
 	/// 􁷜 `battery.5percent`
@@ -2080,26 +2087,13 @@ extension PrivateSFSymbol {
 	/// 􂮪 `text.replace`
 	///
 	/// - categories:
+	///   - `arrows`
 	///   - `media`
+	///   - `textformatting`
+	///
+	/// - search keywords:
+	///   - `arrow`
 	static public let text_replace = PrivateSFSymbol(identifier: "text.replace")
-
-	/// 􂤟 `text.line.3.summary`
-	///
-	/// - categories:
-	///   - `textformatting`
-	///
-	/// - search keywords:
-	///   - `summarize`
-	static public let text_line_3_summary = PrivateSFSymbol(identifier: "text.line.3.summary")
-
-	/// 􂦔 `text.line.2.summary`
-	///
-	/// - categories:
-	///   - `textformatting`
-	///
-	/// - search keywords:
-	///   - `summarize`
-	static public let text_line_2_summary = PrivateSFSymbol(identifier: "text.line.2.summary")
 
 	/// 􂮫 `text.arrowtriangle.2.inward`
 	///
@@ -2240,56 +2234,56 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis = PrivateSFSymbol(identifier: "character.and.ellipsis")
 
 	/// 􂤌 `character.and.ellipsis.ar`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_ar = PrivateSFSymbol(identifier: "character.and.ellipsis.ar")
 
 	/// 􂤍 `character.and.ellipsis.he`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_he = PrivateSFSymbol(identifier: "character.and.ellipsis.he")
 
 	/// 􂤎 `character.and.ellipsis.th`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_th = PrivateSFSymbol(identifier: "character.and.ellipsis.th")
 
 	/// 􂤏 `character.and.ellipsis.zh`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_zh = PrivateSFSymbol(identifier: "character.and.ellipsis.zh")
 
 	/// 􂤐 `character.and.ellipsis.ja`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_ja = PrivateSFSymbol(identifier: "character.and.ellipsis.ja")
 
 	/// 􂤑 `character.and.ellipsis.ko`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_ko = PrivateSFSymbol(identifier: "character.and.ellipsis.ko")
 
 	/// 􂤒 `character.and.ellipsis.hi`
 	///
 	/// - categories:
 	///   - `textformatting`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let character_and_ellipsis_hi = PrivateSFSymbol(identifier: "character.and.ellipsis.hi")
 
 	/// 􂮗 `apple.math.notes`
@@ -2305,6 +2299,9 @@ extension PrivateSFSymbol {
 	static public let math_operators = PrivateSFSymbol(identifier: "math.operators")
 
 	/// 􂛩 `apple.logo.lock.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let apple_logo_lock_circle = PrivateSFSymbol(identifier: "apple.logo.lock.circle")
 
 	/// 􂛪 `apple.logo.lock.circle.fill`

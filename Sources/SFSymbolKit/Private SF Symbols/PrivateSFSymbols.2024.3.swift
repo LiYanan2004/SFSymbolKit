@@ -12,6 +12,9 @@ extension PrivateSFSymbol {
 	static public let long_text_page = PrivateSFSymbol(identifier: "long.text.page")
 
 	/// 􂽳 `long.text.page.fill`
+	///
+	/// - categories:
+	///   - `multicolor`
 	static public let long_text_page_fill = PrivateSFSymbol(identifier: "long.text.page.fill")
 
 	/// 􂼍 `app.grid.2x2.fill`
@@ -29,10 +32,13 @@ extension PrivateSFSymbol {
 	/// 􂼒 `rays.6`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let rays_6 = PrivateSFSymbol(identifier: "rays.6")
 
 	/// 􂼐 `music.note.circle.righthalf.dotted`
+	///
+	/// - search keywords:
+	///   - `media`
 	static public let music_note_circle_righthalf_dotted = PrivateSFSymbol(identifier: "music.note.circle.righthalf.dotted")
 
 	/// 􂻡 `event.2.text.fill`
@@ -91,7 +97,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `connectivity`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let nfc_app = PrivateSFSymbol(identifier: "nfc.app")
 
 	/// 􂻣 `nfc.app.fill`
@@ -99,34 +105,8 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let nfc_app_fill = PrivateSFSymbol(identifier: "nfc.app.fill")
-
-	/// 􂼑 `gauge.open.righthalf.dotted.with.needle.and.arrow.trianglehead.backward`
-	///
-	/// - categories:
-	///   - `automotive`
-	static public let gauge_open_righthalf_dotted_with_needle_and_arrow_trianglehead_backward = PrivateSFSymbol(identifier: "gauge.open.righthalf.dotted.with.needle.and.arrow.trianglehead.backward")
-
-	/// 􀲨 `baby`
-	static public let baby = PrivateSFSymbol(identifier: "baby")
-
-	/// 􂸬 `baby.bow`
-	static public let baby_bow = PrivateSFSymbol(identifier: "baby.bow")
-
-	/// 􂽁 `eye.half.closed`
-	///
-	/// - categories:
-	///   - `accessibility`
-	///   - `human`
-	static public let eye_half_closed = PrivateSFSymbol(identifier: "eye.half.closed")
-
-	/// 􂽂 `eye.half.closed.fill`
-	///
-	/// - categories:
-	///   - `accessibility`
-	///   - `human`
-	static public let eye_half_closed_fill = PrivateSFSymbol(identifier: "eye.half.closed.fill")
 
 	/// 􂽍 `hand.draw.and.line.dotted`
 	///
@@ -153,7 +133,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let apple_energy = PrivateSFSymbol(identifier: "apple.energy")
 
 	/// 􂻠 `reminders.checklist`

@@ -31,6 +31,9 @@ extension PrivateSFSymbol {
 
 	/// 􀘪 `music.circle`
 	///
+	/// - categories:
+	///   - `variable`
+	///
 	/// - search keywords:
 	///   - `apple music`
 	static public let music_circle = PrivateSFSymbol(identifier: "music.circle")
@@ -68,6 +71,9 @@ extension PrivateSFSymbol {
 
 	/// 􀐎 `music.square.stack.fill`
 	///
+	/// - categories:
+	///   - `multicolor`
+	///
 	/// - search keywords:
 	///   - `album`
 	///   - `apple music`
@@ -98,6 +104,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `multicolor`
+	///   - `variable`
 	static public let appstore_circle = PrivateSFSymbol(identifier: "appstore.circle")
 
 	/// 􀐦 `appstore.circle.fill`
@@ -142,6 +149,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
+	///   - `variable`
 	static public let bluetooth_circle = PrivateSFSymbol(identifier: "bluetooth.circle")
 
 	/// 􀒈 `bluetooth.circle.fill`
@@ -184,7 +192,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let airdrop = PrivateSFSymbol(identifier: "airdrop")
 
 	/// 􀜩 `findmy`
@@ -196,6 +204,7 @@ extension PrivateSFSymbol {
 	///   - `fitness`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_move = PrivateSFSymbol(identifier: "activity.move")
 
@@ -205,6 +214,7 @@ extension PrivateSFSymbol {
 	///   - `fitness`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_exercise = PrivateSFSymbol(identifier: "activity.exercise")
 
@@ -214,6 +224,7 @@ extension PrivateSFSymbol {
 	///   - `fitness`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_stand = PrivateSFSymbol(identifier: "activity.stand")
 
@@ -223,6 +234,7 @@ extension PrivateSFSymbol {
 	///   - `fitness`
 	///
 	/// - search keywords:
+	///   - `arrow`
 	///   - `fitness`
 	static public let activity_roll = PrivateSFSymbol(identifier: "activity.roll")
 

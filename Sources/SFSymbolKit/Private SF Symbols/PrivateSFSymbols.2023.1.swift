@@ -44,6 +44,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -127,7 +128,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `accessibility`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `voice control`
@@ -137,7 +138,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `accessibility`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `voice control`
@@ -148,7 +149,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `voice control`
@@ -167,6 +168,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `accessibility`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `voice control`

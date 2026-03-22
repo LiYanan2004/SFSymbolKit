@@ -38,6 +38,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `fitness`
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `human`
@@ -93,7 +94,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let speaker_wave_2_circle_on_square_fill = PrivateSFSymbol(identifier: "speaker.wave.2.circle.on.square.fill")
 
 	/// 􁊻 `music.app`
@@ -142,6 +143,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `gaming`
+	///   - `multicolor`
 	static public let list_portrait_on_rectangle_portrait_angled_fill = PrivateSFSymbol(identifier: "list.portrait.on.rectangle.portrait.angled.fill")
 
 	/// 􀶙 `list.bullet.below.star.filled`
@@ -155,7 +157,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_bubble = PrivateSFSymbol(identifier: "waveform.bubble")
 
 	/// 􁜑 `waveform.bubble.fill`
@@ -163,7 +165,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `accessibility`
 	///   - `communication`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_bubble_fill = PrivateSFSymbol(identifier: "waveform.bubble.fill")
 
 	/// 􁝂 `waveform.bubble.badge.pause`
@@ -172,7 +174,7 @@ extension PrivateSFSymbol {
 	///   - `accessibility`
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_bubble_badge_pause = PrivateSFSymbol(identifier: "waveform.bubble.badge.pause")
 
 	/// 􁝃 `waveform.bubble.badge.pause.fill`
@@ -181,7 +183,7 @@ extension PrivateSFSymbol {
 	///   - `accessibility`
 	///   - `communication`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let waveform_bubble_badge_pause_fill = PrivateSFSymbol(identifier: "waveform.bubble.badge.pause.fill")
 
 	/// 􀌺 `apple.logo.bubble.middle.bottom`
@@ -218,7 +220,7 @@ extension PrivateSFSymbol {
 	/// 􁋈 `lines.measurement.horizontal.timer`
 	///
 	/// - categories:
-	///   - `variablecolor`
+	///   - `variable`
 	static public let lines_measurement_horizontal_timer = PrivateSFSymbol(identifier: "lines.measurement.horizontal.timer")
 
 	/// 􁜕 `house.badge.shield.half.filled`
@@ -345,6 +347,9 @@ extension PrivateSFSymbol {
 	static public let faceid_and_mask = PrivateSFSymbol(identifier: "faceid.and.mask")
 
 	/// 􁓙 `faceid.circle`
+	///
+	/// - categories:
+	///   - `variable`
 	static public let faceid_circle = PrivateSFSymbol(identifier: "faceid.circle")
 
 	/// 􁊾 `iphone.magsafe.charger`
@@ -402,6 +407,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `connectivity`
 	///   - `objectsandtools`
+	///   - `variable`
 	static public let satellite_circle = PrivateSFSymbol(identifier: "satellite.circle")
 
 	/// 􁙊 `satellite.circle.fill`
@@ -446,6 +452,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `shapes`
+	///   - `variable`
 	static public let low_power_mode_ring = PrivateSFSymbol(identifier: "low.power.mode.ring")
 
 	/// 􁚴 `apple.slice.circle`
@@ -454,6 +461,7 @@ extension PrivateSFSymbol {
 	///   - `health`
 	///   - `multicolor`
 	///   - `nature`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `fruit`
@@ -627,6 +635,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `commerce`
+	///   - `variable`
 	static public let apple_cash_circle = PrivateSFSymbol(identifier: "apple.cash.circle")
 
 	/// 􀖍 `apple.cash.circle.fill`

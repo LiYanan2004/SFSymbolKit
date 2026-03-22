@@ -30,6 +30,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `human`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -92,6 +93,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `human`
 	///   - `objectsandtools`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `people`
@@ -170,12 +172,16 @@ extension PrivateSFSymbol {
 	static public let location_appclip = PrivateSFSymbol(identifier: "location.appclip")
 
 	/// 􁀏 `arrow.up.forward.appclip`
+	///
+	/// - categories:
+	///   - `multicolor`
 	static public let arrow_up_forward_appclip = PrivateSFSymbol(identifier: "arrow.up.forward.appclip")
 
 	/// 􀦦 `star.circle.badge.person.crop`
 	///
 	/// - categories:
 	///   - `multicolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `favorite`
@@ -186,7 +192,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `arrows`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let location_fill_radiowaves_left_and_right = PrivateSFSymbol(identifier: "location.fill.radiowaves.left.and.right")
 
 	/// 􁃥 `laugh`
@@ -347,6 +353,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `communication`
+	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `+`
@@ -863,16 +870,6 @@ extension PrivateSFSymbol {
 	///   - `facetime`
 	static public let cinematic_video_fill = PrivateSFSymbol(identifier: "cinematic.video.fill")
 
-	/// 􀫛 `siri`
-	///
-	/// - categories:
-	///   - `accessibility`
-	///   - `multicolor`
-	///
-	/// - search keywords:
-	///   - `siri`
-	static public let siri = PrivateSFSymbol(identifier: "siri")
-
 	/// 􁀙 `apple.haptics`
 	static public let apple_haptics = PrivateSFSymbol(identifier: "apple.haptics")
 
@@ -880,7 +877,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `homekit`
@@ -891,7 +888,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `multicolor`
 	///   - `privacyandsecurity`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `homekit`
@@ -901,6 +898,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `commerce`
+	///   - `variable`
 	static public let wallet_circle = PrivateSFSymbol(identifier: "wallet.circle")
 
 	/// 􁇁 `wallet.circle.fill`
@@ -954,19 +952,6 @@ extension PrivateSFSymbol {
 	///   - `maps`
 	///   - `multicolor`
 	static public let pin_point_of_interest_2_fill = PrivateSFSymbol(identifier: "pin.point.of.interest.2.fill")
-
-	/// 􁂴 `pin.point.of.interest.circle`
-	///
-	/// - categories:
-	///   - `maps`
-	static public let pin_point_of_interest_circle = PrivateSFSymbol(identifier: "pin.point.of.interest.circle")
-
-	/// 􁂵 `pin.point.of.interest.circle.fill`
-	///
-	/// - categories:
-	///   - `maps`
-	///   - `multicolor`
-	static public let pin_point_of_interest_circle_fill = PrivateSFSymbol(identifier: "pin.point.of.interest.circle.fill")
 
 	/// 􁅣 `location.pin.point.of.interest`
 	///
@@ -1029,6 +1014,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `devices`
 	///   - `multicolor`
+	///   - `variable`
 	static public let watchdock_circle = PrivateSFSymbol(identifier: "watchdock.circle")
 
 	/// 􀼦 `watchdock.circle.fill`
@@ -1054,6 +1040,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
+	///   - `variable`
 	static public let walkietalkie_applewatch_case_circle = PrivateSFSymbol(identifier: "walkietalkie.applewatch.case.circle")
 
 	/// 􀺟 `walkietalkie.applewatch.case.circle.fill`
@@ -1067,14 +1054,14 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let walkietalkie_applewatch_case_radiowaves_left_and_right = PrivateSFSymbol(identifier: "walkietalkie.applewatch.case.radiowaves.left.and.right")
 
 	/// 􀺬 `walkietalkie.applewatch.case.fill.radiowaves.left.and.right`
 	///
 	/// - categories:
 	///   - `devices`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let walkietalkie_applewatch_case_fill_radiowaves_left_and_right = PrivateSFSymbol(identifier: "walkietalkie.applewatch.case.fill.radiowaves.left.and.right")
 
 	/// 􀸴 `activity.sharing`
@@ -1098,6 +1085,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `health`
 	///   - `multicolor`
+	///   - `variable`
 	static public let apple_mindfulness_circle = PrivateSFSymbol(identifier: "apple.mindfulness.circle")
 
 	/// 􁅙 `apple.mindfulness.circle.fill`
@@ -1111,7 +1099,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `health`
-	///   - `variablecolor`
+	///   - `variable`
 	static public let apple_breathe = PrivateSFSymbol(identifier: "apple.breathe")
 
 	/// 􁂘 `apple.reflect`
@@ -1125,7 +1113,7 @@ extension PrivateSFSymbol {
 	/// - categories:
 	///   - `health`
 	///   - `multicolor`
-	///   - `variablecolor`
+	///   - `variable`
 	///
 	/// - search keywords:
 	///   - `medical`
@@ -1205,9 +1193,15 @@ extension PrivateSFSymbol {
 	static public let ear_and_zzz = PrivateSFSymbol(identifier: "ear.and.zzz")
 
 	/// 􁄰 `macwindow.resize`
+	///
+	/// - categories:
+	///   - `multicolor`
 	static public let macwindow_resize = PrivateSFSymbol(identifier: "macwindow.resize")
 
 	/// 􁄱 `macwindow.resize.lock`
+	///
+	/// - categories:
+	///   - `multicolor`
 	///
 	/// - search keywords:
 	///   - `padlock`
@@ -1262,6 +1256,7 @@ extension PrivateSFSymbol {
 	///
 	/// - categories:
 	///   - `transportation`
+	///   - `variable`
 	static public let rocket_circle = PrivateSFSymbol(identifier: "rocket.circle")
 
 	/// 􁇮 `rocket.circle.fill`
