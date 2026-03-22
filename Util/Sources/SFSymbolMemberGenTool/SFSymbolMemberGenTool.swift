@@ -23,14 +23,33 @@ struct SFSymbolMemberGenTool: ParsableCommand {
         }
     )
     var directoryURL: URL
-    
+
+    @Option(
+        name: [.customShort("p"), .customLong("private-output")],
+        help: "Path to the directory to save a bunch of Private SF Symbol declarations.",
+        transform: {
+            URL(fileURLWithPath: ($0 as NSString).expandingTildeInPath)
+        }
+    )
+    var privateDirectoryURL: URL?
+
     func run() throws {
-        try printStep("Generating", printDone: true) {
-            try SFSymbolMembersGenerator(directoryURL: directoryURL)
-                .generate()
+        let generator = SFSymbolMembersGenerator(
+            directoryURL: directoryURL,
+            privateDirectoryURL: privateDirectoryURL
+        )
+
+        try printStep("Generating SF Symbols", printDone: true) {
+            try generator.generate()
+        }
+
+        if privateDirectoryURL != nil {
+            try printStep("Generating Private SF Symbols", printDone: true) {
+                try generator.generatePrivate()
+            }
         }
     }
-    
+
     private func printStep(
         _ label: some CustomStringConvertible,
         printDone: Bool = false,

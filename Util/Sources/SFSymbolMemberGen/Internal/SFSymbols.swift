@@ -10,22 +10,34 @@ import SFSymbols
 
 internal enum SFSymbols_Private {
     static internal let allSymbolDescriptors: [SFSymbolDescriptor] = {
-        // find CoreGlyphs.bundle
-        let coreGlyphsBundlePath = Bundle(url: sfSymbolsFrameworkURL)?
-            .path(forResource: "CoreGlyphs", ofType: "bundle")
-        guard let coreGlyphsBundlePath,
-              let coreGlyphsBundle = Bundle(path: coreGlyphsBundlePath)
+        loadSymbolDescriptors(from: "CoreGlyphs", isPrivate: false)
+    }()
+
+    static internal let allPrivateSymbolDescriptors: [SFSymbolDescriptor] = {
+        loadSymbolDescriptors(from: "CoreGlyphsPrivate", isPrivate: true)
+    }()
+
+    // MARK: - Bundle Loading
+
+    private static func loadSymbolDescriptors(
+        from bundleName: String,
+        isPrivate: Bool
+    ) -> [SFSymbolDescriptor] {
+        let bundlePath = Bundle(url: sfSymbolsFrameworkURL)?
+            .path(forResource: bundleName, ofType: "bundle")
+        guard let bundlePath,
+              let bundle = Bundle(path: bundlePath)
         else { return [] }
 
         // fetch ordered symbols
-        let symbolList = coreGlyphsBundle.path(forResource: "symbol_order", ofType: "plist")
+        let symbolList = bundle.path(forResource: "symbol_order", ofType: "plist")
         guard let symbolList,
               let symbols = NSArray(contentsOfFile: symbolList) as? [String] else {
             return []
         }
 
         // fetch symbol availabilities
-        let availabilityList = coreGlyphsBundle.path(forResource: "name_availability", ofType: "plist")
+        let availabilityList = bundle.path(forResource: "name_availability", ofType: "plist")
         guard let availabilityList,
               let plist = NSDictionary(contentsOfFile: availabilityList),
               let symbolAvailabilityDict = plist["symbols"] as? [String : String],
@@ -40,7 +52,7 @@ internal enum SFSymbols_Private {
         })
 
         var symbolCategories: [String : [String]]?
-        let symbolCategoriesPlistPath = coreGlyphsBundle
+        let symbolCategoriesPlistPath = bundle
             .path(forResource: "symbol_categories", ofType: "plist")
         if let symbolCategoriesPlistPath {
             symbolCategories = NSDictionary(
@@ -52,7 +64,7 @@ internal enum SFSymbols_Private {
         }
 
         var symbolSearch: [String : [String]]?
-        let symbolSearchPlistPath = coreGlyphsBundle
+        let symbolSearchPlistPath = bundle
             .path(forResource: "symbol_search", ofType: "plist")
         if let symbolSearchPlistPath {
             symbolSearch = NSDictionary(
@@ -75,10 +87,11 @@ internal enum SFSymbols_Private {
                 availablePlatforms: availabilities,
                 categories: symbolCategories?[symbolName],
                 searchKeywords: symbolSearch?[symbolName],
-                privateScalar: scalars[symbolName]
+                privateScalar: scalars[symbolName],
+                isPrivate: isPrivate
             )
         }
-    }()
+    }
 
     static let privateScalarByName: [String: UnicodeScalar] = {
         var result = [String: UnicodeScalar]()

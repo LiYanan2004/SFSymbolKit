@@ -11,36 +11,71 @@ import SwiftSyntaxBuilder
 
 package struct SFSymbolMembersGenerator {
     package let directoryURL: URL
-    
-    package init(directoryURL: URL) {
+    package let privateDirectoryURL: URL?
+
+    package init(directoryURL: URL, privateDirectoryURL: URL? = nil) {
         self.directoryURL = directoryURL
+        self.privateDirectoryURL = privateDirectoryURL
     }
-    
+
     package func generate() throws {
+        try generateSymbols(
+            descriptors: SFSymbols_Private.allSymbolDescriptors,
+            directoryURL: directoryURL,
+            filePrefix: "SFSymbols",
+            extensionType: "SFSymbol"
+        )
+    }
+
+    package func generatePrivate() throws {
+        guard let privateDirectoryURL else {
+            fatalError("privateDirectoryURL is required for generatePrivate()")
+        }
+        try generateSymbols(
+            descriptors: SFSymbols_Private.allPrivateSymbolDescriptors,
+            directoryURL: privateDirectoryURL,
+            filePrefix: "PrivateSFSymbols",
+            extensionType: "PrivateSFSymbol"
+        )
+    }
+
+    // MARK: - Shared Generation Logic
+
+    private func generateSymbols(
+        descriptors: [SFSymbolDescriptor],
+        directoryURL: URL,
+        filePrefix: String,
+        extensionType: String
+    ) throws {
         try FileManager.default.removeItemIfNecessary(at: directoryURL)
-        
+
         var availabilityCategorizedSymbols = [String : [SFSymbolDescriptor]]()
-        SFSymbols_Private.allSymbolDescriptors.forEach {
+        descriptors.forEach {
             availabilityCategorizedSymbols[$0.availability, default: []].append($0)
         }
-        
+
         try FileManager.default.createDirectoryIfNecessary(
             for: directoryURL
         )
-        
+
         for (availability, symbols) in availabilityCategorizedSymbols {
-            let filename = "SFSymbols.\(availability).swift"
+            let filename = "\(filePrefix).\(availability).swift"
             let fileURL = directoryURL.appendingPathComponent(filename)
-            
-            let fileSyntax = try sourceFile(filename: filename, members: symbols)
+
+            let fileSyntax = try sourceFile(
+                filename: filename,
+                members: symbols,
+                extensionType: extensionType
+            )
             try fileSyntax.description
                 .write(to: fileURL, atomically: true, encoding: .utf8)
         }
     }
-    
+
     private func sourceFile(
         filename: String,
-        members: [SFSymbolDescriptor]
+        members: [SFSymbolDescriptor],
+        extensionType: String
     ) throws -> SourceFileSyntax {
         let header = """
         //
@@ -50,14 +85,14 @@ package struct SFSymbolMembersGenerator {
         //  Do not edit directly!
         //  swift-format-ignore-file
         """
-        
+
         guard let availabilities = members.first?.availablePlatforms else {
             fatalError("Must have availabilities")
         }
-        
+
         // Must have the same availabilities.
         precondition(members.allSatisfy({ $0.availablePlatforms == availabilities }))
-        
+
         return try SourceFileSyntax {
             let attributeList = AttributeListSyntax {
                 AttributeSyntax("@_documentation(visibility: internal)")
@@ -66,8 +101,8 @@ package struct SFSymbolMembersGenerator {
                     "@available(\(raw: availabilities.joined(separator: ", ")), *)"
                 ).with(\.trailingTrivia, .newline)
             }
-            
-            try ExtensionDeclSyntax("extension SFSymbol") {
+
+            try ExtensionDeclSyntax("extension \(raw: extensionType)") {
                 try members.map { symbol in
                     try DeclSyntax(symbol.declarationSyntax)
                 }

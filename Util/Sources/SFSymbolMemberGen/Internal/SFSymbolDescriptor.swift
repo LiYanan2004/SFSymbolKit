@@ -17,6 +17,7 @@ internal struct SFSymbolDescriptor: Hashable, Sendable {
     var categories: [String]?
     var searchKeywords: [String]?
     var privateScalar: UnicodeScalar?
+    var isPrivate: Bool
     
     private var hasMetadata: Bool {
         if let categories, !categories.isEmpty {
@@ -36,9 +37,10 @@ extension SFSymbolDescriptor {
         get throws {
             let propertyIdentifier = identifier.replacingOccurrences(of: ".", with: "_")
             let validIdentifier = propertyIdentifier.isValidSwiftIdentifier(for: .variableName) ? propertyIdentifier : "`\(propertyIdentifier)`"
-            
+            let typeName = isPrivate ? "PrivateSFSymbol" : "SFSymbol"
+
             return try VariableDeclSyntax("""
-            static public let \(raw: validIdentifier) = SFSymbol(identifier: \"\(raw: self.identifier)\")
+            static public let \(raw: validIdentifier) = \(raw: typeName)(identifier: \"\(raw: self.identifier)\")
             """)
             .with(\.leadingTrivia, documentationBlockTrivia)
             .with(\.trailingTrivia, .newline)
