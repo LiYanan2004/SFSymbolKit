@@ -10,9 +10,7 @@ import Swift
 extension Swift.String {
     /// The identifier of the SF symbol.
     ///
-    /// Use this to get the raw identifier of the symbol from ``SFSymbol``
-    ///
-    /// For example:
+    /// Use this to get the raw identifier of the symbol from ``SFSymbol``.
     ///
     /// ```swift
     /// Image(systemName: .sfSymbol(.globe)) // type-safe, version awared.
